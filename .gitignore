@@ -1,0 +1,12 @@
+# Python
+.venv/
+__pycache__/
+
+# Raw + intermediate data (large, re-creatable with prep/ scripts).
+# Note the leading slash: web/public/data/ (the game's map files) IS committed.
+/data/
+
+# Node / build output
+web/node_modules/
+web/dist/
+web/public/config.json

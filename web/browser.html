@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FamilyMapper – browser</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header class="brand">
+      <div class="bar-green"></div>
+      <div class="brand-row">
+        <h1 class="wordmark">FamilyMapper</h1>
+        <span class="tag">family browser</span>
+        <div class="controls">
+          <select id="layer"></select>
+          <select id="family"></select>
+          <button id="random">Random</button>
+          <label><input type="checkbox" id="hide" /> hide name</label>
+        </div>
+      </div>
+      <div class="bar-blue"></div>
+    </header>
+
+    <main>
+      <div id="map-wrap">
+        <svg id="map" role="img" aria-label="Language family map"></svg>
+        <svg id="inset" aria-hidden="true"></svg>
+      </div>
+      <aside id="info"></aside>
+    </main>
+
+    <footer>
+      Language areas: Glottography (asher2007world, CC-BY 4.0) · Classification:
+      Glottolog · Land: Natural Earth. Areas are approximate.
+    </footer>
+
+    <script type="module" src="./src/browser.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#009e48" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="description" content="Guess 10 randomized primary language families from their contemporary speaker areas." />
+    <title>FamilyMapper</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header class="brand">
+      <div class="bar-green"></div>
+      <div class="brand-row">
+        <h1 class="wordmark">FamilyMapper</h1>
+        <div id="status" class="status" hidden>
+          <span id="round"></span>
+          <span id="score"></span>
+        </div>
+      </div>
+      <div class="bar-blue"></div>
+    </header>
+
+    <!-- Start screen -->
+    <section id="start" class="screen">
+      <div class="panel intro">
+        <p class="lead">
+          Guess 10 randomized primary language families from their contemporary
+          speaker areas.
+        </p>
+        <p class="credit">
+          The language areas are taken from
+          <a href="https://doi.org/10.5334/johd.459" target="_blank" rel="noopener">Glottography</a>,
+          an open collection of digitised language maps (Ranacher et al. 2026), and are
+          grouped into families following
+          <a href="https://glottolog.org" target="_blank" rel="noopener">Glottolog</a>.
+          Coastlines come from Natural Earth. All language areas are approximations.
+        </p>
+        <!-- Mode choice and daily challenge: switched on via config.json
+             (game.layers_offered / game.show_daily) -->
+        <fieldset id="modes-box" hidden>
+          <legend>Map</legend>
+          <div id="modes"></div>
+        </fieldset>
+        <label id="daily-box" class="daily" hidden><input type="checkbox" id="daily" /> Daily challenge
+          <span class="hint">(same ten families for everyone today)</span></label>
+        <button id="start-btn" class="primary">Start</button>
+      </div>
+    </section>
+
+    <!-- Playing -->
+    <section id="play" class="screen" hidden>
+      <div id="map-wrap">
+        <svg id="map" role="img" aria-label="Map of the language family to guess"></svg>
+        <svg id="inset" aria-hidden="true"></svg>
+      </div>
+      <div class="question">
+        <h2>Which language family is this?</h2>
+        <div id="options" class="options"></div>
+        <div id="reveal" class="reveal" hidden>
+          <p id="reveal-text"></p>
+          <button id="next-btn" class="primary">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="screen" hidden>
+      <div id="card" class="card"></div>
+      <div class="actions">
+        <button id="download-btn" class="primary">Download image</button>
+        <button id="copy-btn">Copy result</button>
+        <button id="again-btn">Play again</button>
+      </div>
+    </section>
+
+    <footer>
+      Language areas: Glottography (asher2007world, CC-BY 4.0) · Classification:
+      Glottolog · Land: Natural Earth. Language areas are approximate and contested.
+    </footer>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "prep": {
+    "min_area_km2": 30000,
+    "sheet_floor_km2": 5000,
+    "difficulty_min_area_km2": {
+      "easy": 2000000,
+      "medium": 400000
+    },
+    "layers": [
+      "traditional",
+      "contemporary"
+    ]
+  },
+  "export": {
+    "family_simplify": "interval=2000",
+    "land_simplify": "25%",
+    "quantization": 100000
+  },
+  "game": {
+    "title": "FamilyMapper",
+    "tagline": "Primary language family guessing game",
+    "url": "leonidmotz.eu/familymapper",
+    "rounds": 10,
+    "options_per_round": 6,
+    "mix": {
+      "easy": 3,
+      "medium": 4,
+      "hard": 3
+    },
+    "max_per_region": 3,
+    "neighbor_distractors": 3,
+    "default_layer": "contemporary",
+    "layer_labels": {
+      "traditional": "Traditional (time of contact)",
+      "contemporary": "Contemporary"
+    },
+    "order": "ramp",
+    "layers_offered": [
+      "contemporary"
+    ],
+    "show_daily": false
+  }
+}
