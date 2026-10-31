@@ -106,20 +106,23 @@ export async function resultsPng(o) {
   ctx.restore();
 
   // --- list: two columns -------------------------
-  const rows = Math.ceil(n / 2), listTop = my + mapH + 52;
-  const rowH = Math.min(100, (H - pad - 70 - listTop) / rows);  // fill the space above the footer
+  const rows = Math.ceil(n / 2), listTop = my + mapH + 44;
+  const rowH = Math.min(110, (H - pad - 66 - listTop) / rows);  // fill the space above the footer
   const colW = (W - 2 * pad - 40) / 2;
   o.answers.forEach((a, i) => {
     const col = Math.floor(i / rows), row = i % rows;
     const x = pad + col * (colW + 40), y = listTop + row * rowH;
-    badge(ctx, x + 16, y + 16, 16, a.correct);
-    ctx.font = `700 30px ${FONT}`;
+    badge(ctx, x + 20, y + 22, 20, a.correct);
+    // 40px, shrinking for very long names (down to 28px) instead of cutting them off
+    const label = `${i + 1}. ${a.name}`;
+    let size = 40;
+    do { ctx.font = `700 ${size}px ${FONT}`; } while (ctx.measureText(label).width > colW - 58 && --size > 28);
     ctx.fillStyle = C.ink;
-    ctx.fillText(fitText(ctx, `${i + 1}. ${a.name}`, colW - 48), x + 46, y + 27);
+    ctx.fillText(fitText(ctx, label, colW - 58), x + 56, y + 37);
     if (!a.correct) {
-      ctx.font = `400 19px ${FONT}`;
+      ctx.font = `400 24px ${FONT}`;
       ctx.fillStyle = C.muted;
-      ctx.fillText(fitText(ctx, `you said ${a.chosen}`, colW - 48), x + 46, y + 56);
+      ctx.fillText(fitText(ctx, `you said ${a.chosen}`, colW - 58), x + 56, y + 70);
     }
   });
 

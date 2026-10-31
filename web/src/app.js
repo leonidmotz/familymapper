@@ -170,7 +170,10 @@ async function downloadCard() {
 }
 
 async function copyResult() {
-  const text = shareText(config.game.title, label(layer), answers, daily) +
+  // Only name the map mode when players can actually choose between modes.
+  const offered = config.game.layers_offered ?? config.prep.layers;
+  const mode = offered.length > 1 ? label(layer) : null;
+  const text = shareText(config.game.title, mode, answers, daily) +
     (config.game.url ? `\n${config.game.url}` : "");
   try {
     await navigator.clipboard.writeText(text);

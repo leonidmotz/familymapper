@@ -92,10 +92,10 @@ export function makeOptions(target, meta, byId, cfg, rng) {
   return shuffle(opts, rng);
 }
 
-/** Plain-text summary for sharing, e.g. "FamilyMapper · Traditional · 7/10 🟩🟥…". */
+/** Plain-text summary for sharing, e.g. "FamilyMapper\n7/10 🟩🟥…" (mode only if given). */
 export function shareText(title, modeLabel, answers, daily) {
   const score = answers.filter((a) => a.correct).length;
   const squares = answers.map((a) => (a.correct ? "🟩" : "🟥")).join("");
-  const head = `${title} · ${modeLabel}${daily ? ` · daily ${daily}` : ""}`;
+  const head = [title, modeLabel, daily && `daily ${daily}`].filter(Boolean).join(" · ");
   return `${head}\n${score}/${answers.length} ${squares}`;
 }
