@@ -107,6 +107,7 @@
    32.123
   ],
   "neighbors": [
+   "hmon1336",
    "mong1349",
    "taik1256",
    "drav1251",
@@ -115,8 +116,7 @@
    "tung1282",
    "yeni1252",
    "ural1272",
-   "nakh1245",
-   "kart1248"
+   "nakh1245"
   ]
  },
  {
@@ -160,11 +160,11 @@
    "sino1245",
    "turk1311",
    "yeni1252",
+   "hmon1336",
    "japo1237",
    "ural1272",
    "taik1256",
-   "aust1305",
-   "chuk1271"
+   "aust1305"
   ]
  },
  {
@@ -185,10 +185,10 @@
    "mong1349",
    "nakh1245",
    "kart1248",
+   "abkh1242",
    "sino1245",
    "chuk1271",
-   "kore1284",
-   "eski1264"
+   "kore1284"
   ]
  },
  {
@@ -253,14 +253,14 @@
   "neighbors": [
    "sino1245",
    "taik1256",
+   "hmon1336",
    "aust1305",
    "nakh1245",
    "kart1248",
    "gong1255",
    "mong1349",
    "surm1244",
-   "aust1307",
-   "nilo1247"
+   "abkh1242"
   ]
  },
  {
@@ -276,6 +276,7 @@
   ],
   "neighbors": [
    "aust1305",
+   "hmon1336",
    "sino1245",
    "drav1251",
    "mong1349",
@@ -283,8 +284,7 @@
    "japo1237",
    "nucl1709",
    "tung1282",
-   "anim1240",
-   "yeni1252"
+   "anim1240"
   ]
  },
  {
@@ -372,6 +372,7 @@
   ],
   "neighbors": [
    "taik1256",
+   "hmon1336",
    "sino1245",
    "drav1251",
    "mong1349",
@@ -379,8 +380,7 @@
    "japo1237",
    "nucl1709",
    "anim1240",
-   "tung1282",
-   "turk1311"
+   "tung1282"
   ]
  },
  {
@@ -495,12 +495,12 @@
    "mong1349",
    "tung1282",
    "turk1311",
+   "hmon1336",
    "aust1305",
    "sino1245",
    "chuk1271",
    "yeni1252",
-   "taik1256",
-   "ural1272"
+   "taik1256"
   ]
  },
  {
@@ -544,11 +544,11 @@
    "mong1349",
    "turk1311",
    "chuk1271",
+   "hmon1336",
    "aust1305",
    "taik1256",
    "yeni1252",
-   "sino1245",
-   "nucl1709"
+   "sino1245"
   ]
  },
  {
@@ -687,12 +687,12 @@
    "aust1305",
    "taik1256",
    "japo1237",
+   "hmon1336",
    "kore1284",
    "mong1349",
    "sino1245",
    "tung1282",
-   "drav1251",
-   "chuk1271"
+   "drav1251"
   ]
  },
  {
@@ -1226,7 +1226,7 @@
  {
   "id": "kart1248",
   "name": "Kartvelian",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "region": "Asia",
   "subregion": "Western Asia",
   "area_km2": 56725,
@@ -1236,6 +1236,7 @@
   ],
   "neighbors": [
    "nakh1245",
+   "abkh1242",
    "ural1272",
    "saha1256",
    "fura1235",
@@ -1243,8 +1244,7 @@
    "gong1255",
    "tama1329",
    "sino1245",
-   "surm1244",
-   "maba1274"
+   "surm1244"
   ]
  },
  {
@@ -1284,6 +1284,7 @@
   ],
   "neighbors": [
    "kart1248",
+   "abkh1242",
    "ural1272",
    "yeni1252",
    "saha1256",
@@ -1291,8 +1292,7 @@
    "sino1245",
    "gong1255",
    "tama1329",
-   "surm1244",
-   "nilo1247"
+   "surm1244"
   ]
  },
  {
@@ -1407,12 +1407,12 @@
    "aust1305",
    "taik1256",
    "japo1237",
+   "hmon1336",
    "kore1284",
    "mong1349",
    "sino1245",
    "drav1251",
-   "tung1282",
-   "chuk1271"
+   "tung1282"
   ]
  },
  {
@@ -1556,7 +1556,7 @@
    "nakh1245",
    "kart1248",
    "sino1245",
-   "eski1264"
+   "abkh1242"
   ]
  },
  {
@@ -1629,6 +1629,54 @@
    "pano1259",
    "araw1281",
    "guah1252"
+  ]
+ },
+ {
+  "id": "hmon1336",
+  "name": "Hmong-Mien",
+  "difficulty": "hard",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 25184,
+  "rep": [
+   102.57,
+   21.85
+  ],
+  "neighbors": [
+   "taik1256",
+   "aust1305",
+   "sino1245",
+   "mong1349",
+   "drav1251",
+   "kore1284",
+   "japo1237",
+   "tung1282",
+   "nucl1709",
+   "yeni1252"
+  ]
+ },
+ {
+  "id": "abkh1242",
+  "name": "Abkhaz-Adyge",
+  "difficulty": "hard",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "area_km2": 10170,
+  "rep": [
+   40.83,
+   43.278
+  ],
+  "neighbors": [
+   "kart1248",
+   "nakh1245",
+   "ural1272",
+   "saha1256",
+   "fura1235",
+   "tama1329",
+   "yeni1252",
+   "gong1255",
+   "maba1274",
+   "surm1244"
   ]
  }
 ]

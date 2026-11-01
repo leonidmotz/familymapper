@@ -158,10 +158,19 @@ def build_curation_sheet(layers):
     if CURATION.exists():
         old = pd.read_csv(CURATION, dtype=str).fillna("")
         keep = ["glottocode"] + LAYERS + ["difficulty", "note"]
-        old = old[[c for c in keep if c in old.columns]]
+        for c in keep:
+            if c not in old.columns:
+                old[c] = ""
+        # Rows you added by hand (e.g. a family below sheet_floor_km2) are kept too,
+        # as long as they carry an override.
+        has_override = old[LAYERS + ["difficulty"]].apply(lambda col: col.str.strip() != "").any(axis=1)
+        extra = old[~old["glottocode"].isin(auto["glottocode"]) & has_override]
         auto = auto.drop(columns=[c for c in keep if c != "glottocode"])
-        auto = auto.merge(old, on="glottocode", how="left").fillna(
+        auto = auto.merge(old[keep], on="glottocode", how="left").fillna(
             {c: "" for c in keep})
+        if len(extra):
+            auto = pd.concat([auto, extra[["glottocode", "name"] + keep[1:]]
+                              if "name" in extra else extra[keep]], ignore_index=True)
         print(f"\nKept your overrides from {CURATION.name}")
     else:
         print(f"\nCreated {CURATION} - edit it to force families in/out")
