@@ -198,8 +198,8 @@ async function downloadCard() {
     const blob = await resultsPng({
       land, items: resultItems(), answers,
       title: config.game.title, url: config.game.url,
-      sub: [config.game.tagline, gameLabel()]
-        .filter(Boolean).join(" · "),
+      sub: config.game.tagline ?? "",
+      headerRight: daily ? `Daily Challenge ${daily.date}` : `Random Game ${localDate()}`,
       blur: true,                                     // no spoilers in shared images
     });
     const url = URL.createObjectURL(blob);
