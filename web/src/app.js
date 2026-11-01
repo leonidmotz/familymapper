@@ -44,10 +44,8 @@ function buildStart() {
 }
 
 function kindHint() {
-  const d = config.game.daily ?? { start: "2026-11-01", days: 1000 };
-  const no = dailyIndex(d.start, d.days) + 1;
   $("kind-hint").textContent = selectedKind() === "daily"
-    ? `Challenge #${no}: the same ten families for everyone today.`
+    ? `Challenge of ${localDate()}: the same ten families for everyone today.`
     : "Ten new families every game.";
 }
 const selectedKind = () =>
@@ -141,7 +139,9 @@ function answer(i) {
     if (options[j].id === target.id) b.classList.add("right");
     else if (j === i) b.classList.add("wrong");
   });
-  $("reveal-text").innerHTML = `${correct ? "✅ Correct!" : `❌ It's <b>${target.name}</b>.`}
+  $("reveal-text").innerHTML = `<span class="verdict">${correct
+      ? `<span class="badge ok">✓</span> Correct!`
+      : `<span class="badge miss">✗</span> <span>It's <b>${target.name}</b>.</span>`}</span>
     <span class="facts">${fmt(target.area_km2)} km² · ${target.difficulty}</span>`;
   $("next-btn").textContent = idx + 1 < rounds.length ? "Next" : "See results";
   $("reveal").hidden = false;
@@ -182,9 +182,10 @@ function showResults() {
 }
 
 const offeredLayers = () => config.game.layers_offered ?? config.prep.layers;
-const gameLabel = () => (daily ? `Daily challenge #${daily.no}` : "Random game");
+// The date is part of the daily label, so it's only added separately for random games.
+const gameLabel = () => (daily ? `Daily challenge ${daily.date}` : `Random game · ${localDate()}`);
 const subtitle = () =>
-  [offeredLayers().length > 1 ? label(layer) : null, gameLabel(), localDate()]
+  [offeredLayers().length > 1 ? label(layer) : null, gameLabel()]
     .filter(Boolean).join(" · ");
 const resultItems = () =>
   answers.map((a) => ({ feature: data.features.get(a.id), correct: a.correct }));
@@ -197,14 +198,14 @@ async function downloadCard() {
     const blob = await resultsPng({
       land, items: resultItems(), answers,
       title: config.game.title, url: config.game.url,
-      sub: [config.game.tagline, daily ? `Daily challenge #${daily.no}` : null, localDate()]
+      sub: [config.game.tagline, gameLabel()]
         .filter(Boolean).join(" · "),
       blur: true,                                     // no spoilers in shared images
     });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `familymapper-${daily ? `daily-${daily.no}` : "game"}-${localDate()}.png`;
+    a.download = `familymapper-${daily ? "daily" : "game"}-${localDate()}.png`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 5000);
   } catch (err) {
@@ -218,7 +219,7 @@ async function downloadCard() {
 async function copyResult() {
   // Only name the map mode when players can actually choose between modes.
   const mode = offeredLayers().length > 1 ? label(layer) : null;
-  const text = shareText(config.game.title, mode, answers, daily ? `Daily #${daily.no}` : null) +
+  const text = shareText(config.game.title, mode, answers, gameLabel()) +
     (config.game.url ? `\n${config.game.url}` : "");
   try {
     await navigator.clipboard.writeText(text);

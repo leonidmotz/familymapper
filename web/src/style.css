@@ -133,6 +133,8 @@ input[type="radio"], input[type="checkbox"] { accent-color: var(--green); }
 
 .reveal { margin-top: 14px; background: var(--panel); border: 1px solid var(--line); padding: 12px 14px; }
 .reveal p { margin: 0 0 10px; }
+.verdict { display: flex; align-items: center; gap: 10px; font-size: 1.1rem; }
+.verdict .badge { width: 28px; height: 28px; font-size: 1rem; }
 .facts { display: block; color: var(--muted); font-size: 0.85rem; margin-top: 2px; }
 
 /* ------------------------------------------------ results overview */
@@ -148,8 +150,8 @@ input[type="radio"], input[type="checkbox"] { accent-color: var(--green); }
   width: 100%; aspect-ratio: 2 / 1; max-height: calc(100vh - 400px);
   display: block; background: var(--ocean);
 }
-.res-ok { fill: var(--ok); fill-opacity: 0.9; }
-.res-miss { fill: var(--miss); fill-opacity: 0.9; }
+.res-ok { fill: var(--ok); }
+.res-miss { fill: var(--miss); }
 .ring { fill: none; stroke-width: 2.5; }
 .ring.res-ok { stroke: var(--ok); }
 .ring.res-miss { stroke: var(--miss); }
@@ -164,8 +166,8 @@ input[type="radio"], input[type="checkbox"] { accent-color: var(--green); }
   flex: none; width: 40px; height: 40px; color: #fff;
   display: grid; place-items: center; font-size: 1.3rem; font-weight: 700;
 }
-li.ok .badge { background: var(--ok); }
-li.miss .badge { background: var(--miss); }
+li.ok .badge, .badge.ok { background: var(--ok); }
+li.miss .badge, .badge.miss { background: var(--miss); }
 .card-foot { margin-top: 14px; font-size: 0.7rem; color: var(--muted); }
 .actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
 

@@ -102,10 +102,10 @@ export function makeOptions(target, meta, byId, cfg, rng) {
   return shuffle(opts, rng);
 }
 
-/** Plain-text summary for sharing, e.g. "FamilyMapper · Daily #3\n7/10 🟩🟥…". */
-export function shareText(title, modeLabel, answers, daily) {
+/** Plain-text summary for sharing, e.g. "FamilyMapper · Daily challenge #3\n7/10 🟩🟥…". */
+export function shareText(title, modeLabel, answers, gameLabel) {
   const score = answers.filter((a) => a.correct).length;
   const squares = answers.map((a) => (a.correct ? "🟩" : "🟥")).join("");
-  const head = [title, modeLabel, daily].filter(Boolean).join(" · ");
+  const head = [title, modeLabel, gameLabel].filter(Boolean).join(" · ");
   return `${head}\n${score}/${answers.length} ${squares}`;
 }

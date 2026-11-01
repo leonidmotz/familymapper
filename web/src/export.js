@@ -141,7 +141,7 @@ export async function resultsPng(o) {
   for (const it of [...o.items].sort((a, b) => a.correct - b.correct)) {
     const col = it.correct ? C.green : C.red;
     ctx.beginPath(); path(it.feature);
-    ctx.globalAlpha = 0.9; ctx.fillStyle = col; ctx.fill(); ctx.globalAlpha = 1;
+    ctx.fillStyle = col; ctx.fill();
     const [[x0, y0], [x1, y1]] = path.bounds(it.feature);
     if (Math.max(x1 - x0, y1 - y0) < 14) {
       ctx.beginPath(); ctx.arc((x0 + x1) / 2, (y0 + y1) / 2, 12, 0, 2 * Math.PI);
