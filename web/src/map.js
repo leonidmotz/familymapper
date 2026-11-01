@@ -101,8 +101,8 @@ export function drawFamily(svg, land, fam, opts = {}) {
   return proj;
 }
 
-/** Small world overview with a dot where the family is. */
-export function drawInset(svg, land, fam) {
+/** Small world overview; ring = circle around the family (skipped for big families). */
+export function drawInset(svg, land, fam, { ring = true } = {}) {
   const [w, h] = size(svg);
   svg.setAttribute("viewBox", `0 0 ${w} ${h}`);
   svg.replaceChildren();
@@ -110,6 +110,7 @@ export function drawInset(svg, land, fam) {
   const path = geoPath(proj);
   el("path", { class: "land", d: path(land) }, svg);
   el("path", { class: "target", d: path(fam) }, svg);
+  if (!ring) return;
   const [x, y] = proj(geoCentroid(fam));
   el("circle", { class: "marker", cx: x, cy: y, r: 7 }, svg);
 }

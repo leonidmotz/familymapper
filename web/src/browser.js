@@ -32,7 +32,7 @@ function render() {
   const m = data.byId.get(current);
   if (!fam) { ui.info.textContent = `No geometry for ${current}`; return; }
   drawFamily(ui.map, land, fam);
-  drawInset(ui.inset, land, fam);
+  drawInset(ui.inset, land, fam, { ring: m.difficulty !== "easy" });
   showInfo(m);
 }
 

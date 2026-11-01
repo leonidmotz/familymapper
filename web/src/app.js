@@ -112,7 +112,7 @@ function playRound() {
   updateStatus();
   const fam = data.features.get(target.id);
   drawFamily($("map"), land, fam);
-  drawInset($("inset"), land, fam);
+  drawInset($("inset"), land, fam, { ring: target.difficulty !== "easy" });
 
   options = makeOptions(target, data.meta, data.byId, config.game, rng);
   $("options").replaceChildren(...options.map((m, i) => {
@@ -242,7 +242,7 @@ window.addEventListener("resize", () => {
   if (!$("play").hidden && rounds[idx]) {
     const fam = data.features.get(rounds[idx].id);
     drawFamily($("map"), land, fam);
-    drawInset($("inset"), land, fam);
+    drawInset($("inset"), land, fam, { ring: rounds[idx].difficulty !== "easy" });
   }
 });
 
