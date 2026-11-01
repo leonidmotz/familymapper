@@ -36,8 +36,53 @@ function badge(ctx, x, y, r, ok) {
   ctx.stroke();
 }
 
+// ---------------------------------------------------------------- gaussian blur
+// Three box blurs in a row approximate a Gaussian (works in every browser,
+// unlike ctx.filter which Safari lacks).
+function boxesForGauss(sigma, n = 3) {
+  let wl = Math.floor(Math.sqrt((12 * sigma * sigma) / n + 1));
+  if (wl % 2 === 0) wl--;
+  const m = Math.round((12 * sigma * sigma - n * wl * wl - 4 * n * wl - 3 * n) / (-4 * wl - 4));
+  return Array.from({ length: n }, (_, i) => (i < m ? wl : wl + 2));
+}
+
+function boxBlur(src, dst, w, h, r, horizontal) {
+  const inv = 1 / (r + r + 1);
+  const outer = horizontal ? h : w, len = horizontal ? w : h, step = horizontal ? 4 : w * 4;
+  for (let o = 0; o < outer; o++) {
+    const base = horizontal ? o * w * 4 : o * 4;
+    for (let c = 0; c < 4; c++) {
+      const at = (j) => src[base + Math.min(Math.max(j, 0), len - 1) * step + c];
+      let v = (r + 1) * at(0);
+      for (let j = 0; j < r; j++) v += at(j);
+      for (let j = 0; j < len; j++) {
+        v += at(j + r) - at(j - r - 1);
+        dst[base + j * step + c] = v * inv;
+      }
+    }
+  }
+}
+
+/** Gaussian-blur a rectangle (in layout px) of a canvas drawn at `scale`. */
+function blurRect(ctx, scale, x, y, w, h, sigma) {
+  const X = Math.max(0, Math.round(x * scale)), Y = Math.max(0, Math.round(y * scale));
+  const Wd = Math.min(ctx.canvas.width - X, Math.round(w * scale));
+  const Hd = Math.min(ctx.canvas.height - Y, Math.round(h * scale));
+  if (Wd <= 0 || Hd <= 0) return;
+  const img = ctx.getImageData(X, Y, Wd, Hd);
+  let a = Float32Array.from(img.data), b = new Float32Array(a.length);
+  for (const box of boxesForGauss(sigma * scale)) {
+    const r = (box - 1) / 2;
+    boxBlur(a, b, Wd, Hd, r, true);
+    boxBlur(b, a, Wd, Hd, r, false);
+  }
+  img.data.set(a);
+  ctx.putImageData(img, X, Y);
+}
+
 /**
- * @param o { land, items:[{feature,correct}], answers, title, sub, url, scale }
+ * @param o { land, items:[{feature,correct}], answers, title, sub, url, scale,
+ *            blur: true -> map and family names are blurred (no spoilers) }
  * @returns Promise<Blob> PNG, 1200 x 1600 (x scale)
  */
 export async function resultsPng(o) {
@@ -104,6 +149,7 @@ export async function resultsPng(o) {
     }
   }
   ctx.restore();
+  if (o.blur) blurRect(ctx, s, mx, my, mapW, mapH, 11);
 
   // --- list: two columns -------------------------
   const rows = Math.ceil(n / 2), listTop = my + mapH + 44;
@@ -125,6 +171,13 @@ export async function resultsPng(o) {
       ctx.fillText(fitText(ctx, `you said ${a.chosen}`, colW - 58), x + 56, y + 70);
     }
   });
+  if (o.blur) {
+    // names only - the ✓/✗ badges to the left stay sharp
+    for (let col = 0; col < 2; col++) {
+      const x = pad + col * (colW + 40) + 50;
+      blurRect(ctx, s, x, listTop - 6, colW - 50, rows * rowH + 6, 15);
+    }
+  }
 
   // --- footer: link + data credit (no bars)
   ctx.fillStyle = C.line; ctx.fillRect(pad, H - pad - 44, W - 2 * pad, 2);

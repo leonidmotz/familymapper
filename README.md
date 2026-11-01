@@ -5,7 +5,12 @@
 Guess 10 randomized primary language families from their contemporary speaker areas.
 Each round shows where one top-level language family is spoken, on a world map without
 borders or names; pick the right family from six options. At the end you get a map of all
-ten families (green = right, red = wrong) and a shareable image.
+ten families (green = right, red = wrong) and a shareable image (map and names blurred, so it
+doesn't spoil the game for others).
+
+**Daily challenge:** everyone gets the same ten families on the same day (by the player's own
+date). 1,000 challenges are pre-computed (`web/public/data/contemporary/daily.json`, starting
+2026-11-01); after that the cycle starts again. **Random game:** ten new families every time.
 
 ## Data
 
@@ -19,6 +24,8 @@ ten families (green = right, red = wrong) and a shareable image.
 **Processing** (`prep/`):
 
 - Glottography already aggregates the Atlas' language polygons into Glottolog top-level families.
+- Families with doubtful source polygons are excluded (`exclude` in `config.json`). Huavean is
+  excluded because its polygon includes the Yucatán Peninsula, apparently a digitising error.
 - Isolates and non-genealogical groupings (Sign Language, Pidgin, Unclassifiable, …) are removed.
 - Families smaller than 30,000 km² are left out, because they would be invisible on a world map.
   Manual exceptions are listed in `prep/curation.csv`.
@@ -41,7 +48,7 @@ Data* 12: 47. https://doi.org/10.5334/johd.459
 Data pipeline (Python 3 with geopandas; Node.js for mapshaper), from the project root:
 
     python prep/02_curate.py     # playable families -> data/processed/
-    python prep/03_export.py     # compact map files -> web/public/data/
+    python prep/03_export.py     # compact map files + daily challenges -> web/public/data/
 
 The raw data (`data/raw/`, not in this repository) comes from
 `git clone https://github.com/Glottography/asher2007world` plus the Natural Earth files

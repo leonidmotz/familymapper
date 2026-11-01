@@ -37,14 +37,19 @@
           <a href="https://glottolog.org" target="_blank" rel="noopener">Glottolog</a>.
           Coastlines come from Natural Earth. All language areas are approximations.
         </p>
-        <!-- Mode choice and daily challenge: switched on via config.json
-             (game.layers_offered / game.show_daily) -->
+        <!-- Map choice: shown when config.json game.layers_offered has more than one map -->
         <fieldset id="modes-box" hidden>
           <legend>Map</legend>
           <div id="modes"></div>
         </fieldset>
-        <label id="daily-box" class="daily" hidden><input type="checkbox" id="daily" /> Daily challenge
-          <span class="hint">(same ten families for everyone today)</span></label>
+        <!-- Daily challenge / random game: shown when game.show_daily is true -->
+        <div id="kind-box" hidden>
+          <div class="kind" role="radiogroup" aria-label="Game type">
+            <label><input type="radio" name="kind" value="daily" checked /><span>Daily challenge</span></label>
+            <label><input type="radio" name="kind" value="random" /><span>Random game</span></label>
+          </div>
+          <p id="kind-hint" class="hint"></p>
+        </div>
         <button id="start-btn" class="primary">Start</button>
       </div>
     </section>

@@ -14,13 +14,13 @@
    "siou1252",
    "algi1248",
    "utoa1244",
-   "huav1256",
    "otom1299",
    "maya1287",
    "chib1249",
    "choc1280",
    "guah1252",
-   "sali1297"
+   "sali1297",
+   "tuca1253"
   ]
  },
  {
@@ -709,14 +709,14 @@
   "neighbors": [
    "otom1299",
    "indo1319",
-   "huav1256",
    "maya1287",
    "siou1252",
    "algi1248",
    "chib1249",
    "choc1280",
    "tuca1253",
-   "jiva1245"
+   "jiva1245",
+   "guah1252"
   ]
  },
  {
@@ -864,30 +864,6 @@
   ]
  },
  {
-  "id": "huav1256",
-  "name": "Huavean",
-  "difficulty": "hard",
-  "region": "North America",
-  "subregion": "Central America",
-  "area_km2": 136752,
-  "rep": [
-   -89.169,
-   19.409
-  ],
-  "neighbors": [
-   "maya1287",
-   "otom1299",
-   "chib1249",
-   "choc1280",
-   "utoa1244",
-   "indo1319",
-   "guah1252",
-   "tuca1253",
-   "jiva1245",
-   "sali1297"
-  ]
- },
- {
   "id": "otom1299",
   "name": "Otomanguean",
   "difficulty": "hard",
@@ -900,7 +876,6 @@
   ],
   "neighbors": [
    "maya1287",
-   "huav1256",
    "utoa1244",
    "chib1249",
    "indo1319",
@@ -908,7 +883,8 @@
    "tuca1253",
    "jiva1245",
    "guah1252",
-   "huit1251"
+   "huit1251",
+   "bora1262"
   ]
  },
  {
@@ -1115,7 +1091,6 @@
    15.137
   ],
   "neighbors": [
-   "huav1256",
    "otom1299",
    "chib1249",
    "choc1280",
@@ -1124,7 +1099,8 @@
    "jiva1245",
    "guah1252",
    "indo1319",
-   "huit1251"
+   "huit1251",
+   "sali1297"
   ]
  },
  {
@@ -1359,12 +1335,12 @@
    "indo1319",
    "utoa1244",
    "atha1245",
-   "huav1256",
    "otom1299",
    "eski1264",
    "maya1287",
    "chib1249",
-   "chuk1271"
+   "chuk1271",
+   "choc1280"
   ]
  },
  {
@@ -1505,10 +1481,10 @@
    "atha1245",
    "eski1264",
    "otom1299",
-   "huav1256",
    "maya1287",
    "chuk1271",
-   "chib1249"
+   "chib1249",
+   "choc1280"
   ]
  },
  {

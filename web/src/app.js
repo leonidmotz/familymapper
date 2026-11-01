@@ -2,12 +2,12 @@
 import config from "../../config.json";
 import { loadLand, loadLayer, drawFamily, drawInset, drawResults } from "./map.js";
 import { resultsPng } from "./export.js";
-import { makeRng, pickRounds, makeOptions, shareText, todaySeed } from "./game.js";
+import { makeRng, pickRounds, makeOptions, shareText, localDate, dailyIndex } from "./game.js";
 
 const $ = (id) => document.getElementById(id);
 const screens = ["start", "play", "results"];
 
-let land, data, layer, rng, daily;
+let land, data, layer, rng, daily;   // daily = { no, date } or null
 let rounds = [], answers = [], idx = 0, options = [], answered = false;
 
 // ---------------------------------------------------------------- helpers
@@ -26,8 +26,11 @@ const store = {
 function buildStart() {
   const layers = config.game.layers_offered ?? config.prep.layers;
   $("modes-box").hidden = layers.length < 2;   // one map only -> no choice shown
-  $("daily-box").hidden = !config.game.show_daily;
-  if (!config.game.show_daily) $("daily").checked = false;
+  $("kind-box").hidden = !config.game.show_daily;
+  const kind = store.get("fm-kind") === "random" ? "random" : "daily";
+  document.querySelector(`input[name="kind"][value="${kind}"]`).checked = true;
+  for (const r of document.querySelectorAll('input[name="kind"]')) r.onchange = kindHint;
+  kindHint();
   const saved = store.get("fm-layer");
   const def = layers.includes(saved) ? saved
     : layers.includes(config.game.default_layer) ? config.game.default_layer : layers[0];
@@ -40,20 +43,58 @@ function buildStart() {
   }));
 }
 
+function kindHint() {
+  const d = config.game.daily ?? { start: "2026-11-01", days: 1000 };
+  const no = dailyIndex(d.start, d.days) + 1;
+  $("kind-hint").textContent = selectedKind() === "daily"
+    ? `Challenge #${no}: the same ten families for everyone today.`
+    : "Ten new families every game.";
+}
+const selectedKind = () =>
+  config.game.show_daily ? document.querySelector('input[name="kind"]:checked').value : "random";
+
+const dailyCache = new Map();
+async function loadDaily(l) {
+  if (!dailyCache.has(l)) {
+    const r = await fetch(`./data/${l}/daily.json`);
+    dailyCache.set(l, r.ok ? await r.json() : null);
+  }
+  return dailyCache.get(l);
+}
+
 async function startGame() {
   layer = document.querySelector('input[name="mode"]:checked').value;
   store.set("fm-layer", layer);
   $("start-btn").disabled = true;
   $("start-btn").textContent = "Loading…";
+  const kind = selectedKind();
+  store.set("fm-kind", kind);
+  let schedule = null;
   try {
     data = await loadLayer(layer);
+    if (kind === "daily") schedule = await loadDaily(layer);
   } finally {
     $("start-btn").disabled = false;
     $("start-btn").textContent = "Start";
   }
-  daily = $("daily").checked ? todaySeed(layer).slice(0, 10) : null;
-  rng = makeRng(daily ? todaySeed(layer) : null);
-  rounds = pickRounds(data.meta, config.game, rng);
+  if (kind === "daily") {
+    const d = config.game.daily ?? {};
+    const start = schedule?.start ?? d.start ?? "2026-11-01";
+    const days = schedule?.days ?? d.days ?? 1000;
+    const i = dailyIndex(start, days);
+    daily = { no: i + 1, date: localDate() };
+    rng = makeRng(`daily|${layer}|${i}|options`);   // same answer options for everyone
+    rounds = (schedule?.rounds?.[i] ?? []).map((id) => data.byId.get(id)).filter(Boolean);
+    if (rounds.length < config.game.rounds) {       // schedule missing or data changed
+      const extra = pickRounds(data.meta.filter((m) => !rounds.includes(m)), config.game,
+                               makeRng(`daily|${layer}|${i}`));
+      rounds = rounds.concat(extra).slice(0, config.game.rounds);
+    }
+  } else {
+    daily = null;
+    rng = makeRng(null);
+    rounds = pickRounds(data.meta, config.game, rng);
+  }
   answers = [];
   idx = 0;
   show("play");
@@ -140,8 +181,11 @@ function showResults() {
   drawResultsMap(); // needs the layout to exist, so draw after showing
 }
 
+const offeredLayers = () => config.game.layers_offered ?? config.prep.layers;
+const gameLabel = () => (daily ? `Daily challenge #${daily.no}` : "Random game");
 const subtitle = () =>
-  `${label(layer)}${daily ? " · daily challenge" : ""} · ${new Date().toISOString().slice(0, 10)}`;
+  [offeredLayers().length > 1 ? label(layer) : null, gameLabel(), localDate()]
+    .filter(Boolean).join(" · ");
 const resultItems = () =>
   answers.map((a) => ({ feature: data.features.get(a.id), correct: a.correct }));
 const drawResultsMap = () => drawResults($("results-map"), land, resultItems());
@@ -153,12 +197,14 @@ async function downloadCard() {
     const blob = await resultsPng({
       land, items: resultItems(), answers,
       title: config.game.title, url: config.game.url,
-      sub: `${config.game.tagline ?? ""} · ${new Date().toISOString().slice(0, 10)}`,
+      sub: [config.game.tagline, daily ? `Daily challenge #${daily.no}` : null, localDate()]
+        .filter(Boolean).join(" · "),
+      blur: true,                                     // no spoilers in shared images
     });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `familymapper-${layer}-${new Date().toISOString().slice(0, 10)}.png`;
+    a.download = `familymapper-${daily ? `daily-${daily.no}` : "game"}-${localDate()}.png`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 5000);
   } catch (err) {
@@ -171,9 +217,8 @@ async function downloadCard() {
 
 async function copyResult() {
   // Only name the map mode when players can actually choose between modes.
-  const offered = config.game.layers_offered ?? config.prep.layers;
-  const mode = offered.length > 1 ? label(layer) : null;
-  const text = shareText(config.game.title, mode, answers, daily) +
+  const mode = offeredLayers().length > 1 ? label(layer) : null;
+  const text = shareText(config.game.title, mode, answers, daily ? `Daily #${daily.no}` : null) +
     (config.game.url ? `\n${config.game.url}` : "");
   try {
     await navigator.clipboard.writeText(text);

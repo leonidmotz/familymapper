@@ -10,6 +10,7 @@ Writes:
   web/public/data/land.topojson
   web/public/data/<layer>/families.topojson   (object "families", id = glottocode)
   web/public/data/<layer>/families.json       (metadata list)
+  web/public/data/<layer>/daily.json          (pre-computed daily challenges)
 """
 from pathlib import Path
 import json
@@ -104,6 +105,8 @@ def main():
     export_land()
     for layer in LAYERS:
         export_layer(layer)
+    print("\nDaily challenges:")
+    subprocess.run(["node", str(ROOT / "web/scripts/make-daily.mjs")], check=True)
     print("\nDone.")
 
 

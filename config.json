@@ -1,6 +1,9 @@
 {
   "prep": {
     "min_area_km2": 30000,
+    "exclude": [
+      "huav1256"
+    ],
     "sheet_floor_km2": 5000,
     "difficulty_min_area_km2": {
       "easy": 2000000,
@@ -38,6 +41,10 @@
     "layers_offered": [
       "contemporary"
     ],
-    "show_daily": false
+    "show_daily": true,
+    "daily": {
+      "start": "2026-11-01",
+      "days": 1000
+    }
   }
 }

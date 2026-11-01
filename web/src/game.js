@@ -27,8 +27,18 @@ export function shuffle(arr, rng) {
   return a;
 }
 
-export const todaySeed = (layer) =>
-  `${new Date().toISOString().slice(0, 10)}|${layer}`;
+/** Today's date in the player's own time zone, as YYYY-MM-DD. */
+export function localDate(d = new Date()) {
+  const p = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+/** Which pre-computed daily challenge is due today (0-based), cycling after `days`. */
+export function dailyIndex(start, days, d = new Date()) {
+  const [y, m, dd] = start.split("-").map(Number);
+  const k = Math.round((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(y, m - 1, dd)) / 864e5);
+  return ((k % days) + days) % days;
+}
 
 // ---------------------------------------------------------------- rounds
 const TIERS = ["easy", "medium", "hard"];
@@ -92,10 +102,10 @@ export function makeOptions(target, meta, byId, cfg, rng) {
   return shuffle(opts, rng);
 }
 
-/** Plain-text summary for sharing, e.g. "FamilyMapper\n7/10 🟩🟥…" (mode only if given). */
+/** Plain-text summary for sharing, e.g. "FamilyMapper · Daily #3\n7/10 🟩🟥…". */
 export function shareText(title, modeLabel, answers, daily) {
   const score = answers.filter((a) => a.correct).length;
   const squares = answers.map((a) => (a.correct ? "🟩" : "🟥")).join("");
-  const head = [title, modeLabel, daily && `daily ${daily}`].filter(Boolean).join(" · ");
+  const head = [title, modeLabel, daily].filter(Boolean).join(" · ");
   return `${head}\n${score}/${answers.length} ${squares}`;
 }

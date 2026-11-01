@@ -13,6 +13,7 @@ What it does, per layer (traditional + contemporary):
      Pidgin, Unclassifiable, ...).
   3. Measures area (equal-area projection), assigns a region from Natural
      Earth, a default difficulty, and the 10 nearest families (for distractors).
+  (Known errors in the source polygons are corrected first, see prep/geometry_fixes.json.)
   4. Applies the automatic rule (area >= MIN_AREA_KM2) plus your manual
      overrides from prep/curation.csv.
 
@@ -40,6 +41,7 @@ ASHER = ROOT / "data/raw/asher2007world/cldf"
 NE_COUNTRIES = ROOT / "data/raw/naturalearth/ne_110m_admin_0_countries.zip"
 OUT = ROOT / "data/processed"
 CURATION = ROOT / "prep/curation.csv"
+FIXES = ROOT / "prep/geometry_fixes.json"   # corrections for errors in the source polygons
 CONFIG = json.loads((ROOT / "config.json").read_text())["prep"]
 
 LAYERS = CONFIG["layers"]
@@ -85,6 +87,7 @@ def load_layer(layer):
     fam = fam.drop(columns=["ID", "Glottolog_Languoid_Level", "Family"])
 
     fam["geometry"] = fam.geometry.make_valid()
+    fam = apply_geometry_fixes(fam, layer)
     fam["area_km2"] = (fam.to_crs(EQUAL_AREA).geometry.area / 1e6).round(0)
 
     counts = fam["kind"].value_counts().to_dict()
@@ -93,6 +96,35 @@ def load_layer(layer):
     if other:
         print(f"[{layer}] not clearly family/isolate (excluded): {other}")
     return fam
+
+
+def apply_geometry_fixes(fam, layer):
+    """Move polygon parts from one family to another, for known errors in the source.
+    Each fix in prep/geometry_fixes.json: {"from", "to", "bbox": [minx, miny, maxx, maxy],
+    "layers": [...] (optional), "reason"}. A part moves if its centre lies inside bbox."""
+    if not FIXES.exists():
+        return fam
+    from shapely.geometry import box
+    from shapely.ops import unary_union
+    for fx in json.loads(FIXES.read_text()):
+        if layer not in fx.get("layers", LAYERS):
+            continue
+        src = fam.index[fam["glottocode"] == fx["from"]]
+        dst = fam.index[fam["glottocode"] == fx["to"]]
+        if src.empty or dst.empty:
+            print(f"[{layer}] fix {fx['from']} -> {fx['to']}: family not found, skipped")
+            continue
+        area = box(*fx["bbox"])
+        parts = list(getattr(fam.at[src[0], "geometry"], "geoms", [fam.at[src[0], "geometry"]]))
+        move = [p for p in parts if area.contains(p.representative_point())]
+        keep = [p for p in parts if p not in move]
+        if not move:
+            print(f"[{layer}] fix {fx['from']} -> {fx['to']}: nothing inside bbox, skipped")
+            continue
+        fam.at[src[0], "geometry"] = unary_union(keep) if keep else None
+        fam.at[dst[0], "geometry"] = unary_union([fam.at[dst[0], "geometry"], *move])
+        print(f"[{layer}] fix: moved {len(move)} part(s) from {fx['from']} to {fx['to']} ({fx.get('reason', '')})")
+    return fam[fam.geometry.notna()]
 
 
 def largest_part(geom):
@@ -215,8 +247,9 @@ def main():
     layers = {layer: load_layer(layer) for layer in LAYERS}
     sheet = build_curation_sheet(layers)
 
+    exclude = set(CONFIG.get("exclude", []))   # glottocodes never shown in the game
     for layer, gdf in layers.items():
-        fams = gdf[gdf.kind == "family"].copy()
+        fams = gdf[(gdf.kind == "family") & ~gdf["glottocode"].isin(exclude)].copy()
 
         override = fams["glottocode"].map(sheet[layer]).fillna("").str.strip().str.lower()
         auto_in = fams["area_km2"] >= MIN_AREA_KM2
