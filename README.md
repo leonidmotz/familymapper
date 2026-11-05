@@ -12,9 +12,9 @@ doesn't spoil the game for others).
 date). 1,000 challenges are pre-computed (`web/public/data/contemporary/daily.json`, starting
 2026-11-01); after that the cycle starts again. **Random game:** ten new families every time.
 
-**Beast mode** (for both): only one easy family per game, and every family below the
-30,000 km² cut-off can come up too, as well as language isolates: 1 easy, 2 medium, 3 hard and
-4 tiny families or isolates (`game.beast` in `config.json`). Beast mode has its own daily challenges.
+**Beast mode** (for both): no easy families, and every family below the
+30,000 km² cut-off can come up too, as well as language isolates: 0 easy, 2 medium, 3 hard and
+5 tiny families or isolates (`game.beast` in `config.json`). Beast mode has its own daily challenges.
 
 ## Data
 

@@ -54,7 +54,7 @@ function kindHint() {
   $("kind-hint").textContent = (selectedKind() === "daily"
     ? `Challenge of ${localDate()}: the same ten families for everyone today.`
     : "Ten new families every game.") +
-    (b ? " Beast mode: only one easy family, and the smallest families are in play too." : "");
+    (b ? " Beast mode: no  easy familyies, and the smallest families (and isolates) are in play too." : "");
 }
 const selectedLevel = () =>
   config.game.beast ? document.querySelector('input[name="level"]:checked').value : "normal";
