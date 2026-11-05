@@ -2,12 +2,14 @@
 import config from "../../config.json";
 import { loadLand, loadLayer, drawFamily, drawInset, drawResults } from "./map.js";
 import { resultsPng } from "./export.js";
-import { makeRng, pickRounds, makeOptions, shareText, localDate, dailyIndex } from "./game.js";
+import { makeRng, pickRounds, makeOptions, shareText, localDate, dailyIndex,
+         modeConfig, modeMeta } from "./game.js";
 
 const $ = (id) => document.getElementById(id);
 const screens = ["start", "play", "results"];
 
 let land, data, layer, rng, daily;   // daily = { no, date } or null
+let beast = false, cfg, pool;        // pool = { meta, byId } of the families in play
 let rounds = [], answers = [], idx = 0, options = [], answered = false;
 
 // ---------------------------------------------------------------- helpers
@@ -30,6 +32,10 @@ function buildStart() {
   const kind = store.get("fm-kind") === "random" ? "random" : "daily";
   document.querySelector(`input[name="kind"][value="${kind}"]`).checked = true;
   for (const r of document.querySelectorAll('input[name="kind"]')) r.onchange = kindHint;
+  $("level-box").hidden = !config.game.beast;
+  const level = store.get("fm-level") === "beast" && config.game.beast ? "beast" : "normal";
+  document.querySelector(`input[name="level"][value="${level}"]`).checked = true;
+  for (const r of document.querySelectorAll('input[name="level"]')) r.onchange = kindHint;
   kindHint();
   const saved = store.get("fm-layer");
   const def = layers.includes(saved) ? saved
@@ -44,10 +50,14 @@ function buildStart() {
 }
 
 function kindHint() {
-  $("kind-hint").textContent = selectedKind() === "daily"
+  const b = selectedLevel() === "beast";
+  $("kind-hint").textContent = (selectedKind() === "daily"
     ? `Challenge of ${localDate()}: the same ten families for everyone today.`
-    : "Ten new families every game.";
+    : "Ten new families every game.") +
+    (b ? " Beast mode: only one easy family, and the smallest families are in play too." : "");
 }
+const selectedLevel = () =>
+  config.game.beast ? document.querySelector('input[name="level"]:checked').value : "normal";
 const selectedKind = () =>
   config.game.show_daily ? document.querySelector('input[name="kind"]:checked').value : "random";
 
@@ -67,6 +77,8 @@ async function startGame() {
   $("start-btn").textContent = "Loading…";
   const kind = selectedKind();
   store.set("fm-kind", kind);
+  beast = selectedLevel() === "beast";
+  store.set("fm-level", beast ? "beast" : "normal");
   let schedule = null;
   try {
     data = await loadLayer(layer);
@@ -75,23 +87,28 @@ async function startGame() {
     $("start-btn").disabled = false;
     $("start-btn").textContent = "Start";
   }
+  cfg = modeConfig(config, beast);
+  const meta = modeMeta(data.meta, beast);
+  pool = { meta, byId: new Map(meta.map((m) => [m.id, m])) };
+  const tag = beast ? "beast|" : "";               // separate seeds per mode
   if (kind === "daily") {
     const d = config.game.daily ?? {};
     const start = schedule?.start ?? d.start ?? "2026-11-01";
     const days = schedule?.days ?? d.days ?? 1000;
     const i = dailyIndex(start, days);
     daily = { no: i + 1, date: localDate() };
-    rng = makeRng(`daily|${layer}|${i}|options`);   // same answer options for everyone
-    rounds = (schedule?.rounds?.[i] ?? []).map((id) => data.byId.get(id)).filter(Boolean);
-    if (rounds.length < config.game.rounds) {       // schedule missing or data changed
-      const extra = pickRounds(data.meta.filter((m) => !rounds.includes(m)), config.game,
-                               makeRng(`daily|${layer}|${i}`));
-      rounds = rounds.concat(extra).slice(0, config.game.rounds);
+    rng = makeRng(`daily|${tag}${layer}|${i}|options`);   // same answer options for everyone
+    const list = beast ? schedule?.rounds_beast : schedule?.rounds;
+    rounds = (list?.[i] ?? []).map((id) => pool.byId.get(id)).filter(Boolean);
+    if (rounds.length < cfg.rounds) {               // schedule missing or data changed
+      const extra = pickRounds(meta.filter((m) => !rounds.includes(m)), cfg,
+                               makeRng(`daily|${tag}${layer}|${i}`));
+      rounds = rounds.concat(extra).slice(0, cfg.rounds);
     }
   } else {
     daily = null;
     rng = makeRng(null);
-    rounds = pickRounds(data.meta, config.game, rng);
+    rounds = pickRounds(meta, cfg, rng);
   }
   answers = [];
   idx = 0;
@@ -101,6 +118,9 @@ async function startGame() {
 }
 
 // ---------------------------------------------------------------- rounds
+// Tiny families would be a single pixel at the normal zoom limit, so allow far more.
+const zoomFor = (m) => (m.difficulty === "tiny" ? { maxZoom: 20 } : {});
+
 function updateStatus() {
   $("round").textContent = `Round ${idx + 1} / ${rounds.length}`;
   $("score").textContent = `Score ${answers.filter((a) => a.correct).length}`;
@@ -111,10 +131,10 @@ function playRound() {
   answered = false;
   updateStatus();
   const fam = data.features.get(target.id);
-  drawFamily($("map"), land, fam);
+  drawFamily($("map"), land, fam, zoomFor(target));
   drawInset($("inset"), land, fam, { ring: target.difficulty !== "easy" });
 
-  options = makeOptions(target, data.meta, data.byId, config.game, rng);
+  options = makeOptions(target, pool.meta, pool.byId, cfg, rng);
   $("options").replaceChildren(...options.map((m, i) => {
     const b = document.createElement("button");
     b.className = "option";
@@ -142,7 +162,7 @@ function answer(i) {
   $("reveal-text").innerHTML = `<span class="verdict">${correct
       ? `<span class="badge ok">✓</span> Correct!`
       : `<span class="badge miss">✗</span> <span>It's <b>${target.name}</b>.</span>`}</span>
-    <span class="facts">${fmt(target.area_km2)} km² · ${target.difficulty}</span>`;
+    <span class="facts">${fmt(target.area_km2)} km² · ${target.isolate ? "language isolate" : target.difficulty}</span>`;
   $("next-btn").textContent = idx + 1 < rounds.length ? "Next" : "See results";
   $("reveal").hidden = false;
   updateStatus();
@@ -183,7 +203,8 @@ function showResults() {
 
 const offeredLayers = () => config.game.layers_offered ?? config.prep.layers;
 // The date is part of the daily label, so it's only added separately for random games.
-const gameLabel = () => (daily ? `Daily challenge ${daily.date}` : `Random game · ${localDate()}`);
+const gameLabel = () => (beast ? "Beast mode · " : "") +
+  (daily ? `Daily challenge ${daily.date}` : `Random game · ${localDate()}`);
 const subtitle = () =>
   [offeredLayers().length > 1 ? label(layer) : null, gameLabel()]
     .filter(Boolean).join(" · ");
@@ -200,12 +221,13 @@ async function downloadCard() {
       title: config.game.title, url: config.game.url,
       sub: config.game.tagline ?? "",
       headerRight: daily ? `Daily Challenge ${daily.date}` : `Random Game ${localDate()}`,
+      headerTag: beast ? "BEAST MODE" : null,
       blur: true,                                     // no spoilers in shared images
     });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `familymapper-${daily ? "daily" : "game"}-${localDate()}.png`;
+    a.download = `familymapper-${beast ? "beast-" : ""}${daily ? "daily" : "game"}-${localDate()}.png`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 5000);
   } catch (err) {
@@ -241,7 +263,7 @@ window.addEventListener("resize", () => {
   if (!$("results").hidden) drawResultsMap();
   if (!$("play").hidden && rounds[idx]) {
     const fam = data.features.get(rounds[idx].id);
-    drawFamily($("map"), land, fam);
+    drawFamily($("map"), land, fam, zoomFor(rounds[idx]));
     drawInset($("inset"), land, fam, { ring: rounds[idx].difficulty !== "easy" });
   }
 });

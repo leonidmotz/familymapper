@@ -12,6 +12,10 @@ doesn't spoil the game for others).
 date). 1,000 challenges are pre-computed (`web/public/data/contemporary/daily.json`, starting
 2026-11-01); after that the cycle starts again. **Random game:** ten new families every time.
 
+**Beast mode** (for both): only one easy family per game, and every family below the
+30,000 km² cut-off can come up too, as well as language isolates: 1 easy, 2 medium, 3 hard and
+4 tiny families or isolates (`game.beast` in `config.json`). Beast mode has its own daily challenges.
+
 ## Data
 
 | What | Source | Licence |
@@ -26,9 +30,11 @@ date). 1,000 challenges are pre-computed (`web/public/data/contemporary/daily.js
 - Glottography already aggregates the Atlas' language polygons into Glottolog top-level families.
 - Families with doubtful source polygons are excluded (`exclude` in `config.json`). Huavean is
   excluded because its polygon includes the Yucatán Peninsula, apparently a digitising error.
-- Isolates and non-genealogical groupings (Sign Language, Pidgin, Unclassifiable, …) are removed.
-- Families smaller than 30,000 km² are left out, because they would be invisible on a world map.
-  Manual exceptions are listed in `prep/curation.csv`.
+- Non-genealogical groupings (Sign Language, Pidgin, Unclassifiable, …) are removed; language
+  isolates appear only in beast mode.
+- Families smaller than 30,000 km² are left out of normal mode, because they would be invisible
+  on a world map; beast mode includes them (zoomed in further). Manual exceptions are listed in
+  `prep/curation.csv`.
 - Difficulty comes from the family's area (easy ≥ 2 million km², medium ≥ 400,000 km²),
   with manual overrides; each game mixes 3 easy, 4 medium and 3 hard families.
 - Polygons are simplified to about 2 km resolution with mapshaper. Overlaps and small

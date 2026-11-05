@@ -40,8 +40,18 @@ export function dailyIndex(start, days, d = new Date()) {
   return ((k % days) + days) % days;
 }
 
+// ---------------------------------------------------------------- modes
+/** Rules for a game: normal = config.game; beast = config.game overridden by game.beast. */
+export function modeConfig(config, beast) {
+  return beast ? { ...config.game, ...config.game.beast, neighbors_field: "neighbors_beast" }
+               : config.game;
+}
+/** Families in play: normal mode leaves out the "tiny" tier. */
+export const modeMeta = (meta, beast) => (beast ? meta : meta.filter((m) => m.difficulty !== "tiny"));
+
 // ---------------------------------------------------------------- rounds
-const TIERS = ["easy", "medium", "hard"];
+// "tiny" = families below the normal size cut-off; only beast mode asks for them.
+const TIERS = ["easy", "medium", "hard", "tiny"];
 
 /** Pick the families to ask about, respecting the difficulty mix and region cap. */
 export function pickRounds(meta, cfg, rng) {
@@ -90,7 +100,7 @@ export function makeOptions(target, meta, byId, cfg, rng) {
   const has = (m) => opts.some((o) => o.id === m.id);
 
   const neighbours = shuffle(
-    target.neighbors.map((id) => byId.get(id)).filter(Boolean), rng);
+    (target[cfg.neighbors_field ?? "neighbors"] ?? []).map((id) => byId.get(id)).filter(Boolean), rng);
   for (const m of neighbours) {
     if (opts.length > (cfg.neighbor_distractors ?? 0)) break;
     if (!has(m)) opts.push(m);

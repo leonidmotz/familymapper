@@ -6,6 +6,7 @@
   "region": "Europe",
   "subregion": "Eastern Europe",
   "area_km2": 18501440,
+  "isolate": false,
   "rep": [
    25.616,
    52.453
@@ -21,6 +22,18 @@
    "fura1235",
    "maba1274",
    "song1307"
+  ],
+  "neighbors_beast": [
+   "abkh1242",
+   "kart1248",
+   "nakh1245",
+   "basq1248",
+   "ural1272",
+   "nubi1251",
+   "yeni1252",
+   "saha1256",
+   "buru1296",
+   "nara1262"
   ]
  },
  {
@@ -30,6 +43,7 @@
   "region": "Africa",
   "subregion": "Western Africa",
   "area_km2": 14973265,
+  "isolate": false,
   "rep": [
    7.773,
    15.709
@@ -45,6 +59,18 @@
    "nilo1247",
    "cent2225",
    "surm1244"
+  ],
+  "neighbors_beast": [
+   "song1307",
+   "dogo1299",
+   "bang1363",
+   "ijoi1239",
+   "maba1274",
+   "saha1256",
+   "siam1242",
+   "tama1329",
+   "fura1235",
+   "mand1469"
   ]
  },
  {
@@ -54,6 +80,7 @@
   "region": "Africa",
   "subregion": "Middle Africa",
   "area_km2": 10988249,
+  "isolate": false,
   "rep": [
    20.743,
    -9.438
@@ -69,6 +96,18 @@
    "fura1235",
    "tama1329",
    "gong1255"
+  ],
+  "neighbors_beast": [
+   "kxaa1236",
+   "tuuu1241",
+   "khoe1240",
+   "sand1273",
+   "hadz1240",
+   "cent2225",
+   "kuli1252",
+   "kres1240",
+   "nilo1247",
+   "ijoi1239"
   ]
  },
  {
@@ -78,6 +117,7 @@
   "region": "Europe",
   "subregion": "Eastern Europe",
   "area_km2": 8317115,
+  "isolate": false,
   "rep": [
    126.426,
    66.524
@@ -93,6 +133,18 @@
    "sino1245",
    "atha1245",
    "eski1264"
+  ],
+  "neighbors_beast": [
+   "tung1282",
+   "yuka1259",
+   "yeni1252",
+   "nivk1234",
+   "chuk1271",
+   "ural1272",
+   "mong1349",
+   "ainu1252",
+   "kore1284",
+   "japo1237"
   ]
  },
  {
@@ -102,6 +154,7 @@
   "region": "Asia",
   "subregion": "Eastern Asia",
   "area_km2": 7101905,
+  "isolate": false,
   "rep": [
    89.844,
    32.123
@@ -117,6 +170,18 @@
    "ural1272",
    "nakh1245",
    "kart1248"
+  ],
+  "neighbors_beast": [
+   "hrus1242",
+   "buru1296",
+   "hmon1336",
+   "niha1238",
+   "mong1349",
+   "taik1256",
+   "drav1251",
+   "aust1305",
+   "kena1236",
+   "kore1284"
   ]
  },
  {
@@ -126,6 +191,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 6859598,
+  "isolate": false,
   "rep": [
    133.081,
    -24.923
@@ -141,6 +207,18 @@
    "nyul1248",
    "anim1240",
    "nucl1709"
+  ],
+  "neighbors_beast": [
+   "mirn1241",
+   "garr1260",
+   "mink1237",
+   "jarr1235",
+   "tang1340",
+   "yang1287",
+   "buna1274",
+   "mang1423",
+   "wage1238",
+   "worr1236"
   ]
  },
  {
@@ -150,6 +228,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 4767512,
+  "isolate": false,
   "rep": [
    -67.557,
    51.804
@@ -165,6 +244,18 @@
    "saha1239",
    "utoa1244",
    "sali1255"
+  ],
+  "neighbors_beast": [
+   "beot1247",
+   "iroq1247",
+   "siou1252",
+   "eski1264",
+   "yuch1247",
+   "timu1245",
+   "musk1252",
+   "tuni1252",
+   "natc1249",
+   "kiow1265"
   ]
  },
  {
@@ -174,6 +265,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 4008679,
+  "isolate": false,
   "rep": [
    -120.428,
    60.394
@@ -189,6 +281,18 @@
    "miwo1274",
    "yoku1255",
    "coch1271"
+  ],
+  "neighbors_beast": [
+   "tsim1258",
+   "waka1280",
+   "kute1249",
+   "sali1255",
+   "eski1264",
+   "chim1311",
+   "chin1490",
+   "saha1239",
+   "cayu1241",
+   "mola1238"
   ]
  },
  {
@@ -198,6 +302,7 @@
   "region": "Europe",
   "subregion": "Eastern Europe",
   "area_km2": 3612100,
+  "isolate": false,
   "rep": [
    123.051,
    57.088
@@ -213,6 +318,18 @@
    "sino1245",
    "aust1305",
    "taik1256"
+  ],
+  "neighbors_beast": [
+   "turk1311",
+   "nivk1234",
+   "mong1349",
+   "yuka1259",
+   "kore1284",
+   "yeni1252",
+   "ainu1252",
+   "japo1237",
+   "chuk1271",
+   "ural1272"
   ]
  },
  {
@@ -222,6 +339,7 @@
   "region": "Asia",
   "subregion": "Eastern Asia",
   "area_km2": 3176704,
+  "isolate": false,
   "rep": [
    108.078,
    46.033
@@ -237,6 +355,18 @@
    "taik1256",
    "aust1305",
    "chuk1271"
+  ],
+  "neighbors_beast": [
+   "tung1282",
+   "kore1284",
+   "sino1245",
+   "hrus1242",
+   "nivk1234",
+   "turk1311",
+   "yeni1252",
+   "hmon1336",
+   "ainu1252",
+   "japo1237"
   ]
  },
  {
@@ -246,6 +376,7 @@
   "region": "Europe",
   "subregion": "Eastern Europe",
   "area_km2": 2719212,
+  "isolate": false,
   "rep": [
    75.464,
    65.925
@@ -261,6 +392,18 @@
    "sino1245",
    "chuk1271",
    "kore1284"
+  ],
+  "neighbors_beast": [
+   "yeni1252",
+   "turk1311",
+   "tung1282",
+   "mong1349",
+   "indo1319",
+   "nakh1245",
+   "kart1248",
+   "buru1296",
+   "abkh1242",
+   "yuka1259"
   ]
  },
  {
@@ -270,6 +413,7 @@
   "region": "Africa",
   "subregion": "Eastern Africa",
   "area_km2": 2714090,
+  "isolate": false,
   "rep": [
    46.729,
    -18.769
@@ -285,6 +429,18 @@
    "nilo1247",
    "fura1235",
    "tama1329"
+  ],
+  "neighbors_beast": [
+   "sand1273",
+   "hadz1240",
+   "tuuu1241",
+   "kxaa1236",
+   "kuli1252",
+   "sout2845",
+   "atla1278",
+   "cent2225",
+   "dizo1235",
+   "surm1244"
   ]
  },
  {
@@ -294,6 +450,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 2641464,
+  "isolate": false,
   "rep": [
    -48.637,
    -15.641
@@ -309,6 +466,18 @@
    "leng1261",
    "guai1249",
    "chap1271"
+  ],
+  "neighbors_beast": [
+   "trum1247",
+   "boro1281",
+   "guat1253",
+   "puri1261",
+   "kama1371",
+   "guac1239",
+   "iran1263",
+   "zamu1243",
+   "namb1299",
+   "kari1254"
   ]
  },
  {
@@ -318,6 +487,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 2039388,
+  "isolate": false,
   "rep": [
    -55.79,
    -25.896
@@ -333,6 +503,18 @@
    "nucl1710",
    "huar1251",
    "puri1261"
+  ],
+  "neighbors_beast": [
+   "paya1236",
+   "guai1249",
+   "leng1261",
+   "vile1241",
+   "char1238",
+   "guac1239",
+   "zamu1243",
+   "mata1289",
+   "lule1238",
+   "guat1253"
   ]
  },
  {
@@ -342,6 +524,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 2019187,
+  "isolate": false,
   "rep": [
    -112.777,
    39.51
@@ -357,6 +540,18 @@
    "waka1280",
    "cadd1255",
    "tsim1258"
+  ],
+  "neighbors_beast": [
+   "zuni1245",
+   "wash1253",
+   "miwo1274",
+   "coch1271",
+   "kere1287",
+   "maid1262",
+   "yoku1255",
+   "pala1350",
+   "yana1271",
+   "saha1239"
   ]
  },
  {
@@ -366,6 +561,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 1823026,
+  "isolate": false,
   "rep": [
    -97.514,
    65.345
@@ -381,6 +577,18 @@
    "iroq1247",
    "utoa1244",
    "kiow1265"
+  ],
+  "neighbors_beast": [
+   "atha1245",
+   "kute1249",
+   "tsim1258",
+   "waka1280",
+   "sali1255",
+   "algi1248",
+   "siou1252",
+   "saha1239",
+   "chim1311",
+   "cayu1241"
   ]
  },
  {
@@ -390,6 +598,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 1681191,
+  "isolate": false,
   "rep": [
    -95.254,
    43.45
@@ -405,6 +614,18 @@
    "miwo1274",
    "sali1255",
    "yoku1255"
+  ],
+  "neighbors_beast": [
+   "kiow1265",
+   "yuch1247",
+   "cadd1255",
+   "tuni1252",
+   "musk1252",
+   "kere1287",
+   "adai1235",
+   "natc1249",
+   "tonk1249",
+   "zuni1245"
   ]
  },
  {
@@ -414,6 +635,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 1316005,
+  "isolate": false,
   "rep": [
    -67.244,
    1.21
@@ -429,6 +651,18 @@
    "araw1282",
    "peba1241",
    "tuca1253"
+  ],
+  "neighbors_beast": [
+   "nada1235",
+   "puin1248",
+   "yano1268",
+   "sali1297",
+   "maku1246",
+   "kaku1242",
+   "bora1262",
+   "guah1252",
+   "sape1238",
+   "pume1238"
   ]
  },
  {
@@ -438,6 +672,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 1214148,
+  "isolate": false,
   "rep": [
    -57.74,
    4.192
@@ -453,6 +688,18 @@
    "bora1262",
    "huit1251",
    "namb1299"
+  ],
+  "neighbors_beast": [
+   "taru1236",
+   "arut1244",
+   "sape1238",
+   "wara1303",
+   "yano1268",
+   "maku1246",
+   "yuwa1244",
+   "otom1276",
+   "guam1236",
+   "sali1297"
   ]
  },
  {
@@ -462,6 +709,7 @@
   "region": "Africa",
   "subregion": "Middle Africa",
   "area_km2": 1088983,
+  "isolate": false,
   "rep": [
    19.701,
    17.16
@@ -477,6 +725,18 @@
    "surm1244",
    "gong1255",
    "atla1278"
+  ],
+  "neighbors_beast": [
+   "tama1329",
+   "maba1274",
+   "fura1235",
+   "daju1249",
+   "kres1240",
+   "nubi1251",
+   "nyim1244",
+   "afro1255",
+   "kadu1256",
+   "teme1251"
   ]
  },
  {
@@ -486,6 +746,7 @@
   "region": "Asia",
   "subregion": "Southern Asia",
   "area_km2": 859947,
+  "isolate": false,
   "rep": [
    77.286,
    14.4
@@ -501,6 +762,18 @@
    "surm1244",
    "aust1307",
    "nilo1247"
+  ],
+  "neighbors_beast": [
+   "niha1238",
+   "hrus1242",
+   "sino1245",
+   "buru1296",
+   "taik1256",
+   "hmon1336",
+   "kena1236",
+   "aust1305",
+   "nara1262",
+   "kuna1268"
   ]
  },
  {
@@ -510,6 +783,7 @@
   "region": "Asia",
   "subregion": "South-Eastern Asia",
   "area_km2": 845209,
+  "isolate": false,
   "rep": [
    102.504,
    15.929
@@ -525,6 +799,18 @@
    "worr1236",
    "jarr1235",
    "nucl1709"
+  ],
+  "neighbors_beast": [
+   "aust1305",
+   "hmon1336",
+   "kena1236",
+   "hrus1242",
+   "sino1245",
+   "drav1251",
+   "niha1238",
+   "nort2923",
+   "mong1349",
+   "buru1296"
   ]
  },
  {
@@ -534,6 +820,7 @@
   "region": "Africa",
   "subregion": "Eastern Africa",
   "area_km2": 834963,
+  "isolate": false,
   "rep": [
    31.686,
    6.498
@@ -549,6 +836,18 @@
    "atla1278",
    "afro1255",
    "kxaa1236"
+  ],
+  "neighbors_beast": [
+   "surm1244",
+   "cent2225",
+   "kuli1252",
+   "dizo1235",
+   "maoo1243",
+   "koma1264",
+   "narr1279",
+   "kadu1256",
+   "teme1251",
+   "sout2845"
   ]
  },
  {
@@ -558,6 +857,7 @@
   "region": "Europe",
   "subregion": "Eastern Europe",
   "area_km2": 780026,
+  "isolate": false,
   "rep": [
    169.852,
    62.945
@@ -573,6 +873,18 @@
    "waka1280",
    "eski1264",
    "ural1272"
+  ],
+  "neighbors_beast": [
+   "yuka1259",
+   "nivk1234",
+   "turk1311",
+   "tung1282",
+   "ainu1252",
+   "japo1237",
+   "tsim1258",
+   "atha1245",
+   "yeni1252",
+   "kore1284"
   ]
  },
  {
@@ -582,6 +894,7 @@
   "region": "Asia",
   "subregion": "South-Eastern Asia",
   "area_km2": 779537,
+  "isolate": false,
   "rep": [
    107.74,
    15.322
@@ -597,6 +910,18 @@
    "worr1236",
    "nucl1709",
    "jarr1235"
+  ],
+  "neighbors_beast": [
+   "taik1256",
+   "hmon1336",
+   "kena1236",
+   "hrus1242",
+   "sino1245",
+   "nort2923",
+   "west1493",
+   "abun1252",
+   "drav1251",
+   "kond1302"
   ]
  },
  {
@@ -606,6 +931,7 @@
   "region": "Africa",
   "subregion": "Western Africa",
   "area_km2": 707112,
+  "isolate": false,
   "rep": [
    -8.974,
    10.577
@@ -621,6 +947,18 @@
    "atla1278",
    "cent2225",
    "kama1371"
+  ],
+  "neighbors_beast": [
+   "siam1242",
+   "krua1234",
+   "bang1363",
+   "dogo1299",
+   "song1307",
+   "ijoi1239",
+   "afro1255",
+   "maba1274",
+   "saha1256",
+   "tama1329"
   ]
  },
  {
@@ -630,6 +968,7 @@
   "region": "Africa",
   "subregion": "Southern Africa",
   "area_km2": 697619,
+  "isolate": false,
   "rep": [
    17.106,
    -23.73
@@ -645,6 +984,18 @@
    "maba1274",
    "gong1255",
    "tama1329"
+  ],
+  "neighbors_beast": [
+   "tuuu1241",
+   "kxaa1236",
+   "atla1278",
+   "sand1273",
+   "hadz1240",
+   "aust1307",
+   "cent2225",
+   "ijoi1239",
+   "kuli1252",
+   "nilo1247"
   ]
  },
  {
@@ -654,6 +1005,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 556947,
+  "isolate": false,
   "rep": [
    -73.827,
    -7.218
@@ -669,6 +1021,18 @@
    "barb1265",
    "katu1274",
    "nada1235"
+  ],
+  "neighbors_beast": [
+   "muni1258",
+   "urar1246",
+   "cahu1265",
+   "omur1241",
+   "hibi1242",
+   "peba1241",
+   "cand1248",
+   "cull1235",
+   "zapa1251",
+   "ticu1244"
   ]
  },
  {
@@ -678,6 +1042,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 484104,
+  "isolate": false,
   "rep": [
    -69.477,
    -46.631
@@ -693,6 +1058,18 @@
    "leng1261",
    "zamu1243",
    "ayma1253"
+  ],
+  "neighbors_beast": [
+   "kawe1237",
+   "puel1244",
+   "yama1264",
+   "arau1255",
+   "huar1251",
+   "char1238",
+   "lule1238",
+   "guai1249",
+   "vile1241",
+   "tupi1275"
   ]
  },
  {
@@ -702,6 +1079,7 @@
   "region": "Asia",
   "subregion": "Eastern Asia",
   "area_km2": 440941,
+  "isolate": false,
   "rep": [
    127.61,
    41.193
@@ -717,6 +1095,18 @@
    "yeni1252",
    "taik1256",
    "ural1272"
+  ],
+  "neighbors_beast": [
+   "japo1237",
+   "ainu1252",
+   "mong1349",
+   "nivk1234",
+   "tung1282",
+   "turk1311",
+   "yuka1259",
+   "hmon1336",
+   "aust1305",
+   "sino1245"
   ]
  },
  {
@@ -726,6 +1116,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 420152,
+  "isolate": false,
   "rep": [
    -122.278,
    49.749
@@ -741,6 +1132,18 @@
    "coch1271",
    "siou1252",
    "eski1264"
+  ],
+  "neighbors_beast": [
+   "chim1311",
+   "waka1280",
+   "chin1490",
+   "kute1249",
+   "cayu1241",
+   "kala1402",
+   "mola1238",
+   "alse1251",
+   "saha1239",
+   "sius1254"
   ]
  },
  {
@@ -750,6 +1153,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 404581,
+  "isolate": false,
   "rep": [
    -95.711,
    33.122
@@ -765,6 +1169,18 @@
    "mixe1284",
    "maya1287",
    "miwo1274"
+  ],
+  "neighbors_beast": [
+   "adai1235",
+   "tonk1249",
+   "atak1252",
+   "tuni1252",
+   "kara1289",
+   "natc1249",
+   "kiow1265",
+   "chit1248",
+   "musk1252",
+   "coah1252"
   ]
  },
  {
@@ -774,6 +1190,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 379481,
+  "isolate": false,
   "rep": [
    -56.262,
    -32.031
@@ -789,6 +1206,18 @@
    "chiq1253",
    "boro1281",
    "puri1261"
+  ],
+  "neighbors_beast": [
+   "tupi1275",
+   "guai1249",
+   "paya1236",
+   "lule1238",
+   "vile1241",
+   "leng1261",
+   "mata1289",
+   "huar1251",
+   "zamu1243",
+   "guac1239"
   ]
  },
  {
@@ -798,6 +1227,7 @@
   "region": "Asia",
   "subregion": "Eastern Asia",
   "area_km2": 367090,
+  "isolate": false,
   "rep": [
    139.837,
    37.497
@@ -813,6 +1243,18 @@
    "yeni1252",
    "sino1245",
    "nucl1709"
+  ],
+  "neighbors_beast": [
+   "ainu1252",
+   "kore1284",
+   "nivk1234",
+   "tung1282",
+   "mong1349",
+   "yuka1259",
+   "turk1311",
+   "chuk1271",
+   "hmon1336",
+   "aust1305"
   ]
  },
  {
@@ -822,6 +1264,7 @@
   "region": "Africa",
   "subregion": "Middle Africa",
   "area_km2": 358692,
+  "isolate": false,
   "rep": [
    18.674,
    12.452
@@ -837,6 +1280,18 @@
    "surm1244",
    "gong1255",
    "atla1278"
+  ],
+  "neighbors_beast": [
+   "tama1329",
+   "saha1256",
+   "fura1235",
+   "daju1249",
+   "kres1240",
+   "nyim1244",
+   "kadu1256",
+   "afro1255",
+   "teme1251",
+   "narr1279"
   ]
  },
  {
@@ -846,6 +1301,7 @@
   "region": "North America",
   "subregion": "Central America",
   "area_km2": 330072,
+  "isolate": false,
   "rep": [
    -91.716,
    17.767
@@ -861,6 +1317,18 @@
    "choc1280",
    "kiow1265",
    "barb1265"
+  ],
+  "neighbors_beast": [
+   "mixe1284",
+   "tequ1244",
+   "jica1245",
+   "lenc1239",
+   "toto1251",
+   "misu1242",
+   "mara1266",
+   "otom1299",
+   "cuit1236",
+   "xinc1237"
   ]
  },
  {
@@ -870,6 +1338,7 @@
   "region": "Africa",
   "subregion": "Middle Africa",
   "area_km2": 316855,
+  "isolate": false,
   "rep": [
    30.392,
    3.228
@@ -885,6 +1354,18 @@
    "saha1256",
    "kxaa1236",
    "afro1255"
+  ],
+  "neighbors_beast": [
+   "nilo1247",
+   "kuli1252",
+   "surm1244",
+   "dizo1235",
+   "sout2845",
+   "narr1279",
+   "koma1264",
+   "maoo1243",
+   "kadu1256",
+   "kres1240"
   ]
  },
  {
@@ -894,6 +1375,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 274810,
+  "isolate": false,
   "rep": [
    -71.466,
    -36.624
@@ -909,6 +1391,18 @@
    "tupi1275",
    "ayma1253",
    "zamu1243"
+  ],
+  "neighbors_beast": [
+   "huar1251",
+   "puel1244",
+   "chon1288",
+   "lule1238",
+   "kawe1237",
+   "char1238",
+   "kunz1244",
+   "vile1241",
+   "guai1249",
+   "mata1289"
   ]
  },
  {
@@ -918,6 +1412,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 271833,
+  "isolate": false,
   "rep": [
    -66.194,
    -6.063
@@ -933,6 +1428,18 @@
    "huit1251",
    "yano1268",
    "namb1299"
+  ],
+  "neighbors_beast": [
+   "araw1282",
+   "mata1275",
+   "pira1253",
+   "ticu1244",
+   "nada1235",
+   "chap1271",
+   "bora1262",
+   "cayu1262",
+   "araw1281",
+   "iton1250"
   ]
  },
  {
@@ -942,6 +1449,7 @@
   "region": "Asia",
   "subregion": "South-Eastern Asia",
   "area_km2": 237785,
+  "isolate": false,
   "rep": [
    139.599,
    -5.37
@@ -957,6 +1465,18 @@
    "worr1236",
    "nyul1248",
    "pama1250"
+  ],
+  "neighbors_beast": [
+   "soma1242",
+   "kaya1327",
+   "pyuu1245",
+   "yetf1238",
+   "kapo1250",
+   "naml1239",
+   "kaur1274",
+   "usku1243",
+   "pauw1244",
+   "kamu1264"
   ]
  },
  {
@@ -966,6 +1486,7 @@
   "region": "North America",
   "subregion": "Central America",
   "area_km2": 226625,
+  "isolate": false,
   "rep": [
    -79.097,
    9.279
@@ -981,6 +1502,18 @@
    "sali1297",
    "jiva1245",
    "bora1262"
+  ],
+  "neighbors_beast": [
+   "choc1280",
+   "paez1247",
+   "misu1242",
+   "tini1245",
+   "beto1236",
+   "timo1237",
+   "anda1286",
+   "jira1235",
+   "cams1241",
+   "atac1235"
   ]
  },
  {
@@ -990,6 +1523,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 220802,
+  "isolate": false,
   "rep": [
    -59.694,
    -26.015
@@ -1005,6 +1539,18 @@
    "boro1281",
    "ayma1253",
    "namb1299"
+  ],
+  "neighbors_beast": [
+   "vile1241",
+   "leng1261",
+   "paya1236",
+   "tupi1275",
+   "mata1289",
+   "lule1238",
+   "zamu1243",
+   "char1238",
+   "guac1239",
+   "kunz1244"
   ]
  },
  {
@@ -1014,6 +1560,7 @@
   "region": "North America",
   "subregion": "Central America",
   "area_km2": 220192,
+  "isolate": false,
   "rep": [
    -100.176,
    21.047
@@ -1029,6 +1576,18 @@
    "coch1271",
    "utoa1244",
    "siou1252"
+  ],
+  "neighbors_beast": [
+   "toto1251",
+   "mara1266",
+   "xinc1237",
+   "cuit1236",
+   "come1251",
+   "coto1248",
+   "tequ1244",
+   "mixe1284",
+   "coah1252",
+   "kara1289"
   ]
  },
  {
@@ -1038,6 +1597,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 216661,
+  "isolate": false,
   "rep": [
    -68.219,
    -17.399
@@ -1053,6 +1613,18 @@
    "boro1281",
    "katu1274",
    "pano1259"
+  ],
+  "neighbors_beast": [
+   "puqu1242",
+   "uruc1242",
+   "leco1242",
+   "mose1249",
+   "yura1255",
+   "movi1243",
+   "hara1260",
+   "cani1243",
+   "cayu1262",
+   "iton1250"
   ]
  },
  {
@@ -1062,6 +1634,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 213096,
+  "isolate": false,
   "rep": [
    -113.297,
    33.862
@@ -1077,6 +1650,70 @@
    "sali1255",
    "otom1299",
    "xinc1237"
+  ],
+  "neighbors_beast": [
+   "zuni1245",
+   "seri1257",
+   "chum1262",
+   "kere1287",
+   "utoa1244",
+   "yoku1255",
+   "miwo1274",
+   "sali1253",
+   "esse1238",
+   "wash1253"
+  ]
+ },
+ {
+  "id": "kunz1244",
+  "name": "Kunza",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 206864,
+  "isolate": true,
+  "rep": [
+   -68.205,
+   -23.188
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "uruc1242",
+   "mata1289",
+   "lule1238",
+   "ayma1253",
+   "vile1241",
+   "yura1255",
+   "puqu1242",
+   "leco1242",
+   "mose1249",
+   "leng1261"
+  ]
+ },
+ {
+  "id": "kari1254",
+  "name": "Kariri",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 206462,
+  "isolate": true,
+  "rep": [
+   -38.473,
+   -9.931
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tuxa1239",
+   "pank1250",
+   "fuln1247",
+   "xuku1239",
+   "kama1371",
+   "nucl1710",
+   "puri1261",
+   "trum1247",
+   "boro1281",
+   "iran1263"
   ]
  },
  {
@@ -1086,6 +1723,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 206203,
+  "isolate": false,
   "rep": [
    -74.036,
    44.94
@@ -1101,6 +1739,18 @@
    "saha1239",
    "maya1287",
    "atha1245"
+  ],
+  "neighbors_beast": [
+   "algi1248",
+   "beot1247",
+   "yuch1247",
+   "siou1252",
+   "timu1245",
+   "musk1252",
+   "tuni1252",
+   "natc1249",
+   "chit1248",
+   "cadd1255"
   ]
  },
  {
@@ -1110,6 +1760,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 191777,
+  "isolate": false,
   "rep": [
    -99.131,
    36.87
@@ -1125,6 +1776,18 @@
    "miwo1274",
    "yoku1255",
    "xinc1237"
+  ],
+  "neighbors_beast": [
+   "cadd1255",
+   "kere1287",
+   "tonk1249",
+   "adai1235",
+   "siou1252",
+   "tuni1252",
+   "zuni1245",
+   "atak1252",
+   "kara1289",
+   "natc1249"
   ]
  },
  {
@@ -1134,6 +1797,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 188626,
+  "isolate": false,
   "rep": [
    -73.407,
    -48.685
@@ -1149,6 +1813,18 @@
    "leng1261",
    "zamu1243",
    "ayma1253"
+  ],
+  "neighbors_beast": [
+   "chon1288",
+   "yama1264",
+   "puel1244",
+   "arau1255",
+   "huar1251",
+   "char1238",
+   "lule1238",
+   "vile1241",
+   "guai1249",
+   "kunz1244"
   ]
  },
  {
@@ -1158,6 +1834,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 179068,
+  "isolate": false,
   "rep": [
    -56.465,
    -16.079
@@ -1173,6 +1850,18 @@
    "tupi1275",
    "guai1249",
    "ayma1253"
+  ],
+  "neighbors_beast": [
+   "guat1253",
+   "iran1263",
+   "guac1239",
+   "chiq1253",
+   "zamu1243",
+   "namb1299",
+   "trum1247",
+   "aika1237",
+   "nucl1710",
+   "iton1250"
   ]
  },
  {
@@ -1182,6 +1871,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 165643,
+  "isolate": false,
   "rep": [
    -88.847,
    32.905
@@ -1197,6 +1887,44 @@
    "xinc1237",
    "misu1242",
    "utoa1244"
+  ],
+  "neighbors_beast": [
+   "tuni1252",
+   "natc1249",
+   "yuch1247",
+   "chit1248",
+   "adai1235",
+   "atak1252",
+   "cadd1255",
+   "timu1245",
+   "tonk1249",
+   "kara1289"
+  ]
+ },
+ {
+  "id": "puel1244",
+  "name": "Puelche",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 164743,
+  "isolate": true,
+  "rep": [
+   -68.009,
+   -41.347
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "chon1288",
+   "arau1255",
+   "kawe1237",
+   "huar1251",
+   "char1238",
+   "yama1264",
+   "lule1238",
+   "vile1241",
+   "guai1249",
+   "kunz1244"
   ]
  },
  {
@@ -1206,6 +1934,7 @@
   "region": "Africa",
   "subregion": "Western Africa",
   "area_km2": 162774,
+  "isolate": false,
   "rep": [
    2.109,
    15.457
@@ -1221,6 +1950,18 @@
    "nilo1247",
    "cent2225",
    "atla1278"
+  ],
+  "neighbors_beast": [
+   "dogo1299",
+   "bang1363",
+   "afro1255",
+   "siam1242",
+   "ijoi1239",
+   "mand1469",
+   "krua1234",
+   "maba1274",
+   "saha1256",
+   "tama1329"
   ]
  },
  {
@@ -1230,6 +1971,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 145242,
+  "isolate": false,
   "rep": [
    126.466,
    -16.039
@@ -1245,6 +1987,18 @@
    "pama1250",
    "anim1240",
    "nucl1709"
+  ],
+  "neighbors_beast": [
+   "buna1274",
+   "jarr1235",
+   "sout2772",
+   "nyul1248",
+   "west2434",
+   "nort1547",
+   "wadj1254",
+   "wage1238",
+   "kung1259",
+   "lara1258"
   ]
  },
  {
@@ -1254,6 +2008,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 138299,
+  "isolate": false,
   "rep": [
    -75.402,
    -0.751
@@ -1269,6 +2024,18 @@
    "choc1280",
    "araw1281",
    "guah1252"
+  ],
+  "neighbors_beast": [
+   "abis1238",
+   "zapa1251",
+   "cofa1242",
+   "cams1241",
+   "anda1286",
+   "huit1251",
+   "cand1248",
+   "peba1241",
+   "urar1246",
+   "paez1247"
   ]
  },
  {
@@ -1278,6 +2045,7 @@
   "region": "North America",
   "subregion": "Central America",
   "area_km2": 127715,
+  "isolate": false,
   "rep": [
    -85.293,
    13.458
@@ -1293,6 +2061,18 @@
    "guah1252",
    "barb1265",
    "jiva1245"
+  ],
+  "neighbors_beast": [
+   "jica1245",
+   "lenc1239",
+   "chib1249",
+   "maya1287",
+   "mixe1284",
+   "tequ1244",
+   "choc1280",
+   "toto1251",
+   "paez1247",
+   "atac1235"
   ]
  },
  {
@@ -1302,6 +2082,7 @@
   "region": "Africa",
   "subregion": "Western Africa",
   "area_km2": 124229,
+  "isolate": false,
   "rep": [
    -7.735,
    6.097
@@ -1317,6 +2098,18 @@
    "fura1235",
    "kxaa1236",
    "cent2225"
+  ],
+  "neighbors_beast": [
+   "mand1469",
+   "siam1242",
+   "dogo1299",
+   "bang1363",
+   "song1307",
+   "ijoi1239",
+   "afro1255",
+   "maba1274",
+   "saha1256",
+   "tama1329"
   ]
  },
  {
@@ -1326,6 +2119,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 120566,
+  "isolate": false,
   "rep": [
    -69.645,
    5.635
@@ -1341,6 +2135,18 @@
    "tuca1253",
    "chib1249",
    "peba1241"
+  ],
+  "neighbors_beast": [
+   "pume1238",
+   "beto1236",
+   "sali1297",
+   "puin1248",
+   "timo1237",
+   "guam1236",
+   "yuwa1244",
+   "jira1235",
+   "otom1276",
+   "kaku1242"
   ]
  },
  {
@@ -1350,6 +2156,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 117703,
+  "isolate": false,
   "rep": [
    135.132,
    -17.57
@@ -1365,6 +2172,18 @@
    "anim1240",
    "nyul1248",
    "nucl1709"
+  ],
+  "neighbors_beast": [
+   "garr1260",
+   "mang1423",
+   "tang1340",
+   "yang1287",
+   "mink1237",
+   "gunw1250",
+   "wage1238",
+   "mani1293",
+   "giim1238",
+   "umbu1235"
   ]
  },
  {
@@ -1374,6 +2193,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 116359,
+  "isolate": false,
   "rep": [
    -59.62,
    -12.493
@@ -1389,6 +2209,18 @@
    "leng1261",
    "nucl1710",
    "mata1289"
+  ],
+  "neighbors_beast": [
+   "aika1237",
+   "iran1263",
+   "chap1271",
+   "iton1250",
+   "boro1281",
+   "cani1243",
+   "chiq1253",
+   "mata1275",
+   "cayu1262",
+   "pira1253"
   ]
  },
  {
@@ -1398,6 +2230,7 @@
   "region": "Africa",
   "subregion": "Northern Africa",
   "area_km2": 114969,
+  "isolate": false,
   "rep": [
    25.015,
    12.283
@@ -1413,6 +2246,18 @@
    "afro1255",
    "atla1278",
    "song1307"
+  ],
+  "neighbors_beast": [
+   "daju1249",
+   "kres1240",
+   "tama1329",
+   "nyim1244",
+   "kadu1256",
+   "teme1251",
+   "narr1279",
+   "heib1242",
+   "maba1274",
+   "rash1249"
   ]
  },
  {
@@ -1422,6 +2267,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 111221,
+  "isolate": false,
   "rep": [
    -116.372,
    45.839
@@ -1437,6 +2283,18 @@
    "atha1245",
    "siou1252",
    "kiow1265"
+  ],
+  "neighbors_beast": [
+   "cayu1241",
+   "chin1490",
+   "mola1238",
+   "kute1249",
+   "kala1402",
+   "klam1254",
+   "alse1251",
+   "sius1254",
+   "sali1255",
+   "chim1311"
   ]
  },
  {
@@ -1446,6 +2304,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 109739,
+  "isolate": false,
   "rep": [
    -68.856,
    -31.951
@@ -1461,6 +2320,44 @@
    "chon1288",
    "zamu1243",
    "chiq1253"
+  ],
+  "neighbors_beast": [
+   "arau1255",
+   "lule1238",
+   "kunz1244",
+   "vile1241",
+   "puel1244",
+   "guai1249",
+   "mata1289",
+   "char1238",
+   "leng1261",
+   "paya1236"
+  ]
+ },
+ {
+  "id": "beot1247",
+  "name": "Beothuk",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 109321,
+  "isolate": true,
+  "rep": [
+   -56.739,
+   49.123
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "algi1248",
+   "iroq1247",
+   "yuch1247",
+   "eski1264",
+   "siou1252",
+   "timu1245",
+   "musk1252",
+   "tuni1252",
+   "natc1249",
+   "chit1248"
   ]
  },
  {
@@ -1470,6 +2367,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 108253,
+  "isolate": false,
   "rep": [
    -60.901,
    -17.639
@@ -1485,6 +2383,18 @@
    "guai1249",
    "tupi1275",
    "quec1387"
+  ],
+  "neighbors_beast": [
+   "zamu1243",
+   "guat1253",
+   "guac1239",
+   "boro1281",
+   "aika1237",
+   "yura1255",
+   "iran1263",
+   "iton1250",
+   "namb1299",
+   "cani1243"
   ]
  },
  {
@@ -1494,6 +2404,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 107975,
+  "isolate": false,
   "rep": [
    -63.7,
    -5.922
@@ -1509,6 +2420,44 @@
    "pano1259",
    "huit1251",
    "peba1241"
+  ],
+  "neighbors_beast": [
+   "pira1253",
+   "katu1274",
+   "mata1275",
+   "nada1235",
+   "chap1271",
+   "ticu1244",
+   "cayu1262",
+   "aika1237",
+   "iton1250",
+   "namb1299"
+  ]
+ },
+ {
+  "id": "lule1238",
+  "name": "Lule",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 107467,
+  "isolate": true,
+  "rep": [
+   -64.494,
+   -27.398
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "vile1241",
+   "mata1289",
+   "guai1249",
+   "kunz1244",
+   "leng1261",
+   "huar1251",
+   "paya1236",
+   "tupi1275",
+   "char1238",
+   "zamu1243"
   ]
  },
  {
@@ -1518,6 +2467,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 101258,
+  "isolate": false,
   "rep": [
    -66.75,
    -0.873
@@ -1533,6 +2483,18 @@
    "guah1252",
    "peba1241",
    "tuca1253"
+  ],
+  "neighbors_beast": [
+   "araw1281",
+   "bora1262",
+   "ticu1244",
+   "yano1268",
+   "puin1248",
+   "maku1246",
+   "katu1274",
+   "kaku1242",
+   "sali1297",
+   "araw1282"
   ]
  },
  {
@@ -1542,6 +2504,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 100583,
+  "isolate": false,
   "rep": [
    -63.831,
    2.44
@@ -1557,6 +2520,18 @@
    "katu1274",
    "huit1251",
    "peba1241"
+  ],
+  "neighbors_beast": [
+   "maku1246",
+   "sape1238",
+   "arut1244",
+   "araw1281",
+   "yuwa1244",
+   "sali1297",
+   "nada1235",
+   "otom1276",
+   "taru1236",
+   "guam1236"
   ]
  },
  {
@@ -1566,6 +2541,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 94218,
+  "isolate": false,
   "rep": [
    -59.28,
    -19.896
@@ -1581,6 +2557,18 @@
    "ayma1253",
    "chap1271",
    "nucl1710"
+  ],
+  "neighbors_beast": [
+   "guac1239",
+   "chiq1253",
+   "guat1253",
+   "leng1261",
+   "boro1281",
+   "mata1289",
+   "paya1236",
+   "vile1241",
+   "guai1249",
+   "iran1263"
   ]
  },
  {
@@ -1590,6 +2578,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 89805,
+  "isolate": false,
   "rep": [
    -63.901,
    -11.941
@@ -1605,6 +2594,18 @@
    "zamu1243",
    "pano1259",
    "nada1235"
+  ],
+  "neighbors_beast": [
+   "iton1250",
+   "cayu1262",
+   "cani1243",
+   "mata1275",
+   "movi1243",
+   "aika1237",
+   "namb1299",
+   "mose1249",
+   "pira1253",
+   "yura1255"
   ]
  },
  {
@@ -1614,6 +2615,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 88023,
+  "isolate": false,
   "rep": [
    -62.87,
    -23.343
@@ -1629,6 +2631,18 @@
    "huar1251",
    "char1238",
    "namb1299"
+  ],
+  "neighbors_beast": [
+   "vile1241",
+   "leng1261",
+   "guai1249",
+   "lule1238",
+   "zamu1243",
+   "kunz1244",
+   "paya1236",
+   "chiq1253",
+   "uruc1242",
+   "tupi1275"
   ]
  },
  {
@@ -1638,6 +2652,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 82051,
+  "isolate": false,
   "rep": [
    -76.446,
    5.946
@@ -1653,6 +2668,18 @@
    "sali1297",
    "peba1241",
    "jiva1245"
+  ],
+  "neighbors_beast": [
+   "paez1247",
+   "tini1245",
+   "chib1249",
+   "anda1286",
+   "beto1236",
+   "cams1241",
+   "cofa1242",
+   "timo1237",
+   "atac1235",
+   "kaku1242"
   ]
  },
  {
@@ -1662,6 +2689,7 @@
   "region": "Africa",
   "subregion": "Southern Africa",
   "area_km2": 76073,
+  "isolate": false,
   "rep": [
    20.498,
    -19.103
@@ -1677,6 +2705,18 @@
    "gong1255",
    "maba1274",
    "fura1235"
+  ],
+  "neighbors_beast": [
+   "tuuu1241",
+   "khoe1240",
+   "atla1278",
+   "sand1273",
+   "hadz1240",
+   "cent2225",
+   "aust1307",
+   "kuli1252",
+   "nilo1247",
+   "ijoi1239"
   ]
  },
  {
@@ -1686,6 +2726,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 73812,
+  "isolate": false,
   "rep": [
    -126.131,
    51.35
@@ -1701,6 +2742,18 @@
    "coch1271",
    "eski1264",
    "siou1252"
+  ],
+  "neighbors_beast": [
+   "sali1255",
+   "chim1311",
+   "tsim1258",
+   "chin1490",
+   "kute1249",
+   "alse1251",
+   "kala1402",
+   "mola1238",
+   "sius1254",
+   "cayu1241"
   ]
  },
  {
@@ -1710,6 +2763,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 72426,
+  "isolate": false,
   "rep": [
    -75.697,
    -2.565
@@ -1725,6 +2779,18 @@
    "choc1280",
    "nada1235",
    "araw1281"
+  ],
+  "neighbors_beast": [
+   "abis1238",
+   "cand1248",
+   "urar1246",
+   "tuca1253",
+   "omur1241",
+   "peba1241",
+   "cahu1265",
+   "cofa1242",
+   "huit1251",
+   "jiva1245"
   ]
  },
  {
@@ -1734,6 +2800,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 70854,
+  "isolate": false,
   "rep": [
    128.451,
    -16.952
@@ -1749,6 +2816,18 @@
    "pama1250",
    "anim1240",
    "nucl1709"
+  ],
+  "neighbors_beast": [
+   "worr1236",
+   "buna1274",
+   "sout2772",
+   "west2434",
+   "wage1238",
+   "nort1547",
+   "yang1287",
+   "wadj1254",
+   "kung1259",
+   "lara1258"
   ]
  },
  {
@@ -1758,6 +2837,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 64407,
+  "isolate": false,
   "rep": [
    -72.929,
    -1.38
@@ -1773,6 +2853,18 @@
    "araw1281",
    "barb1265",
    "guah1252"
+  ],
+  "neighbors_beast": [
+   "abis1238",
+   "bora1262",
+   "peba1241",
+   "tuca1253",
+   "kaku1242",
+   "zapa1251",
+   "urar1246",
+   "ticu1244",
+   "anda1286",
+   "cand1248"
   ]
  },
  {
@@ -1782,6 +2874,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 63354,
+  "isolate": false,
   "rep": [
    134.232,
    -13.164
@@ -1797,6 +2890,18 @@
    "nucl1709",
    "nyul1248",
    "pama1250"
+  ],
+  "neighbors_beast": [
+   "mani1293",
+   "giim1238",
+   "gaga1251",
+   "umbu1235",
+   "mang1423",
+   "iwai1246",
+   "marr1257",
+   "yang1287",
+   "limi1242",
+   "wage1238"
   ]
  },
  {
@@ -1806,6 +2911,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 61664,
+  "isolate": false,
   "rep": [
    -128.481,
    54.87
@@ -1821,6 +2927,18 @@
    "yoku1255",
    "coch1271",
    "siou1252"
+  ],
+  "neighbors_beast": [
+   "waka1280",
+   "sali1255",
+   "atha1245",
+   "chim1311",
+   "kute1249",
+   "chin1490",
+   "alse1251",
+   "kala1402",
+   "mola1238",
+   "cayu1241"
   ]
  },
  {
@@ -1830,6 +2948,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 60308,
+  "isolate": false,
   "rep": [
    -79.048,
    -2.689
@@ -1845,6 +2964,18 @@
    "choc1280",
    "chib1249",
    "nada1235"
+  ],
+  "neighbors_beast": [
+   "jiva1245",
+   "cand1248",
+   "tall1235",
+   "atac1235",
+   "zapa1251",
+   "cofa1242",
+   "sech1236",
+   "cahu1265",
+   "omur1241",
+   "tuca1253"
   ]
  },
  {
@@ -1854,6 +2985,7 @@
   "region": "Africa",
   "subregion": "Southern Africa",
   "area_km2": 59239,
+  "isolate": false,
   "rep": [
    22.324,
    -23.937
@@ -1869,6 +3001,18 @@
    "gong1255",
    "fura1235",
    "maba1274"
+  ],
+  "neighbors_beast": [
+   "khoe1240",
+   "kxaa1236",
+   "atla1278",
+   "sand1273",
+   "aust1307",
+   "hadz1240",
+   "cent2225",
+   "kuli1252",
+   "nilo1247",
+   "surm1244"
   ]
  },
  {
@@ -1878,6 +3022,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 58844,
+  "isolate": false,
   "rep": [
    -78.563,
    -3.796
@@ -1893,6 +3038,18 @@
    "choc1280",
    "quec1387",
    "nada1235"
+  ],
+  "neighbors_beast": [
+   "barb1265",
+   "cand1248",
+   "tall1235",
+   "cahu1265",
+   "sech1236",
+   "omur1241",
+   "zapa1251",
+   "muni1258",
+   "urar1246",
+   "moch1259"
   ]
  },
  {
@@ -1902,6 +3059,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 58643,
+  "isolate": false,
   "rep": [
    -73.825,
    -3.599
@@ -1917,6 +3075,18 @@
    "nada1235",
    "katu1274",
    "araw1281"
+  ],
+  "neighbors_beast": [
+   "urar1246",
+   "zapa1251",
+   "omur1241",
+   "abis1238",
+   "huit1251",
+   "cand1248",
+   "muni1258",
+   "cahu1265",
+   "tuca1253",
+   "pano1259"
   ]
  },
  {
@@ -1926,6 +3096,7 @@
   "region": "Africa",
   "subregion": "Eastern Africa",
   "area_km2": 58009,
+  "isolate": false,
   "rep": [
    34.809,
    6.411
@@ -1941,6 +3112,18 @@
    "atla1278",
    "aust1307",
    "afro1255"
+  ],
+  "neighbors_beast": [
+   "dizo1235",
+   "sout2845",
+   "gong1255",
+   "kuli1252",
+   "koma1264",
+   "nilo1247",
+   "maoo1243",
+   "cent2225",
+   "narr1279",
+   "heib1242"
   ]
  },
  {
@@ -1950,6 +3133,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 57277,
+  "isolate": false,
   "rep": [
    -72.339,
    -13.537
@@ -1965,6 +3149,18 @@
    "jiva1245",
    "chiq1253",
    "bora1262"
+  ],
+  "neighbors_beast": [
+   "hara1260",
+   "puqu1242",
+   "leco1242",
+   "ayma1253",
+   "mose1249",
+   "movi1243",
+   "pano1259",
+   "cayu1262",
+   "uruc1242",
+   "yura1255"
   ]
  },
  {
@@ -1974,6 +3170,7 @@
   "region": "Asia",
   "subregion": "Western Asia",
   "area_km2": 56704,
+  "isolate": false,
   "rep": [
    44.966,
    42.011
@@ -1989,6 +3186,96 @@
    "tama1329",
    "sino1245",
    "surm1244"
+  ],
+  "neighbors_beast": [
+   "nakh1245",
+   "abkh1242",
+   "indo1319",
+   "buru1296",
+   "nubi1251",
+   "nara1262",
+   "kuna1268",
+   "gumu1250",
+   "ural1272",
+   "rash1249"
+  ]
+ },
+ {
+  "id": "timu1245",
+  "name": "Timucua",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 56677,
+  "isolate": true,
+  "rep": [
+   -82.326,
+   29.996
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "musk1252",
+   "yuch1247",
+   "natc1249",
+   "chit1248",
+   "tuni1252",
+   "atak1252",
+   "adai1235",
+   "cadd1255",
+   "kara1289",
+   "tonk1249"
+  ]
+ },
+ {
+  "id": "coah1252",
+  "name": "Coahuilteco",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 56484,
+  "isolate": true,
+  "rep": [
+   -100.083,
+   27.76
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "come1251",
+   "coto1248",
+   "kara1289",
+   "tonk1249",
+   "mara1266",
+   "atak1252",
+   "cadd1255",
+   "adai1235",
+   "otom1299",
+   "toto1251"
+  ]
+ },
+ {
+  "id": "kute1249",
+  "name": "Kutenai",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 56255,
+  "isolate": true,
+  "rep": [
+   -115.974,
+   50.117
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sali1255",
+   "saha1239",
+   "cayu1241",
+   "chin1490",
+   "chim1311",
+   "waka1280",
+   "mola1238",
+   "kala1402",
+   "alse1251",
+   "sius1254"
   ]
  },
  {
@@ -1998,6 +3285,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 54660,
+  "isolate": false,
   "rep": [
    -70.752,
    -1.52
@@ -2013,6 +3301,18 @@
    "pano1259",
    "guah1252",
    "sali1297"
+  ],
+  "neighbors_beast": [
+   "ticu1244",
+   "huit1251",
+   "kaku1242",
+   "peba1241",
+   "nada1235",
+   "abis1238",
+   "araw1281",
+   "puin1248",
+   "tuca1253",
+   "zapa1251"
   ]
  },
  {
@@ -2022,6 +3322,7 @@
   "region": "Africa",
   "subregion": "Middle Africa",
   "area_km2": 53017,
+  "isolate": false,
   "rep": [
    21.377,
    12.845
@@ -2037,6 +3338,18 @@
    "gong1255",
    "song1307",
    "atla1278"
+  ],
+  "neighbors_beast": [
+   "maba1274",
+   "fura1235",
+   "saha1256",
+   "daju1249",
+   "kres1240",
+   "nyim1244",
+   "kadu1256",
+   "teme1251",
+   "narr1279",
+   "heib1242"
   ]
  },
  {
@@ -2046,6 +3359,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 52654,
+  "isolate": false,
   "rep": [
    -42.565,
    -21.157
@@ -2061,6 +3375,18 @@
    "guai1249",
    "chiq1253",
    "namb1299"
+  ],
+  "neighbors_beast": [
+   "kama1371",
+   "nucl1710",
+   "kari1254",
+   "tuxa1239",
+   "pank1250",
+   "tupi1275",
+   "guac1239",
+   "fuln1247",
+   "trum1247",
+   "guat1253"
   ]
  },
  {
@@ -2070,6 +3396,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 51985,
+  "isolate": false,
   "rep": [
    137.412,
    -17.438
@@ -2085,6 +3412,18 @@
    "worr1236",
    "nucl1709",
    "nyul1248"
+  ],
+  "neighbors_beast": [
+   "tang1340",
+   "mink1237",
+   "mirn1241",
+   "mang1423",
+   "yang1287",
+   "gunw1250",
+   "mani1293",
+   "giim1238",
+   "wage1238",
+   "gaga1251"
   ]
  },
  {
@@ -2094,6 +3433,7 @@
   "region": "North America",
   "subregion": "Central America",
   "area_km2": 51891,
+  "isolate": false,
   "rep": [
    -101.922,
    18.966
@@ -2109,6 +3449,18 @@
    "musk1252",
    "utoa1244",
    "yoku1255"
+  ],
+  "neighbors_beast": [
+   "cuit1236",
+   "otom1299",
+   "toto1251",
+   "mara1266",
+   "tequ1244",
+   "mixe1284",
+   "come1251",
+   "coto1248",
+   "coah1252",
+   "maya1287"
   ]
  },
  {
@@ -2118,6 +3470,7 @@
   "region": "Europe",
   "subregion": "Eastern Europe",
   "area_km2": 50387,
+  "isolate": false,
   "rep": [
    46.244,
    42.583
@@ -2133,6 +3486,18 @@
    "gong1255",
    "tama1329",
    "surm1244"
+  ],
+  "neighbors_beast": [
+   "kart1248",
+   "abkh1242",
+   "indo1319",
+   "buru1296",
+   "nubi1251",
+   "nara1262",
+   "ural1272",
+   "kuna1268",
+   "gumu1250",
+   "niha1238"
   ]
  },
  {
@@ -2142,6 +3507,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 49766,
+  "isolate": false,
   "rep": [
    -66.905,
    4.952
@@ -2157,6 +3523,18 @@
    "choc1280",
    "tuca1253",
    "peba1241"
+  ],
+  "neighbors_beast": [
+   "yuwa1244",
+   "pume1238",
+   "otom1276",
+   "guah1252",
+   "guam1236",
+   "maku1246",
+   "puin1248",
+   "araw1281",
+   "sape1238",
+   "yano1268"
   ]
  },
  {
@@ -2166,6 +3544,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 49102,
+  "isolate": false,
   "rep": [
    122.949,
    -17.57
@@ -2181,6 +3560,18 @@
    "garr1260",
    "anim1240",
    "nucl1709"
+  ],
+  "neighbors_beast": [
+   "buna1274",
+   "worr1236",
+   "jarr1235",
+   "sout2772",
+   "west2434",
+   "nort1547",
+   "wadj1254",
+   "wage1238",
+   "kung1259",
+   "lara1258"
   ]
  },
  {
@@ -2190,6 +3581,7 @@
   "region": "Africa",
   "subregion": "Eastern Africa",
   "area_km2": 48025,
+  "isolate": false,
   "rep": [
    37.069,
    7.372
@@ -2205,6 +3597,18 @@
    "atla1278",
    "aust1307",
    "afro1255"
+  ],
+  "neighbors_beast": [
+   "sout2845",
+   "dizo1235",
+   "surm1244",
+   "koma1264",
+   "maoo1243",
+   "kuli1252",
+   "nilo1247",
+   "gumu1250",
+   "rash1249",
+   "narr1279"
   ]
  },
  {
@@ -2214,6 +3618,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 47350,
+  "isolate": false,
   "rep": [
    134.502,
    -15.077
@@ -2229,6 +3634,44 @@
    "pama1250",
    "nucl1709",
    "nyul1248"
+  ],
+  "neighbors_beast": [
+   "yang1287",
+   "gunw1250",
+   "mirn1241",
+   "mani1293",
+   "giim1238",
+   "umbu1235",
+   "gaga1251",
+   "wage1238",
+   "garr1260",
+   "limi1242"
+  ]
+ },
+ {
+  "id": "guat1253",
+  "name": "Guató",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 46522,
+  "isolate": true,
+  "rep": [
+   -56.649,
+   -17.715
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "boro1281",
+   "guac1239",
+   "zamu1243",
+   "chiq1253",
+   "iran1263",
+   "namb1299",
+   "trum1247",
+   "aika1237",
+   "leng1261",
+   "paya1236"
   ]
  },
  {
@@ -2238,6 +3681,7 @@
   "region": "North America",
   "subregion": "Central America",
   "area_km2": 46477,
+  "isolate": false,
   "rep": [
    -94.544,
    17.423
@@ -2253,6 +3697,44 @@
    "kiow1265",
    "choc1280",
    "coch1271"
+  ],
+  "neighbors_beast": [
+   "tequ1244",
+   "maya1287",
+   "toto1251",
+   "cuit1236",
+   "otom1299",
+   "mara1266",
+   "lenc1239",
+   "xinc1237",
+   "jica1245",
+   "coto1248"
+  ]
+ },
+ {
+  "id": "vile1241",
+  "name": "Vilela",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 46235,
+  "isolate": true,
+  "rep": [
+   -62.219,
+   -25.301
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mata1289",
+   "guai1249",
+   "leng1261",
+   "lule1238",
+   "paya1236",
+   "tupi1275",
+   "kunz1244",
+   "zamu1243",
+   "chiq1253",
+   "guac1239"
   ]
  },
  {
@@ -2262,6 +3744,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 44566,
+  "isolate": false,
   "rep": [
    -119.346,
    37.422
@@ -2277,6 +3760,18 @@
    "tsim1258",
    "siou1252",
    "cadd1255"
+  ],
+  "neighbors_beast": [
+   "yoku1255",
+   "wash1253",
+   "sali1253",
+   "esse1238",
+   "maid1262",
+   "chum1262",
+   "wint1258",
+   "pomo1273",
+   "yana1271",
+   "yuki1242"
   ]
  },
  {
@@ -2286,6 +3781,7 @@
   "region": "Asia",
   "subregion": "South-Eastern Asia",
   "area_km2": 42742,
+  "isolate": false,
   "rep": [
    140.162,
    -7.518
@@ -2301,6 +3797,18 @@
    "worr1236",
    "pama1250",
    "nyul1248"
+  ],
+  "neighbors_beast": [
+   "bula1259",
+   "moro1289",
+   "more1255",
+   "kaya1327",
+   "momb1255",
+   "kolo1268",
+   "kamu1264",
+   "nucl1709",
+   "east2433",
+   "suki1244"
   ]
  },
  {
@@ -2310,6 +3818,7 @@
   "region": "North America",
   "subregion": "Northern America",
   "area_km2": 42598,
+  "isolate": false,
   "rep": [
    -119.943,
    36.479
@@ -2325,6 +3834,18 @@
    "tsim1258",
    "siou1252",
    "cadd1255"
+  ],
+  "neighbors_beast": [
+   "sali1253",
+   "miwo1274",
+   "esse1238",
+   "chum1262",
+   "wash1253",
+   "maid1262",
+   "pomo1273",
+   "wint1258",
+   "yuki1242",
+   "yana1271"
   ]
  },
  {
@@ -2334,6 +3855,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 41546,
+  "isolate": false,
   "rep": [
    -59.837,
    -23.548
@@ -2349,6 +3871,18 @@
    "ayma1253",
    "namb1299",
    "huar1251"
+  ],
+  "neighbors_beast": [
+   "paya1236",
+   "guai1249",
+   "vile1241",
+   "mata1289",
+   "zamu1243",
+   "tupi1275",
+   "guac1239",
+   "lule1238",
+   "chiq1253",
+   "guat1253"
   ]
  },
  {
@@ -2358,6 +3892,7 @@
   "region": "Europe",
   "subregion": "Eastern Europe",
   "area_km2": 38529,
+  "isolate": false,
   "rep": [
    89.75,
    67.02
@@ -2373,6 +3908,18 @@
    "nakh1245",
    "kart1248",
    "sino1245"
+  ],
+  "neighbors_beast": [
+   "ural1272",
+   "turk1311",
+   "tung1282",
+   "mong1349",
+   "yuka1259",
+   "nivk1234",
+   "chuk1271",
+   "buru1296",
+   "kore1284",
+   "indo1319"
   ]
  },
  {
@@ -2382,6 +3929,7 @@
   "region": "Oceania",
   "subregion": "Australia and New Zealand",
   "area_km2": 37142,
+  "isolate": false,
   "rep": [
    132.571,
    -15.233
@@ -2397,6 +3945,18 @@
    "pama1250",
    "anim1240",
    "nucl1709"
+  ],
+  "neighbors_beast": [
+   "wage1238",
+   "mang1423",
+   "umbu1235",
+   "nort1547",
+   "gunw1250",
+   "gaga1251",
+   "giim1238",
+   "kung1259",
+   "limi1242",
+   "west2434"
   ]
  },
  {
@@ -2406,6 +3966,7 @@
   "region": "South America",
   "subregion": "South America",
   "area_km2": 34647,
+  "isolate": false,
   "rep": [
    -40.056,
    -14.977
@@ -2421,6 +3982,6778 @@
    "leng1261",
    "guai1249",
    "char1238"
+  ],
+  "neighbors_beast": [
+   "kari1254",
+   "tuxa1239",
+   "pank1250",
+   "puri1261",
+   "fuln1247",
+   "xuku1239",
+   "nucl1710",
+   "trum1247",
+   "boro1281",
+   "guat1253"
+  ]
+ },
+ {
+  "id": "tuni1252",
+  "name": "Tunica",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 32089,
+  "isolate": true,
+  "rep": [
+   -90.737,
+   32.904
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "natc1249",
+   "musk1252",
+   "adai1235",
+   "chit1248",
+   "atak1252",
+   "cadd1255",
+   "yuch1247",
+   "tonk1249",
+   "kara1289",
+   "timu1245"
+  ]
+ },
+ {
+  "id": "mata1275",
+  "name": "Matanawí",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 31801,
+  "isolate": true,
+  "rep": [
+   -64.388,
+   -9.545
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "chap1271",
+   "pira1253",
+   "cayu1262",
+   "araw1282",
+   "iton1250",
+   "katu1274",
+   "cani1243",
+   "movi1243",
+   "aika1237",
+   "namb1299"
+  ]
+ },
+ {
+  "id": "tonk1249",
+  "name": "Tonkawa",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 31054,
+  "isolate": true,
+  "rep": [
+   -96.786,
+   30.647
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kara1289",
+   "cadd1255",
+   "adai1235",
+   "atak1252",
+   "coah1252",
+   "coto1248",
+   "come1251",
+   "chit1248",
+   "natc1249",
+   "tuni1252"
+  ]
+ },
+ {
+  "id": "jira1235",
+  "name": "Jirajaran",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 30819,
+  "isolate": true,
+  "rep": [
+   -70.38,
+   10.176
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "timo1237",
+   "beto1236",
+   "pume1238",
+   "guah1252",
+   "guam1236",
+   "otom1276",
+   "sali1297",
+   "yuwa1244",
+   "choc1280",
+   "puin1248"
+  ]
+ },
+ {
+  "id": "bang1363",
+  "name": "Bangime",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "area_km2": 29544,
+  "isolate": true,
+  "rep": [
+   -3.3,
+   14.469
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "dogo1299",
+   "siam1242",
+   "song1307",
+   "mand1469",
+   "krua1234",
+   "afro1255",
+   "ijoi1239",
+   "maba1274",
+   "saha1256",
+   "tama1329"
+  ]
+ },
+ {
+  "id": "dogo1299",
+  "name": "Dogon",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "area_km2": 28701,
+  "isolate": false,
+  "rep": [
+   -3.215,
+   14.375
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "bang1363",
+   "siam1242",
+   "song1307",
+   "mand1469",
+   "krua1234",
+   "afro1255",
+   "ijoi1239",
+   "maba1274",
+   "saha1256",
+   "tama1329"
+  ]
+ },
+ {
+  "id": "jica1245",
+  "name": "Jicaquean",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 28562,
+  "isolate": false,
+  "rep": [
+   -87.227,
+   15.041
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "lenc1239",
+   "misu1242",
+   "maya1287",
+   "mixe1284",
+   "tequ1244",
+   "chib1249",
+   "toto1251",
+   "mara1266",
+   "cuit1236",
+   "otom1299"
+  ]
+ },
+ {
+  "id": "klam1254",
+  "name": "Klamath-Modoc",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 28478,
+  "isolate": true,
+  "rep": [
+   -121.556,
+   42.395
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "take1257",
+   "shas1238",
+   "pala1350",
+   "karo1304",
+   "coos1248",
+   "mola1238",
+   "sius1254",
+   "chim1301",
+   "yana1271",
+   "kala1402"
+  ]
+ },
+ {
+  "id": "lenc1239",
+  "name": "Lencan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 27930,
+  "isolate": false,
+  "rep": [
+   -88.012,
+   14.018
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "jica1245",
+   "misu1242",
+   "maya1287",
+   "mixe1284",
+   "tequ1244",
+   "chib1249",
+   "toto1251",
+   "cuit1236",
+   "otom1299",
+   "mara1266"
+  ]
+ },
+ {
+  "id": "guai1237",
+  "name": "Guaicurian",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 27813,
+  "isolate": true,
+  "rep": [
+   -111.182,
+   24.52
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "seri1257",
+   "coch1271",
+   "xinc1237",
+   "coah1252",
+   "otom1299",
+   "zuni1245",
+   "come1251",
+   "kere1287",
+   "mara1266",
+   "cuit1236"
+  ]
+ },
+ {
+  "id": "otom1276",
+  "name": "Otomaco-Taparita",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 27707,
+  "isolate": false,
+  "rep": [
+   -65.242,
+   7.224
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "guam1236",
+   "yuwa1244",
+   "sali1297",
+   "pume1238",
+   "sape1238",
+   "arut1244",
+   "maku1246",
+   "wara1303",
+   "guah1252",
+   "yano1268"
+  ]
+ },
+ {
+  "id": "yura1255",
+  "name": "Yuracaré",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 26997,
+  "isolate": true,
+  "rep": [
+   -65.793,
+   -16.827
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mose1249",
+   "ayma1253",
+   "leco1242",
+   "puqu1242",
+   "movi1243",
+   "uruc1242",
+   "cani1243",
+   "iton1250",
+   "cayu1262",
+   "chiq1253"
+  ]
+ },
+ {
+  "id": "hmon1336",
+  "name": "Hmong-Mien",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 25182,
+  "isolate": false,
+  "rep": [
+   102.57,
+   21.849
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "taik1256",
+   "aust1305",
+   "hrus1242",
+   "sino1245",
+   "kena1236",
+   "niha1238",
+   "mong1349",
+   "drav1251",
+   "buru1296",
+   "kore1284"
+  ]
+ },
+ {
+  "id": "moch1259",
+  "name": "Mochica",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 24887,
+  "isolate": true,
+  "rep": [
+   -79.383,
+   -7.376
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cull1235",
+   "sech1236",
+   "hibi1242",
+   "tall1235",
+   "cahu1265",
+   "jiva1245",
+   "muni1258",
+   "omur1241",
+   "cand1248",
+   "barb1265"
+  ]
+ },
+ {
+  "id": "pira1253",
+  "name": "Pirahã",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 24883,
+  "isolate": true,
+  "rep": [
+   -62.32,
+   -7.171
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "araw1282",
+   "mata1275",
+   "katu1274",
+   "chap1271",
+   "aika1237",
+   "namb1299",
+   "cayu1262",
+   "iton1250",
+   "cani1243",
+   "movi1243"
+  ]
+ },
+ {
+  "id": "hara1260",
+  "name": "Harakmbut",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 24681,
+  "isolate": false,
+  "rep": [
+   -70.37,
+   -13.084
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "quec1387",
+   "leco1242",
+   "puqu1242",
+   "mose1249",
+   "movi1243",
+   "cayu1262",
+   "ayma1253",
+   "cani1243",
+   "yura1255",
+   "iton1250"
+  ]
+ },
+ {
+  "id": "mose1249",
+  "name": "Mosetén-Chimané",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 24313,
+  "isolate": true,
+  "rep": [
+   -67.004,
+   -15.638
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "leco1242",
+   "yura1255",
+   "puqu1242",
+   "ayma1253",
+   "movi1243",
+   "cani1243",
+   "cayu1262",
+   "iton1250",
+   "uruc1242",
+   "hara1260"
+  ]
+ },
+ {
+  "id": "wint1258",
+  "name": "Wintuan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 23323,
+  "isolate": false,
+  "rep": [
+   -122.164,
+   39.586
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yuki1242",
+   "yana1271",
+   "maid1262",
+   "pomo1273",
+   "chim1301",
+   "pala1350",
+   "wash1253",
+   "shas1238",
+   "karo1304",
+   "klam1254"
+  ]
+ },
+ {
+  "id": "come1251",
+  "name": "Comecrudan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 23075,
+  "isolate": true,
+  "rep": [
+   -99.048,
+   25.889
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "coto1248",
+   "coah1252",
+   "mara1266",
+   "kara1289",
+   "otom1299",
+   "tonk1249",
+   "toto1251",
+   "atak1252",
+   "adai1235",
+   "xinc1237"
+  ]
+ },
+ {
+  "id": "kere1287",
+  "name": "Keresan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 22711,
+  "isolate": false,
+  "rep": [
+   -106.948,
+   35.423
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "zuni1245",
+   "coch1271",
+   "utoa1244",
+   "kiow1265",
+   "seri1257",
+   "cadd1255",
+   "coah1252",
+   "tonk1249",
+   "miwo1274",
+   "chum1262"
+  ]
+ },
+ {
+  "id": "hibi1242",
+  "name": "Hibito-Cholon",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 22637,
+  "isolate": false,
+  "rep": [
+   -77.3,
+   -7.531
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cull1235",
+   "moch1259",
+   "muni1258",
+   "cahu1265",
+   "omur1241",
+   "pano1259",
+   "sech1236",
+   "cand1248",
+   "urar1246",
+   "jiva1245"
+  ]
+ },
+ {
+  "id": "maid1262",
+  "name": "Maiduan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 22397,
+  "isolate": false,
+  "rep": [
+   -121.065,
+   39.377
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yana1271",
+   "wint1258",
+   "wash1253",
+   "yuki1242",
+   "pala1350",
+   "pomo1273",
+   "chim1301",
+   "miwo1274",
+   "shas1238",
+   "karo1304"
+  ]
+ },
+ {
+  "id": "wara1303",
+  "name": "Warao",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 22194,
+  "isolate": true,
+  "rep": [
+   -61.549,
+   9.241
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "otom1276",
+   "guam1236",
+   "yuwa1244",
+   "arut1244",
+   "sape1238",
+   "cari1283",
+   "maku1246",
+   "sali1297",
+   "yano1268",
+   "pume1238"
+  ]
+ },
+ {
+  "id": "yuka1259",
+  "name": "Yukaghir",
+  "difficulty": "tiny",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "area_km2": 21801,
+  "isolate": false,
+  "rep": [
+   152.093,
+   64.076
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "chuk1271",
+   "turk1311",
+   "nivk1234",
+   "tung1282",
+   "ainu1252",
+   "yeni1252",
+   "kore1284",
+   "japo1237",
+   "mong1349",
+   "ural1272"
+  ]
+ },
+ {
+  "id": "taru1236",
+  "name": "Taruma",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 21628,
+  "isolate": true,
+  "rep": [
+   -58.538,
+   2.118
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cari1283",
+   "arut1244",
+   "sape1238",
+   "yano1268",
+   "maku1246",
+   "yuwa1244",
+   "wara1303",
+   "otom1276",
+   "nada1235",
+   "araw1281"
+  ]
+ },
+ {
+  "id": "ticu1244",
+  "name": "Ticuna-Yuri",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 21377,
+  "isolate": false,
+  "rep": [
+   -69.954,
+   -3.499
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "bora1262",
+   "huit1251",
+   "peba1241",
+   "nada1235",
+   "katu1274",
+   "kaku1242",
+   "urar1246",
+   "abis1238",
+   "pano1259",
+   "araw1281"
+  ]
+ },
+ {
+  "id": "tang1340",
+  "name": "Tangkic",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 21342,
+  "isolate": false,
+  "rep": [
+   138.096,
+   -16.991
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "garr1260",
+   "mink1237",
+   "mirn1241",
+   "mang1423",
+   "gunw1250",
+   "yang1287",
+   "mani1293",
+   "giim1238",
+   "gaga1251",
+   "umbu1235"
+  ]
+ },
+ {
+  "id": "more1255",
+  "name": "Yam",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 20745,
+  "isolate": false,
+  "rep": [
+   141.28,
+   -8.277
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "moro1289",
+   "paho1240",
+   "anim1240",
+   "suki1244",
+   "dibi1240",
+   "east2503",
+   "tabo1241",
+   "bula1259",
+   "kamu1264",
+   "east2433"
+  ]
+ },
+ {
+  "id": "cand1248",
+  "name": "Candoshi-Shapra",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 20595,
+  "isolate": true,
+  "rep": [
+   -76.532,
+   -3.752
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "omur1241",
+   "zapa1251",
+   "urar1246",
+   "cahu1265",
+   "jiva1245",
+   "muni1258",
+   "abis1238",
+   "peba1241",
+   "barb1265",
+   "tuca1253"
+  ]
+ },
+ {
+  "id": "toto1251",
+  "name": "Totonacan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 20139,
+  "isolate": false,
+  "rep": [
+   -97.715,
+   20.176
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "otom1299",
+   "mara1266",
+   "cuit1236",
+   "mixe1284",
+   "xinc1237",
+   "tequ1244",
+   "come1251",
+   "coto1248",
+   "maya1287",
+   "coah1252"
+  ]
+ },
+ {
+  "id": "atak1252",
+  "name": "Atakapa",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 19008,
+  "isolate": true,
+  "rep": [
+   -93.333,
+   30.015
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "adai1235",
+   "chit1248",
+   "kara1289",
+   "natc1249",
+   "tonk1249",
+   "tuni1252",
+   "cadd1255",
+   "musk1252",
+   "coto1248",
+   "coah1252"
+  ]
+ },
+ {
+  "id": "guac1239",
+  "name": "Guachi",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 18864,
+  "isolate": true,
+  "rep": [
+   -56.584,
+   -19.444
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "guat1253",
+   "zamu1243",
+   "boro1281",
+   "chiq1253",
+   "paya1236",
+   "leng1261",
+   "iran1263",
+   "tupi1275",
+   "mata1289",
+   "guai1249"
+  ]
+ },
+ {
+  "id": "chin1490",
+  "name": "Chinookan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 18489,
+  "isolate": false,
+  "rep": [
+   -121.516,
+   45.836
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mola1238",
+   "kala1402",
+   "cayu1241",
+   "alse1251",
+   "sius1254",
+   "chim1311",
+   "coos1248",
+   "klam1254",
+   "take1257",
+   "saha1239"
+  ]
+ },
+ {
+  "id": "xuku1239",
+  "name": "Xukurú",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 18483,
+  "isolate": true,
+  "rep": [
+   -36.025,
+   -8.805
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "fuln1247",
+   "tuxa1239",
+   "pank1250",
+   "kari1254",
+   "kama1371",
+   "puri1261",
+   "nucl1710",
+   "trum1247",
+   "boro1281",
+   "iran1263"
+  ]
+ },
+ {
+  "id": "tini1245",
+  "name": "Tinigua",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 18480,
+  "isolate": true,
+  "rep": [
+   -74.467,
+   3.208
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "paez1247",
+   "anda1286",
+   "cams1241",
+   "choc1280",
+   "kaku1242",
+   "cofa1242",
+   "tuca1253",
+   "beto1236",
+   "abis1238",
+   "huit1251"
+  ]
+ },
+ {
+  "id": "seri1257",
+  "name": "Seri",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 18356,
+  "isolate": true,
+  "rep": [
+   -111.904,
+   29.267
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "coch1271",
+   "guai1237",
+   "zuni1245",
+   "kere1287",
+   "chum1262",
+   "sali1253",
+   "yoku1255",
+   "miwo1274",
+   "utoa1244",
+   "coah1252"
+  ]
+ },
+ {
+  "id": "pala1350",
+  "name": "Palaihnihan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 18169,
+  "isolate": false,
+  "rep": [
+   -121.188,
+   40.988
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yana1271",
+   "shas1238",
+   "klam1254",
+   "wint1258",
+   "maid1262",
+   "chim1301",
+   "karo1304",
+   "yuki1242",
+   "take1257",
+   "wash1253"
+  ]
+ },
+ {
+  "id": "nubi1251",
+  "name": "Nubian",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 18162,
+  "isolate": false,
+  "rep": [
+   30.468,
+   19.592
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nyim1244",
+   "rash1249",
+   "nara1262",
+   "kuna1268",
+   "gumu1250",
+   "heib1242",
+   "teme1251",
+   "kadu1256",
+   "daju1249",
+   "fura1235"
+  ]
+ },
+ {
+  "id": "zuni1245",
+  "name": "Zuni",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 18160,
+  "isolate": true,
+  "rep": [
+   -108.776,
+   35.264
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kere1287",
+   "coch1271",
+   "utoa1244",
+   "seri1257",
+   "kiow1265",
+   "miwo1274",
+   "chum1262",
+   "yoku1255",
+   "sali1253",
+   "wash1253"
+  ]
+ },
+ {
+  "id": "kala1402",
+  "name": "Kalapuyan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 17353,
+  "isolate": false,
+  "rep": [
+   -123.005,
+   44.496
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "alse1251",
+   "sius1254",
+   "mola1238",
+   "coos1248",
+   "chin1490",
+   "take1257",
+   "klam1254",
+   "shas1238",
+   "karo1304",
+   "cayu1241"
+  ]
+ },
+ {
+  "id": "kara1289",
+  "name": "Karankawa",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 16366,
+  "isolate": true,
+  "rep": [
+   -96.242,
+   28.797
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tonk1249",
+   "atak1252",
+   "coto1248",
+   "adai1235",
+   "coah1252",
+   "come1251",
+   "cadd1255",
+   "chit1248",
+   "natc1249",
+   "mara1266"
+  ]
+ },
+ {
+  "id": "cahu1265",
+  "name": "Cahuapanan",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 16156,
+  "isolate": false,
+  "rep": [
+   -76.523,
+   -5.361
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "muni1258",
+   "omur1241",
+   "cand1248",
+   "urar1246",
+   "hibi1242",
+   "jiva1245",
+   "zapa1251",
+   "peba1241",
+   "cull1235",
+   "pano1259"
+  ]
+ },
+ {
+  "id": "mola1238",
+  "name": "Molale",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 16005,
+  "isolate": true,
+  "rep": [
+   -121.918,
+   44.452
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kala1402",
+   "alse1251",
+   "sius1254",
+   "chin1490",
+   "coos1248",
+   "klam1254",
+   "take1257",
+   "cayu1241",
+   "shas1238",
+   "karo1304"
+  ]
+ },
+ {
+  "id": "pume1238",
+  "name": "Pumé",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 15913,
+  "isolate": true,
+  "rep": [
+   -68.483,
+   6.17
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "guah1252",
+   "sali1297",
+   "beto1236",
+   "guam1236",
+   "yuwa1244",
+   "otom1276",
+   "puin1248",
+   "timo1237",
+   "jira1235",
+   "araw1281"
+  ]
+ },
+ {
+  "id": "chum1262",
+  "name": "Chumashan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 15522,
+  "isolate": false,
+  "rep": [
+   -119.642,
+   34.687
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sali1253",
+   "yoku1255",
+   "esse1238",
+   "miwo1274",
+   "wash1253",
+   "maid1262",
+   "pomo1273",
+   "wint1258",
+   "coch1271",
+   "yuki1242"
+  ]
+ },
+ {
+  "id": "ijoi1239",
+  "name": "Ijoid",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "area_km2": 15121,
+  "isolate": false,
+  "rep": [
+   5.799,
+   4.898
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "afro1255",
+   "song1307",
+   "siam1242",
+   "dogo1299",
+   "bang1363",
+   "krua1234",
+   "maba1274",
+   "mand1469",
+   "tama1329",
+   "saha1256"
+  ]
+ },
+ {
+  "id": "umbu1235",
+  "name": "Umbugarla",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 14701,
+  "isolate": true,
+  "rep": [
+   132.304,
+   -12.901
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "gaga1251",
+   "limi1242",
+   "giim1238",
+   "lara1258",
+   "kung1259",
+   "iwai1246",
+   "wage1238",
+   "nort1547",
+   "marr1257",
+   "wadj1254"
+  ]
+ },
+ {
+  "id": "paya1236",
+  "name": "Payagua",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 14626,
+  "isolate": true,
+  "rep": [
+   -57.416,
+   -24.469
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tupi1275",
+   "leng1261",
+   "guai1249",
+   "vile1241",
+   "zamu1243",
+   "guac1239",
+   "mata1289",
+   "guat1253",
+   "lule1238",
+   "chiq1253"
+  ]
+ },
+ {
+  "id": "cofa1242",
+  "name": "Cofán",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 14280,
+  "isolate": true,
+  "rep": [
+   -77.019,
+   0.129
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cams1241",
+   "anda1286",
+   "tuca1253",
+   "abis1238",
+   "paez1247",
+   "atac1235",
+   "zapa1251",
+   "barb1265",
+   "cand1248",
+   "tini1245"
+  ]
+ },
+ {
+  "id": "yama1264",
+  "name": "Yámana",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 14142,
+  "isolate": true,
+  "rep": [
+   -66.682,
+   -54.883
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kawe1237",
+   "chon1288",
+   "puel1244",
+   "arau1255",
+   "huar1251",
+   "char1238",
+   "lule1238",
+   "guai1249",
+   "vile1241",
+   "tupi1275"
+  ]
+ },
+ {
+  "id": "puin1248",
+  "name": "Puinave",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 14007,
+  "isolate": true,
+  "rep": [
+   -69.593,
+   2.813
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kaku1242",
+   "guah1252",
+   "araw1281",
+   "sali1297",
+   "pume1238",
+   "beto1236",
+   "bora1262",
+   "nada1235",
+   "tini1245",
+   "huit1251"
+  ]
+ },
+ {
+  "id": "sepi1257",
+  "name": "Sepik",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 13917,
+  "isolate": false,
+  "rep": [
+   142.591,
+   -5.027
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "duna1248",
+   "suar1238",
+   "wali1264",
+   "boga1247",
+   "papi1255",
+   "yera1243",
+   "araf1243",
+   "east2433",
+   "left1242",
+   "bosa1245"
+  ]
+ },
+ {
+  "id": "timo1237",
+  "name": "Timote-Cuica",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 13863,
+  "isolate": true,
+  "rep": [
+   -70.646,
+   9.082
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "jira1235",
+   "beto1236",
+   "guah1252",
+   "pume1238",
+   "guam1236",
+   "sali1297",
+   "otom1276",
+   "yuwa1244",
+   "puin1248",
+   "choc1280"
+  ]
+ },
+ {
+  "id": "nort2923",
+  "name": "North Halmahera",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 13806,
+  "isolate": false,
+  "rep": [
+   128.463,
+   1.363
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "west1493",
+   "abun1252",
+   "kond1302",
+   "mayb1237",
+   "mpur1239",
+   "sout3418",
+   "hata1242",
+   "west2604",
+   "morb1239",
+   "tana1288"
+  ]
+ },
+ {
+  "id": "kamu1264",
+  "name": "Kamula-Elevala",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 13802,
+  "isolate": false,
+  "rep": [
+   141.604,
+   -6.115
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "east2433",
+   "boga1247",
+   "duna1248",
+   "bosa1245",
+   "suar1238",
+   "sepi1257",
+   "papi1255",
+   "wali1264",
+   "fasu1242",
+   "left1242"
+  ]
+ },
+ {
+  "id": "gumu1250",
+  "name": "Gumuz",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 13464,
+  "isolate": false,
+  "rep": [
+   36.449,
+   13.786
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kuna1268",
+   "nara1262",
+   "maoo1243",
+   "koma1264",
+   "rash1249",
+   "heib1242",
+   "gong1255",
+   "narr1279",
+   "teme1251",
+   "nyim1244"
+  ]
+ },
+ {
+  "id": "kuna1268",
+  "name": "Kunama",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 13263,
+  "isolate": true,
+  "rep": [
+   37.204,
+   14.656
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nara1262",
+   "gumu1250",
+   "maoo1243",
+   "koma1264",
+   "rash1249",
+   "heib1242",
+   "gong1255",
+   "nyim1244",
+   "teme1251",
+   "narr1279"
+  ]
+ },
+ {
+  "id": "tall1235",
+  "name": "Tallán",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 12787,
+  "isolate": true,
+  "rep": [
+   -80.522,
+   -4.989
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sech1236",
+   "jiva1245",
+   "moch1259",
+   "barb1265",
+   "cull1235",
+   "cahu1265",
+   "hibi1242",
+   "cand1248",
+   "omur1241",
+   "muni1258"
+  ]
+ },
+ {
+  "id": "anga1289",
+  "name": "Angan",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 12423,
+  "isolate": false,
+  "rep": [
+   146.05,
+   -7.267
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kaki1249",
+   "nucl1580",
+   "pura1257",
+   "pawa1255",
+   "kuni1270",
+   "kiwa1251",
+   "taua1242",
+   "tebe1251",
+   "kibi1239",
+   "fuyu1242"
+  ]
+ },
+ {
+  "id": "mayb1237",
+  "name": "Maybratic",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 12399,
+  "isolate": false,
+  "rep": [
+   132.564,
+   -1.242
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "abun1252",
+   "sout3418",
+   "kond1302",
+   "mpur1239",
+   "west1493",
+   "hata1242",
+   "east1459",
+   "tana1288",
+   "morb1239",
+   "west2604"
+  ]
+ },
+ {
+  "id": "cayu1262",
+  "name": "Cayubaba",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 12140,
+  "isolate": true,
+  "rep": [
+   -65.612,
+   -12.753
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "movi1243",
+   "cani1243",
+   "iton1250",
+   "chap1271",
+   "mose1249",
+   "mata1275",
+   "leco1242",
+   "yura1255",
+   "aika1237",
+   "hara1260"
+  ]
+ },
+ {
+  "id": "shas1238",
+  "name": "Shastan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 11864,
+  "isolate": false,
+  "rep": [
+   -122.756,
+   41.578
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "karo1304",
+   "take1257",
+   "chim1301",
+   "klam1254",
+   "pala1350",
+   "yana1271",
+   "coos1248",
+   "wint1258",
+   "yuki1242",
+   "sius1254"
+  ]
+ },
+ {
+  "id": "kres1240",
+  "name": "Kresh-Aja",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 11693,
+  "isolate": false,
+  "rep": [
+   25.4,
+   9.021
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "daju1249",
+   "fura1235",
+   "kadu1256",
+   "teme1251",
+   "narr1279",
+   "nyim1244",
+   "tama1329",
+   "heib1242",
+   "nilo1247",
+   "rash1249"
+  ]
+ },
+ {
+  "id": "kolo1268",
+  "name": "Kolopom",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 11472,
+  "isolate": false,
+  "rep": [
+   138.381,
+   -7.888
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "momb1255",
+   "bula1259",
+   "kaya1327",
+   "anim1240",
+   "moro1289",
+   "nucl1709",
+   "more1255",
+   "soma1242",
+   "kamu1264",
+   "dama1272"
+  ]
+ },
+ {
+  "id": "beto1236",
+  "name": "Betoi-Jirara",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 11400,
+  "isolate": true,
+  "rep": [
+   -71.472,
+   6.283
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "guah1252",
+   "timo1237",
+   "pume1238",
+   "puin1248",
+   "jira1235",
+   "tini1245",
+   "sali1297",
+   "choc1280",
+   "kaku1242",
+   "guam1236"
+  ]
+ },
+ {
+  "id": "kaku1242",
+  "name": "Kakua-Nukak",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 11161,
+  "isolate": false,
+  "rep": [
+   -71.589,
+   1.308
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "puin1248",
+   "bora1262",
+   "huit1251",
+   "tini1245",
+   "tuca1253",
+   "araw1281",
+   "abis1238",
+   "anda1286",
+   "guah1252",
+   "beto1236"
+  ]
+ },
+ {
+  "id": "chit1248",
+  "name": "Chitimacha",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 11130,
+  "isolate": true,
+  "rep": [
+   -90.82,
+   29.578
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "natc1249",
+   "atak1252",
+   "adai1235",
+   "tuni1252",
+   "musk1252",
+   "kara1289",
+   "tonk1249",
+   "cadd1255",
+   "yuch1247",
+   "coto1248"
+  ]
+ },
+ {
+  "id": "aika1237",
+  "name": "Aikanã",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 10866,
+  "isolate": true,
+  "rep": [
+   -61.306,
+   -13.023
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "namb1299",
+   "chap1271",
+   "iton1250",
+   "iran1263",
+   "cani1243",
+   "cayu1262",
+   "movi1243",
+   "mata1275",
+   "chiq1253",
+   "boro1281"
+  ]
+ },
+ {
+  "id": "cuit1236",
+  "name": "Cuitlatec",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 10766,
+  "isolate": true,
+  "rep": [
+   -101.06,
+   17.687
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "xinc1237",
+   "otom1299",
+   "toto1251",
+   "tequ1244",
+   "mara1266",
+   "mixe1284",
+   "come1251",
+   "maya1287",
+   "coto1248",
+   "coah1252"
+  ]
+ },
+ {
+  "id": "west1493",
+  "name": "West Bird's Head",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 10655,
+  "isolate": false,
+  "rep": [
+   131.635,
+   -1.165
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "abun1252",
+   "kond1302",
+   "mayb1237",
+   "sout3418",
+   "mpur1239",
+   "morb1239",
+   "west2604",
+   "tana1288",
+   "hata1242",
+   "east1459"
+  ]
+ },
+ {
+  "id": "sout2845",
+  "name": "South Omotic",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 10412,
+  "isolate": false,
+  "rep": [
+   36.507,
+   5.704
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "dizo1235",
+   "gong1255",
+   "surm1244",
+   "kuli1252",
+   "koma1264",
+   "maoo1243",
+   "nilo1247",
+   "cent2225",
+   "narr1279",
+   "rash1249"
+  ]
+ },
+ {
+  "id": "adai1235",
+  "name": "Adai",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 10411,
+  "isolate": true,
+  "rep": [
+   -93.679,
+   31.291
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "atak1252",
+   "cadd1255",
+   "natc1249",
+   "tonk1249",
+   "tuni1252",
+   "chit1248",
+   "kara1289",
+   "musk1252",
+   "coto1248",
+   "coah1252"
+  ]
+ },
+ {
+  "id": "mair1253",
+  "name": "Mairasic",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 10333,
+  "isolate": false,
+  "rep": [
+   134.392,
+   -3.525
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "geel1240",
+   "tana1288",
+   "morb1239",
+   "east1459",
+   "west2604",
+   "sout3418",
+   "hata1242",
+   "yawa1259",
+   "dama1272",
+   "kond1302"
+  ]
+ },
+ {
+  "id": "koia1260",
+  "name": "Koiarian",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 10201,
+  "isolate": false,
+  "rep": [
+   147.738,
+   -9.117
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kwal1257",
+   "fuyu1242",
+   "manu1261",
+   "yare1250",
+   "taua1242",
+   "mail1249",
+   "kuni1270",
+   "daga1274",
+   "kaki1249",
+   "anga1289"
+  ]
+ },
+ {
+  "id": "take1257",
+  "name": "Takelma",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 10194,
+  "isolate": true,
+  "rep": [
+   -122.965,
+   42.427
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "shas1238",
+   "karo1304",
+   "klam1254",
+   "coos1248",
+   "sius1254",
+   "chim1301",
+   "pala1350",
+   "alse1251",
+   "kala1402",
+   "mola1238"
+  ]
+ },
+ {
+  "id": "abkh1242",
+  "name": "Abkhaz-Adyge",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "area_km2": 10162,
+  "isolate": false,
+  "rep": [
+   40.83,
+   43.278
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kart1248",
+   "nakh1245",
+   "indo1319",
+   "nubi1251",
+   "buru1296",
+   "nara1262",
+   "kuna1268",
+   "ural1272",
+   "gumu1250",
+   "basq1248"
+  ]
+ },
+ {
+  "id": "yuch1247",
+  "name": "Yuchi",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 9997,
+  "isolate": true,
+  "rep": [
+   -86.35,
+   35.774
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "musk1252",
+   "tuni1252",
+   "natc1249",
+   "timu1245",
+   "chit1248",
+   "adai1235",
+   "cadd1255",
+   "atak1252",
+   "tonk1249",
+   "siou1252"
+  ]
+ },
+ {
+  "id": "iran1263",
+  "name": "Irántxe-Münkü",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 9913,
+  "isolate": true,
+  "rep": [
+   -57.842,
+   -13.353
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "namb1299",
+   "boro1281",
+   "aika1237",
+   "trum1247",
+   "guat1253",
+   "chiq1253",
+   "chap1271",
+   "iton1250",
+   "guac1239",
+   "zamu1243"
+  ]
+ },
+ {
+  "id": "urar1246",
+  "name": "Urarina",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 9868,
+  "isolate": true,
+  "rep": [
+   -75.145,
+   -4.276
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "omur1241",
+   "cand1248",
+   "peba1241",
+   "muni1258",
+   "cahu1265",
+   "zapa1251",
+   "abis1238",
+   "pano1259",
+   "jiva1245",
+   "tuca1253"
+  ]
+ },
+ {
+  "id": "natc1249",
+  "name": "Natchez",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 9816,
+  "isolate": true,
+  "rep": [
+   -90.589,
+   31.635
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tuni1252",
+   "musk1252",
+   "chit1248",
+   "adai1235",
+   "atak1252",
+   "cadd1255",
+   "tonk1249",
+   "yuch1247",
+   "kara1289",
+   "timu1245"
+  ]
+ },
+ {
+  "id": "sech1236",
+  "name": "Sechuran",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 9762,
+  "isolate": true,
+  "rep": [
+   -80.536,
+   -5.835
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tall1235",
+   "moch1259",
+   "jiva1245",
+   "cull1235",
+   "barb1265",
+   "hibi1242",
+   "cahu1265",
+   "cand1248",
+   "muni1258",
+   "omur1241"
+  ]
+ },
+ {
+  "id": "giim1238",
+  "name": "Giimbiyu",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 9732,
+  "isolate": false,
+  "rep": [
+   133.189,
+   -12.605
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "gaga1251",
+   "umbu1235",
+   "iwai1246",
+   "mani1293",
+   "gunw1250",
+   "marr1257",
+   "limi1242",
+   "lara1258",
+   "kung1259",
+   "wage1238"
+  ]
+ },
+ {
+  "id": "suki1244",
+  "name": "Suki-Gogodala",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 9654,
+  "isolate": false,
+  "rep": [
+   142.759,
+   -8.065
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "dibi1240",
+   "tabo1241",
+   "paho1240",
+   "east2503",
+   "tura1263",
+   "more1255",
+   "fasu1242",
+   "kibi1239",
+   "east2499",
+   "bosa1245"
+  ]
+ },
+ {
+  "id": "cayu1241",
+  "name": "Cayuse",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 9608,
+  "isolate": true,
+  "rep": [
+   -118.652,
+   45.38
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "saha1239",
+   "chin1490",
+   "mola1238",
+   "kala1402",
+   "klam1254",
+   "alse1251",
+   "sius1254",
+   "take1257",
+   "coos1248",
+   "chim1311"
+  ]
+ },
+ {
+  "id": "west2434",
+  "name": "Western Daly",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 9116,
+  "isolate": false,
+  "rep": [
+   129.92,
+   -14.082
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sout2772",
+   "nort1547",
+   "wadj1254",
+   "kung1259",
+   "wage1238",
+   "lara1258",
+   "limi1242",
+   "umbu1235",
+   "tiwi1244",
+   "yang1287"
+  ]
+ },
+ {
+  "id": "atac1235",
+  "name": "Atacame",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 8935,
+  "isolate": true,
+  "rep": [
+   -79.77,
+   0.217
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cofa1242",
+   "barb1265",
+   "cams1241",
+   "anda1286",
+   "jiva1245",
+   "paez1247",
+   "tuca1253",
+   "zapa1251",
+   "cand1248",
+   "abis1238"
+  ]
+ },
+ {
+  "id": "leco1242",
+  "name": "Leco",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 8893,
+  "isolate": true,
+  "rep": [
+   -68.078,
+   -15.638
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "puqu1242",
+   "mose1249",
+   "ayma1253",
+   "yura1255",
+   "movi1243",
+   "hara1260",
+   "uruc1242",
+   "cani1243",
+   "cayu1262",
+   "iton1250"
+  ]
+ },
+ {
+  "id": "nucl1708",
+  "name": "Nuclear Torricelli",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 8863,
+  "isolate": false,
+  "rep": [
+   142.597,
+   -3.504
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yera1243",
+   "nduu1242",
+   "baib1250",
+   "kwom1263",
+   "yale1246",
+   "wali1264",
+   "papi1255",
+   "odia1239",
+   "left1242",
+   "amto1249"
+  ]
+ },
+ {
+  "id": "basq1248",
+  "name": "Basque",
+  "difficulty": "tiny",
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "area_km2": 8744,
+  "isolate": true,
+  "rep": [
+   -1.615,
+   43.12
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "indo1319",
+   "song1307",
+   "afro1255",
+   "bang1363",
+   "dogo1299",
+   "abkh1242",
+   "saha1256",
+   "siam1242",
+   "mand1469",
+   "kart1248"
+  ]
+ },
+ {
+  "id": "heib1242",
+  "name": "Heibanic",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 8371,
+  "isolate": false,
+  "rep": [
+   30.76,
+   11.429
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "teme1251",
+   "rash1249",
+   "kadu1256",
+   "narr1279",
+   "nyim1244",
+   "maoo1243",
+   "koma1264",
+   "daju1249",
+   "nilo1247",
+   "fura1235"
+  ]
+ },
+ {
+  "id": "sali1253",
+  "name": "Salinan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 8337,
+  "isolate": true,
+  "rep": [
+   -120.561,
+   35.684
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "esse1238",
+   "yoku1255",
+   "chum1262",
+   "miwo1274",
+   "wash1253",
+   "pomo1273",
+   "maid1262",
+   "wint1258",
+   "yuki1242",
+   "yana1271"
+  ]
+ },
+ {
+  "id": "wage1238",
+  "name": "Wageman",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 8269,
+  "isolate": true,
+  "rep": [
+   131.455,
+   -14.234
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nort1547",
+   "kung1259",
+   "yang1287",
+   "west2434",
+   "limi1242",
+   "umbu1235",
+   "wadj1254",
+   "sout2772",
+   "lara1258",
+   "gaga1251"
+  ]
+ },
+ {
+  "id": "movi1243",
+  "name": "Movima",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 8264,
+  "isolate": true,
+  "rep": [
+   -65.731,
+   -13.75
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cani1243",
+   "cayu1262",
+   "iton1250",
+   "mose1249",
+   "chap1271",
+   "leco1242",
+   "yura1255",
+   "puqu1242",
+   "ayma1253",
+   "aika1237"
+  ]
+ },
+ {
+  "id": "limi1242",
+  "name": "Limilngan-Wulna",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 8239,
+  "isolate": false,
+  "rep": [
+   131.487,
+   -12.725
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "lara1258",
+   "kung1259",
+   "umbu1235",
+   "nort1547",
+   "wadj1254",
+   "gaga1251",
+   "tiwi1244",
+   "wage1238",
+   "giim1238",
+   "iwai1246"
+  ]
+ },
+ {
+  "id": "ramu1234",
+  "name": "Ramu",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 8065,
+  "isolate": false,
+  "rep": [
+   144.491,
+   -4.614
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kera1258",
+   "monu1249",
+   "taia1239",
+   "piaw1238",
+   "lowe1423",
+   "yuat1252",
+   "araf1243",
+   "nduu1242",
+   "yera1243",
+   "wiru1244"
+  ]
+ },
+ {
+  "id": "iwai1246",
+  "name": "Iwaidjan Proper",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 8041,
+  "isolate": false,
+  "rep": [
+   132.898,
+   -11.644
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "marr1257",
+   "gaga1251",
+   "giim1238",
+   "umbu1235",
+   "mani1293",
+   "limi1242",
+   "tiwi1244",
+   "gunw1250",
+   "lara1258",
+   "kung1259"
+  ]
+ },
+ {
+  "id": "lake1255",
+  "name": "Lakes Plain",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 7927,
+  "isolate": false,
+  "rep": [
+   138.301,
+   -2.975
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "burm1264",
+   "kwer1242",
+   "demm1245",
+   "toro1256",
+   "mass1263",
+   "mawe1251",
+   "kapo1250",
+   "dama1272",
+   "saus1247",
+   "nimb1257"
+  ]
+ },
+ {
+  "id": "buna1274",
+  "name": "Bunaban",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 7880,
+  "isolate": false,
+  "rep": [
+   125.796,
+   -17.958
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "worr1236",
+   "jarr1235",
+   "nyul1248",
+   "sout2772",
+   "west2434",
+   "nort1547",
+   "wage1238",
+   "wadj1254",
+   "kung1259",
+   "yang1287"
+  ]
+ },
+ {
+  "id": "timo1261",
+  "name": "Timor-Alor-Pantar",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 7844,
+  "isolate": false,
+  "rep": [
+   126.789,
+   -8.582
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tiwi1244",
+   "wadj1254",
+   "lara1258",
+   "kung1259",
+   "nort1547",
+   "limi1242",
+   "marr1257",
+   "west2434",
+   "sout2772",
+   "iwai1246"
+  ]
+ },
+ {
+  "id": "pomo1273",
+  "name": "Pomoan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 7829,
+  "isolate": false,
+  "rep": [
+   -123.091,
+   38.702
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yuki1242",
+   "wint1258",
+   "maid1262",
+   "yana1271",
+   "chim1301",
+   "wash1253",
+   "pala1350",
+   "karo1304",
+   "esse1238",
+   "shas1238"
+  ]
+ },
+ {
+  "id": "iton1250",
+  "name": "Itonama",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 7639,
+  "isolate": true,
+  "rep": [
+   -64.223,
+   -13.432
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cani1243",
+   "movi1243",
+   "cayu1262",
+   "chap1271",
+   "aika1237",
+   "mose1249",
+   "yura1255",
+   "mata1275",
+   "leco1242",
+   "namb1299"
+  ]
+ },
+ {
+  "id": "kwer1242",
+  "name": "Greater Kwerba",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 7541,
+  "isolate": false,
+  "rep": [
+   138.362,
+   -2.169
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "burm1264",
+   "mass1263",
+   "toro1256",
+   "lake1255",
+   "mawe1251",
+   "demm1245",
+   "nimb1257",
+   "saus1247",
+   "kapo1250",
+   "sent1261"
+  ]
+ },
+ {
+  "id": "tiwi1244",
+  "name": "Tiwi",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 7533,
+  "isolate": true,
+  "rep": [
+   130.97,
+   -11.542
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "lara1258",
+   "limi1242",
+   "kung1259",
+   "wadj1254",
+   "marr1257",
+   "umbu1235",
+   "iwai1246",
+   "nort1547",
+   "gaga1251",
+   "giim1238"
+  ]
+ },
+ {
+  "id": "cani1243",
+  "name": "Canichana",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 7518,
+  "isolate": true,
+  "rep": [
+   -64.823,
+   -13.824
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "iton1250",
+   "movi1243",
+   "cayu1262",
+   "chap1271",
+   "mose1249",
+   "yura1255",
+   "aika1237",
+   "leco1242",
+   "mata1275",
+   "puqu1242"
+  ]
+ },
+ {
+  "id": "wash1253",
+  "name": "Washo",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 7483,
+  "isolate": true,
+  "rep": [
+   -119.897,
+   39.082
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "maid1262",
+   "yana1271",
+   "miwo1274",
+   "wint1258",
+   "pala1350",
+   "yuki1242",
+   "pomo1273",
+   "yoku1255",
+   "chim1301",
+   "esse1238"
+  ]
+ },
+ {
+  "id": "omur1241",
+  "name": "Omurano",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 7437,
+  "isolate": true,
+  "rep": [
+   -75.843,
+   -4.638
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "urar1246",
+   "cahu1265",
+   "cand1248",
+   "muni1258",
+   "zapa1251",
+   "peba1241",
+   "jiva1245",
+   "abis1238",
+   "hibi1242",
+   "pano1259"
+  ]
+ },
+ {
+  "id": "cull1235",
+  "name": "Culli",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 7413,
+  "isolate": true,
+  "rep": [
+   -78.21,
+   -8.116
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "hibi1242",
+   "moch1259",
+   "cahu1265",
+   "muni1258",
+   "sech1236",
+   "tall1235",
+   "omur1241",
+   "jiva1245",
+   "pano1259",
+   "cand1248"
+  ]
+ },
+ {
+  "id": "paez1247",
+  "name": "Páez",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 7068,
+  "isolate": true,
+  "rep": [
+   -76.393,
+   2.789
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "anda1286",
+   "cams1241",
+   "tini1245",
+   "cofa1242",
+   "choc1280",
+   "tuca1253",
+   "atac1235",
+   "abis1238",
+   "kaku1242",
+   "zapa1251"
+  ]
+ },
+ {
+  "id": "toro1256",
+  "name": "Tor-Orya",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 7033,
+  "isolate": false,
+  "rep": [
+   139.069,
+   -2.277
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mawe1251",
+   "kwer1242",
+   "mass1263",
+   "burm1264",
+   "lake1255",
+   "nimb1257",
+   "saus1247",
+   "sent1261",
+   "kapo1250",
+   "else1239"
+  ]
+ },
+ {
+  "id": "kiwa1251",
+  "name": "Kiwaian",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 6880,
+  "isolate": false,
+  "rep": [
+   144.615,
+   -7.497
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kibi1239",
+   "pura1257",
+   "tebe1251",
+   "pawa1255",
+   "nucl1580",
+   "tura1263",
+   "wiru1244",
+   "kaki1249",
+   "tabo1241",
+   "anga1289"
+  ]
+ },
+ {
+  "id": "daga1274",
+  "name": "Dagan",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 6750,
+  "isolate": false,
+  "rep": [
+   149.257,
+   -9.817
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mail1249",
+   "yare1250",
+   "manu1261",
+   "kwal1257",
+   "koia1260",
+   "fuyu1242",
+   "taua1242",
+   "kuni1270",
+   "kaki1249",
+   "anga1289"
+  ]
+ },
+ {
+  "id": "dama1272",
+  "name": "Damal",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 6673,
+  "isolate": true,
+  "rep": [
+   137.082,
+   -4.085
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "demm1245",
+   "geel1240",
+   "lake1255",
+   "burm1264",
+   "soma1242",
+   "kwer1242",
+   "yawa1259",
+   "mass1263",
+   "toro1256",
+   "mair1253"
+  ]
+ },
+ {
+  "id": "koma1264",
+  "name": "Koman",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 6596,
+  "isolate": false,
+  "rep": [
+   34.387,
+   9.434
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "maoo1243",
+   "surm1244",
+   "dizo1235",
+   "gong1255",
+   "rash1249",
+   "nilo1247",
+   "narr1279",
+   "heib1242",
+   "sout2845",
+   "teme1251"
+  ]
+ },
+ {
+  "id": "yuwa1244",
+  "name": "Hoti",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 6593,
+  "isolate": true,
+  "rep": [
+   -65.175,
+   5.917
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "otom1276",
+   "guam1236",
+   "sali1297",
+   "sape1238",
+   "maku1246",
+   "arut1244",
+   "pume1238",
+   "yano1268",
+   "guah1252",
+   "wara1303"
+  ]
+ },
+ {
+  "id": "tuxa1239",
+  "name": "Tuxá",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 6525,
+  "isolate": true,
+  "rep": [
+   -38.593,
+   -9.112
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "pank1250",
+   "kari1254",
+   "fuln1247",
+   "xuku1239",
+   "kama1371",
+   "nucl1710",
+   "puri1261",
+   "trum1247",
+   "boro1281",
+   "iran1263"
+  ]
+ },
+ {
+  "id": "yuki1242",
+  "name": "Yuki-Wappo",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 6524,
+  "isolate": false,
+  "rep": [
+   -122.788,
+   39.462
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "wint1258",
+   "pomo1273",
+   "yana1271",
+   "chim1301",
+   "maid1262",
+   "pala1350",
+   "karo1304",
+   "shas1238",
+   "wash1253",
+   "take1257"
+  ]
+ },
+ {
+  "id": "geel1240",
+  "name": "Geelvink Bay",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 6437,
+  "isolate": false,
+  "rep": [
+   135.793,
+   -3.252
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mair1253",
+   "dama1272",
+   "yawa1259",
+   "demm1245",
+   "burm1264",
+   "east1459",
+   "lake1255",
+   "tana1288",
+   "kwer1242",
+   "hata1242"
+  ]
+ },
+ {
+  "id": "paho1240",
+  "name": "Pahoturi",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 6326,
+  "isolate": false,
+  "rep": [
+   142.457,
+   -8.885
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "east2503",
+   "suki1244",
+   "dibi1240",
+   "tabo1241",
+   "more1255",
+   "moro1289",
+   "tura1263",
+   "kibi1239",
+   "fasu1242",
+   "kiwa1251"
+  ]
+ },
+ {
+  "id": "tura1263",
+  "name": "Turama-Kikori",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 5995,
+  "isolate": false,
+  "rep": [
+   143.875,
+   -7.22
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kibi1239",
+   "tebe1251",
+   "kiwa1251",
+   "east2499",
+   "wiru1244",
+   "fasu1242",
+   "tabo1241",
+   "pawa1255",
+   "dibi1240",
+   "pura1257"
+  ]
+ },
+ {
+  "id": "bain1263",
+  "name": "Baining",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 5931,
+  "isolate": false,
+  "rep": [
+   152.038,
+   -4.665
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "taul1250",
+   "sulk1246",
+   "kolp1236",
+   "pele1245",
+   "kuot1243",
+   "anem1249",
+   "nort2933",
+   "sout2948",
+   "bilu1245",
+   "daga1274"
+  ]
+ },
+ {
+  "id": "east1459",
+  "name": "East Bird's Head",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 5840,
+  "isolate": false,
+  "rep": [
+   133.916,
+   -1.69
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "hata1242",
+   "tana1288",
+   "mpur1239",
+   "sout3418",
+   "mayb1237",
+   "morb1239",
+   "west2604",
+   "kond1302",
+   "mair1253",
+   "abun1252"
+  ]
+ },
+ {
+  "id": "abis1238",
+  "name": "Aewa",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 5756,
+  "isolate": true,
+  "rep": [
+   -74.945,
+   -1.559
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tuca1253",
+   "zapa1251",
+   "huit1251",
+   "peba1241",
+   "cofa1242",
+   "cand1248",
+   "urar1246",
+   "cams1241",
+   "anda1286",
+   "omur1241"
+  ]
+ },
+ {
+  "id": "bula1259",
+  "name": "Bulaka River",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 5660,
+  "isolate": false,
+  "rep": [
+   139.317,
+   -7.61
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "anim1240",
+   "momb1255",
+   "kolo1268",
+   "kaya1327",
+   "moro1289",
+   "more1255",
+   "nucl1709",
+   "kamu1264",
+   "soma1242",
+   "east2433"
+  ]
+ },
+ {
+  "id": "mani1293",
+  "name": "Maningrida",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 5574,
+  "isolate": false,
+  "rep": [
+   134.299,
+   -12.363
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "gunw1250",
+   "giim1238",
+   "iwai1246",
+   "gaga1251",
+   "umbu1235",
+   "marr1257",
+   "mang1423",
+   "limi1242",
+   "lara1258",
+   "yang1287"
+  ]
+ },
+ {
+  "id": "coto1248",
+  "name": "Cotoname",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 5450,
+  "isolate": true,
+  "rep": [
+   -98.097,
+   26.219
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "come1251",
+   "coah1252",
+   "mara1266",
+   "kara1289",
+   "tonk1249",
+   "otom1299",
+   "atak1252",
+   "toto1251",
+   "adai1235",
+   "cadd1255"
+  ]
+ },
+ {
+  "id": "nduu1242",
+  "name": "Ndu",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 5424,
+  "isolate": false,
+  "rep": [
+   143.368,
+   -4.014
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yera1243",
+   "lowe1423",
+   "yuat1252",
+   "araf1243",
+   "kera1258",
+   "nucl1708",
+   "taia1239",
+   "ramu1234",
+   "sepi1257",
+   "wali1264"
+  ]
+ },
+ {
+  "id": "dizo1235",
+  "name": "Dizoid",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 5394,
+  "isolate": false,
+  "rep": [
+   35.512,
+   6.521
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "surm1244",
+   "sout2845",
+   "gong1255",
+   "kuli1252",
+   "koma1264",
+   "maoo1243",
+   "nilo1247",
+   "cent2225",
+   "narr1279",
+   "heib1242"
+  ]
+ },
+ {
+  "id": "tebe1251",
+  "name": "Teberan",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 5304,
+  "isolate": false,
+  "rep": [
+   144.456,
+   -6.849
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "wiru1244",
+   "pawa1255",
+   "kibi1239",
+   "kiwa1251",
+   "tura1263",
+   "pura1257",
+   "east2499",
+   "fasu1242",
+   "nucl1580",
+   "anga1289"
+  ]
+ },
+ {
+  "id": "mink1237",
+  "name": "Minkin",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 5203,
+  "isolate": true,
+  "rep": [
+   139.304,
+   -18.029
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tang1340",
+   "garr1260",
+   "mirn1241",
+   "mang1423",
+   "gunw1250",
+   "yang1287",
+   "mani1293",
+   "giim1238",
+   "gaga1251",
+   "wage1238"
+  ]
+ },
+ {
+  "id": "cams1241",
+  "name": "Camsá",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 5003,
+  "isolate": true,
+  "rep": [
+   -76.799,
+   0.871
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "anda1286",
+   "cofa1242",
+   "paez1247",
+   "tuca1253",
+   "atac1235",
+   "abis1238",
+   "tini1245",
+   "zapa1251",
+   "barb1265",
+   "huit1251"
+  ]
+ },
+ {
+  "id": "east2433",
+  "name": "East Strickland",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 4992,
+  "isolate": false,
+  "rep": [
+   142.229,
+   -6.127
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "bosa1245",
+   "boga1247",
+   "kamu1264",
+   "duna1248",
+   "fasu1242",
+   "suar1238",
+   "sepi1257",
+   "east2499",
+   "wali1264",
+   "papi1255"
+  ]
+ },
+ {
+  "id": "sius1254",
+  "name": "Siuslaw",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 4871,
+  "isolate": true,
+  "rep": [
+   -123.655,
+   43.898
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "alse1251",
+   "coos1248",
+   "kala1402",
+   "mola1238",
+   "take1257",
+   "klam1254",
+   "shas1238",
+   "karo1304",
+   "chin1490",
+   "chim1301"
+  ]
+ },
+ {
+  "id": "sand1273",
+  "name": "Sandawe",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 4828,
+  "isolate": true,
+  "rep": [
+   35.258,
+   -4.843
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "hadz1240",
+   "kuli1252",
+   "cent2225",
+   "sout2845",
+   "surm1244",
+   "dizo1235",
+   "nilo1247",
+   "gong1255",
+   "koma1264",
+   "maoo1243"
+  ]
+ },
+ {
+  "id": "yare1250",
+  "name": "Yareban",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 4638,
+  "isolate": false,
+  "rep": [
+   148.565,
+   -9.666
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mail1249",
+   "manu1261",
+   "daga1274",
+   "kwal1257",
+   "koia1260",
+   "fuyu1242",
+   "taua1242",
+   "kuni1270",
+   "kaki1249",
+   "anga1289"
+  ]
+ },
+ {
+  "id": "sout3418",
+  "name": "South Bird's Head",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 4621,
+  "isolate": false,
+  "rep": [
+   132.594,
+   -2.013
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kond1302",
+   "mayb1237",
+   "tana1288",
+   "morb1239",
+   "west2604",
+   "west1493",
+   "east1459",
+   "mpur1239",
+   "abun1252",
+   "hata1242"
+  ]
+ },
+ {
+  "id": "bord1247",
+  "name": "Border",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 4558,
+  "isolate": false,
+  "rep": [
+   140.885,
+   -3.143
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "molo1262",
+   "else1239",
+   "pauw1244",
+   "usku1243",
+   "sena1264",
+   "skoo1245",
+   "naml1239",
+   "sent1261",
+   "kwom1263",
+   "kaur1274"
+  ]
+ },
+ {
+  "id": "tequ1244",
+  "name": "Tequistlatecan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 4556,
+  "isolate": false,
+  "rep": [
+   -95.981,
+   16.127
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mixe1284",
+   "toto1251",
+   "maya1287",
+   "cuit1236",
+   "otom1299",
+   "xinc1237",
+   "mara1266",
+   "lenc1239",
+   "jica1245",
+   "come1251"
+  ]
+ },
+ {
+  "id": "bosa1245",
+  "name": "Bosavi",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 4419,
+  "isolate": false,
+  "rep": [
+   142.667,
+   -6.269
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "east2433",
+   "boga1247",
+   "fasu1242",
+   "duna1248",
+   "east2499",
+   "kamu1264",
+   "sepi1257",
+   "suar1238",
+   "tura1263",
+   "wiru1244"
+  ]
+ },
+ {
+  "id": "yana1271",
+  "name": "Yana",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 4417,
+  "isolate": true,
+  "rep": [
+   -121.592,
+   40.136
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "wint1258",
+   "maid1262",
+   "pala1350",
+   "yuki1242",
+   "chim1301",
+   "wash1253",
+   "shas1238",
+   "pomo1273",
+   "karo1304",
+   "klam1254"
+  ]
+ },
+ {
+  "id": "nara1262",
+  "name": "Nara",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 4249,
+  "isolate": true,
+  "rep": [
+   37.385,
+   15.293
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kuna1268",
+   "gumu1250",
+   "maoo1243",
+   "rash1249",
+   "koma1264",
+   "heib1242",
+   "nubi1251",
+   "gong1255",
+   "nyim1244",
+   "teme1251"
+  ]
+ },
+ {
+  "id": "nort1547",
+  "name": "Northern Daly",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 4213,
+  "isolate": false,
+  "rep": [
+   130.649,
+   -13.442
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kung1259",
+   "wadj1254",
+   "west2434",
+   "lara1258",
+   "limi1242",
+   "wage1238",
+   "sout2772",
+   "umbu1235",
+   "tiwi1244",
+   "gaga1251"
+  ]
+ },
+ {
+  "id": "sout2948",
+  "name": "South Bougainville",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 4065,
+  "isolate": false,
+  "rep": [
+   155.612,
+   -6.522
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nort2933",
+   "bilu1245",
+   "touo1238",
+   "sulk1246",
+   "bain1263",
+   "taul1250",
+   "kolp1236",
+   "lavu1241",
+   "pele1245",
+   "savo1255"
+  ]
+ },
+ {
+  "id": "karo1304",
+  "name": "Karuk",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 4007,
+  "isolate": true,
+  "rep": [
+   -123.447,
+   41.455
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "shas1238",
+   "chim1301",
+   "take1257",
+   "klam1254",
+   "pala1350",
+   "yana1271",
+   "coos1248",
+   "yuki1242",
+   "wint1258",
+   "sius1254"
+  ]
+ },
+ {
+  "id": "rash1249",
+  "name": "Rashad",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 3922,
+  "isolate": false,
+  "rep": [
+   31.513,
+   12.076
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "heib1242",
+   "teme1251",
+   "nyim1244",
+   "narr1279",
+   "kadu1256",
+   "maoo1243",
+   "koma1264",
+   "gumu1250",
+   "daju1249",
+   "nilo1247"
+  ]
+ },
+ {
+  "id": "pawa1255",
+  "name": "Pawaia",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 3900,
+  "isolate": true,
+  "rep": [
+   145.017,
+   -6.896
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tebe1251",
+   "kiwa1251",
+   "pura1257",
+   "nucl1580",
+   "kibi1239",
+   "wiru1244",
+   "anga1289",
+   "tura1263",
+   "kaki1249",
+   "east2499"
+  ]
+ },
+ {
+  "id": "kuni1270",
+  "name": "Kunimaipan",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 3854,
+  "isolate": false,
+  "rep": [
+   146.857,
+   -8.057
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "taua1242",
+   "fuyu1242",
+   "kaki1249",
+   "anga1289",
+   "koia1260",
+   "nucl1580",
+   "kwal1257",
+   "pura1257",
+   "pawa1255",
+   "manu1261"
+  ]
+ },
+ {
+  "id": "kadu1256",
+  "name": "Kadugli-Krongo",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 3763,
+  "isolate": false,
+  "rep": [
+   29.754,
+   10.774
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "teme1251",
+   "narr1279",
+   "heib1242",
+   "nyim1244",
+   "rash1249",
+   "daju1249",
+   "maoo1243",
+   "kres1240",
+   "nilo1247",
+   "koma1264"
+  ]
+ },
+ {
+  "id": "lowe1423",
+  "name": "Lower Sepik",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 3684,
+  "isolate": false,
+  "rep": [
+   143.837,
+   -4.262
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yuat1252",
+   "kera1258",
+   "nduu1242",
+   "araf1243",
+   "taia1239",
+   "ramu1234",
+   "yera1243",
+   "piaw1238",
+   "monu1249",
+   "nucl1708"
+  ]
+ },
+ {
+  "id": "maoo1243",
+  "name": "Blue Nile Mao",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 3573,
+  "isolate": false,
+  "rep": [
+   33.908,
+   9.76
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "koma1264",
+   "rash1249",
+   "surm1244",
+   "heib1242",
+   "narr1279",
+   "dizo1235",
+   "gong1255",
+   "nilo1247",
+   "teme1251",
+   "kadu1256"
+  ]
+ },
+ {
+  "id": "anda1286",
+  "name": "Andaqui",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 3428,
+  "isolate": true,
+  "rep": [
+   -76.286,
+   1.221
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cams1241",
+   "cofa1242",
+   "paez1247",
+   "tuca1253",
+   "tini1245",
+   "abis1238",
+   "atac1235",
+   "zapa1251",
+   "huit1251",
+   "kaku1242"
+  ]
+ },
+ {
+  "id": "fuln1247",
+  "name": "Fulniô",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 3382,
+  "isolate": true,
+  "rep": [
+   -36.867,
+   -9.071
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "xuku1239",
+   "tuxa1239",
+   "pank1250",
+   "kari1254",
+   "kama1371",
+   "nucl1710",
+   "puri1261",
+   "trum1247",
+   "boro1281",
+   "iran1263"
+  ]
+ },
+ {
+  "id": "abun1252",
+  "name": "Abun",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 3372,
+  "isolate": true,
+  "rep": [
+   132.099,
+   -0.654
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "west1493",
+   "mayb1237",
+   "mpur1239",
+   "kond1302",
+   "sout3418",
+   "hata1242",
+   "east1459",
+   "tana1288",
+   "morb1239",
+   "west2604"
+  ]
+ },
+ {
+  "id": "mail1249",
+  "name": "Mailuan",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 3356,
+  "isolate": false,
+  "rep": [
+   148.753,
+   -9.952
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yare1250",
+   "daga1274",
+   "manu1261",
+   "kwal1257",
+   "koia1260",
+   "fuyu1242",
+   "taua1242",
+   "kuni1270",
+   "kaki1249",
+   "anga1289"
+  ]
+ },
+ {
+  "id": "east2503",
+  "name": "Eastern Trans-Fly",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 3273,
+  "isolate": false,
+  "rep": [
+   143.091,
+   -8.885
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "paho1240",
+   "tabo1241",
+   "suki1244",
+   "dibi1240",
+   "tura1263",
+   "kibi1239",
+   "more1255",
+   "kiwa1251",
+   "pura1257",
+   "fasu1242"
+  ]
+ },
+ {
+  "id": "kaya1327",
+  "name": "Kayagaric",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 3221,
+  "isolate": false,
+  "rep": [
+   138.932,
+   -6.456
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "bula1259",
+   "nucl1709",
+   "kolo1268",
+   "anim1240",
+   "soma1242",
+   "momb1255",
+   "moro1289",
+   "kamu1264",
+   "pyuu1245",
+   "yetf1238"
+  ]
+ },
+ {
+  "id": "nucl1580",
+  "name": "Eleman",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 3191,
+  "isolate": false,
+  "rep": [
+   145.35,
+   -7.679
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "pura1257",
+   "kaki1249",
+   "kiwa1251",
+   "anga1289",
+   "pawa1255",
+   "kibi1239",
+   "tebe1251",
+   "tura1263",
+   "kuni1270",
+   "wiru1244"
+  ]
+ },
+ {
+  "id": "muni1258",
+  "name": "Muniche",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 3163,
+  "isolate": true,
+  "rep": [
+   -75.902,
+   -5.832
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "cahu1265",
+   "omur1241",
+   "urar1246",
+   "cand1248",
+   "hibi1242",
+   "pano1259",
+   "peba1241",
+   "cull1235",
+   "zapa1251",
+   "jiva1245"
+  ]
+ },
+ {
+  "id": "sout2772",
+  "name": "Southern Daly",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 3124,
+  "isolate": false,
+  "rep": [
+   129.651,
+   -14.432
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "west2434",
+   "nort1547",
+   "wadj1254",
+   "wage1238",
+   "kung1259",
+   "lara1258",
+   "limi1242",
+   "jarr1235",
+   "yang1287",
+   "umbu1235"
+  ]
+ },
+ {
+  "id": "lara1258",
+  "name": "Laragia",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 3041,
+  "isolate": true,
+  "rep": [
+   131.014,
+   -12.481
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "limi1242",
+   "kung1259",
+   "wadj1254",
+   "tiwi1244",
+   "nort1547",
+   "umbu1235",
+   "gaga1251",
+   "wage1238",
+   "west2434",
+   "marr1257"
+  ]
+ },
+ {
+  "id": "kuli1252",
+  "name": "Kuliak",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 3000,
+  "isolate": false,
+  "rep": [
+   34.185,
+   3.747
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "surm1244",
+   "sout2845",
+   "dizo1235",
+   "nilo1247",
+   "cent2225",
+   "gong1255",
+   "koma1264",
+   "maoo1243",
+   "hadz1240",
+   "narr1279"
+  ]
+ },
+ {
+  "id": "fuyu1242",
+  "name": "Fuyug",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 2993,
+  "isolate": true,
+  "rep": [
+   147.336,
+   -8.639
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "taua1242",
+   "koia1260",
+   "kuni1270",
+   "kwal1257",
+   "manu1261",
+   "yare1250",
+   "kaki1249",
+   "anga1289",
+   "mail1249",
+   "nucl1580"
+  ]
+ },
+ {
+  "id": "nyim1244",
+  "name": "Nyimang",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 2951,
+  "isolate": false,
+  "rep": [
+   29.489,
+   12.179
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "teme1251",
+   "kadu1256",
+   "heib1242",
+   "rash1249",
+   "narr1279",
+   "daju1249",
+   "fura1235",
+   "maoo1243",
+   "kres1240",
+   "koma1264"
+  ]
+ },
+ {
+  "id": "west2604",
+  "name": "West Bomberai",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 2922,
+  "isolate": false,
+  "rep": [
+   132.577,
+   -2.959
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "morb1239",
+   "tana1288",
+   "sout3418",
+   "kond1302",
+   "mayb1237",
+   "east1459",
+   "mair1253",
+   "west1493",
+   "hata1242",
+   "mpur1239"
+  ]
+ },
+ {
+  "id": "mpur1239",
+  "name": "Mpur",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 2817,
+  "isolate": true,
+  "rep": [
+   133.22,
+   -0.755
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "hata1242",
+   "mayb1237",
+   "abun1252",
+   "east1459",
+   "sout3418",
+   "kond1302",
+   "west1493",
+   "tana1288",
+   "morb1239",
+   "west2604"
+  ]
+ },
+ {
+  "id": "nort2933",
+  "name": "North Bougainville",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 2746,
+  "isolate": false,
+  "rep": [
+   155.116,
+   -6.021
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sout2948",
+   "bilu1245",
+   "sulk1246",
+   "bain1263",
+   "touo1238",
+   "taul1250",
+   "kolp1236",
+   "pele1245",
+   "kuot1243",
+   "lavu1241"
+  ]
+ },
+ {
+  "id": "uruc1242",
+  "name": "Uru-Chipaya",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 2734,
+  "isolate": false,
+  "rep": [
+   -68.066,
+   -19.079
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "ayma1253",
+   "puqu1242",
+   "yura1255",
+   "leco1242",
+   "mose1249",
+   "kunz1244",
+   "movi1243",
+   "cani1243",
+   "hara1260",
+   "mata1289"
+  ]
+ },
+ {
+  "id": "arut1244",
+  "name": "Arutani",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 2668,
+  "isolate": true,
+  "rep": [
+   -62.479,
+   4.299
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sape1238",
+   "maku1246",
+   "yano1268",
+   "yuwa1244",
+   "otom1276",
+   "sali1297",
+   "taru1236",
+   "cari1283",
+   "guam1236",
+   "wara1303"
+  ]
+ },
+ {
+  "id": "soma1242",
+  "name": "Somahai",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 2586,
+  "isolate": false,
+  "rep": [
+   139.223,
+   -4.826
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nucl1709",
+   "kapo1250",
+   "naml1239",
+   "kaya1327",
+   "kaur1274",
+   "pyuu1245",
+   "saus1247",
+   "yetf1238",
+   "usku1243",
+   "molo1262"
+  ]
+ },
+ {
+  "id": "alse1251",
+  "name": "Alsea-Yaquina",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 2529,
+  "isolate": true,
+  "rep": [
+   -123.756,
+   44.399
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sius1254",
+   "kala1402",
+   "coos1248",
+   "mola1238",
+   "take1257",
+   "chin1490",
+   "klam1254",
+   "shas1238",
+   "karo1304",
+   "chim1311"
+  ]
+ },
+ {
+  "id": "buru1296",
+  "name": "Burushaski",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "area_km2": 2493,
+  "isolate": true,
+  "rep": [
+   74.556,
+   36.443
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sino1245",
+   "niha1238",
+   "hrus1242",
+   "drav1251",
+   "nakh1245",
+   "kart1248",
+   "abkh1242",
+   "mong1349",
+   "hmon1336",
+   "ural1272"
+  ]
+ },
+ {
+  "id": "coos1248",
+  "name": "Coosan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 2481,
+  "isolate": false,
+  "rep": [
+   -123.977,
+   43.367
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sius1254",
+   "alse1251",
+   "take1257",
+   "kala1402",
+   "mola1238",
+   "karo1304",
+   "shas1238",
+   "klam1254",
+   "chim1301",
+   "chin1490"
+  ]
+ },
+ {
+  "id": "guam1236",
+  "name": "Guamo",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 2428,
+  "isolate": true,
+  "rep": [
+   -65.766,
+   7.756
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "otom1276",
+   "yuwa1244",
+   "sali1297",
+   "pume1238",
+   "guah1252",
+   "wara1303",
+   "sape1238",
+   "maku1246",
+   "arut1244",
+   "timo1237"
+  ]
+ },
+ {
+  "id": "nivk1234",
+  "name": "Nivkh",
+  "difficulty": "tiny",
+  "region": "Europe",
+  "subregion": "Eastern Europe",
+  "area_km2": 2395,
+  "isolate": false,
+  "rep": [
+   141.167,
+   53.171
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "ainu1252",
+   "tung1282",
+   "yuka1259",
+   "kore1284",
+   "turk1311",
+   "japo1237",
+   "chuk1271",
+   "mong1349",
+   "yeni1252",
+   "ural1272"
+  ]
+ },
+ {
+  "id": "chim1311",
+  "name": "Chimakuan",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 2349,
+  "isolate": false,
+  "rep": [
+   -124.163,
+   47.96
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sali1255",
+   "chin1490",
+   "kala1402",
+   "alse1251",
+   "waka1280",
+   "mola1238",
+   "sius1254",
+   "cayu1241",
+   "coos1248",
+   "take1257"
+  ]
+ },
+ {
+  "id": "sape1238",
+  "name": "Sapé",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 2324,
+  "isolate": true,
+  "rep": [
+   -63.055,
+   4.082
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "arut1244",
+   "maku1246",
+   "yano1268",
+   "yuwa1244",
+   "otom1276",
+   "sali1297",
+   "guam1236",
+   "taru1236",
+   "araw1281",
+   "cari1283"
+  ]
+ },
+ {
+  "id": "mara1266",
+  "name": "Maratino",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Central America",
+  "area_km2": 2315,
+  "isolate": true,
+  "rep": [
+   -98.619,
+   23.246
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "otom1299",
+   "come1251",
+   "coto1248",
+   "toto1251",
+   "coah1252",
+   "xinc1237",
+   "kara1289",
+   "cuit1236",
+   "mixe1284",
+   "tequ1244"
+  ]
+ },
+ {
+  "id": "pank1250",
+  "name": "Pankararú",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 2269,
+  "isolate": true,
+  "rep": [
+   -38.649,
+   -8.744
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tuxa1239",
+   "kari1254",
+   "fuln1247",
+   "xuku1239",
+   "kama1371",
+   "nucl1710",
+   "puri1261",
+   "trum1247",
+   "boro1281",
+   "iran1263"
+  ]
+ },
+ {
+  "id": "kung1259",
+  "name": "Kungarakany",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 2257,
+  "isolate": true,
+  "rep": [
+   130.914,
+   -13.065
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nort1547",
+   "wadj1254",
+   "lara1258",
+   "limi1242",
+   "wage1238",
+   "umbu1235",
+   "west2434",
+   "tiwi1244",
+   "gaga1251",
+   "sout2772"
+  ]
+ },
+ {
+  "id": "niha1238",
+  "name": "Nihali",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "area_km2": 2256,
+  "isolate": true,
+  "rep": [
+   76.48,
+   22.097
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "drav1251",
+   "buru1296",
+   "sino1245",
+   "hrus1242",
+   "hmon1336",
+   "taik1256",
+   "aust1305",
+   "kena1236",
+   "nakh1245",
+   "kart1248"
+  ]
+ },
+ {
+  "id": "trum1247",
+  "name": "Trumai",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 2158,
+  "isolate": true,
+  "rep": [
+   -53.462,
+   -12.25
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "iran1263",
+   "boro1281",
+   "nucl1710",
+   "namb1299",
+   "guat1253",
+   "aika1237",
+   "guac1239",
+   "chiq1253",
+   "zamu1243",
+   "pira1253"
+  ]
+ },
+ {
+  "id": "maku1246",
+  "name": "Máku",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 2149,
+  "isolate": true,
+  "rep": [
+   -64.049,
+   3.352
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yano1268",
+   "sape1238",
+   "arut1244",
+   "yuwa1244",
+   "sali1297",
+   "araw1281",
+   "otom1276",
+   "guam1236",
+   "nada1235",
+   "pume1238"
+  ]
+ },
+ {
+  "id": "hadz1240",
+  "name": "Hadza",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "area_km2": 2067,
+  "isolate": true,
+  "rep": [
+   35.313,
+   -3.665
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sand1273",
+   "kuli1252",
+   "cent2225",
+   "sout2845",
+   "surm1244",
+   "dizo1235",
+   "nilo1247",
+   "gong1255",
+   "koma1264",
+   "maoo1243"
+  ]
+ },
+ {
+  "id": "hata1242",
+  "name": "Hatam-Mansim",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 1991,
+  "isolate": false,
+  "rep": [
+   133.878,
+   -1.076
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "east1459",
+   "mpur1239",
+   "mayb1237",
+   "sout3418",
+   "tana1288",
+   "abun1252",
+   "kond1302",
+   "morb1239",
+   "west1493",
+   "west2604"
+  ]
+ },
+ {
+  "id": "pura1257",
+  "name": "Purari",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1967,
+  "isolate": true,
+  "rep": [
+   145.058,
+   -7.619
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nucl1580",
+   "kiwa1251",
+   "pawa1255",
+   "kibi1239",
+   "kaki1249",
+   "tebe1251",
+   "anga1289",
+   "tura1263",
+   "wiru1244",
+   "tabo1241"
+  ]
+ },
+ {
+  "id": "baib1250",
+  "name": "Baibai-Fas",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1961,
+  "isolate": false,
+  "rep": [
+   141.638,
+   -3.053
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "skoo1245",
+   "kwom1263",
+   "yale1246",
+   "bord1247",
+   "sena1264",
+   "odia1239",
+   "pauw1244",
+   "nucl1708",
+   "amto1249",
+   "molo1262"
+  ]
+ },
+ {
+  "id": "wadj1254",
+  "name": "Wadjiginy",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 1889,
+  "isolate": true,
+  "rep": [
+   130.385,
+   -13.009
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nort1547",
+   "kung1259",
+   "lara1258",
+   "limi1242",
+   "west2434",
+   "tiwi1244",
+   "sout2772",
+   "wage1238",
+   "umbu1235",
+   "gaga1251"
+  ]
+ },
+ {
+  "id": "wiru1244",
+  "name": "Wiru",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1882,
+  "isolate": true,
+  "rep": [
+   144.219,
+   -6.39
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "tebe1251",
+   "east2499",
+   "tura1263",
+   "fasu1242",
+   "pawa1255",
+   "kibi1239",
+   "kiwa1251",
+   "piaw1238",
+   "pura1257",
+   "bosa1245"
+  ]
+ },
+ {
+  "id": "taua1242",
+  "name": "Tauade",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1877,
+  "isolate": true,
+  "rep": [
+   147.167,
+   -8.235
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kuni1270",
+   "fuyu1242",
+   "koia1260",
+   "kaki1249",
+   "anga1289",
+   "kwal1257",
+   "manu1261",
+   "nucl1580",
+   "yare1250",
+   "pura1257"
+  ]
+ },
+ {
+  "id": "manu1261",
+  "name": "Manubaran",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1792,
+  "isolate": false,
+  "rep": [
+   148.222,
+   -9.783
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yare1250",
+   "mail1249",
+   "kwal1257",
+   "koia1260",
+   "daga1274",
+   "fuyu1242",
+   "taua1242",
+   "kuni1270",
+   "kaki1249",
+   "anga1289"
+  ]
+ },
+ {
+  "id": "kera1258",
+  "name": "Keram",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1760,
+  "isolate": false,
+  "rep": [
+   144.136,
+   -4.33
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "lowe1423",
+   "yuat1252",
+   "ramu1234",
+   "taia1239",
+   "araf1243",
+   "nduu1242",
+   "monu1249",
+   "piaw1238",
+   "yera1243",
+   "sepi1257"
+  ]
+ },
+ {
+  "id": "duna1248",
+  "name": "Duna",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1759,
+  "isolate": true,
+  "rep": [
+   142.481,
+   -5.533
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "boga1247",
+   "sepi1257",
+   "east2433",
+   "suar1238",
+   "bosa1245",
+   "wali1264",
+   "kamu1264",
+   "papi1255",
+   "fasu1242",
+   "yera1243"
+  ]
+ },
+ {
+  "id": "fasu1242",
+  "name": "Fasu",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1752,
+  "isolate": true,
+  "rep": [
+   143.29,
+   -6.529
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "east2499",
+   "bosa1245",
+   "tura1263",
+   "wiru1244",
+   "east2433",
+   "tebe1251",
+   "boga1247",
+   "duna1248",
+   "kibi1239",
+   "dibi1240"
+  ]
+ },
+ {
+  "id": "kolp1236",
+  "name": "Kol (Papua New Guinea)",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1744,
+  "isolate": true,
+  "rep": [
+   151.657,
+   -5.197
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sulk1246",
+   "bain1263",
+   "pele1245",
+   "taul1250",
+   "kuot1243",
+   "anem1249",
+   "nort2933",
+   "sout2948",
+   "daga1274",
+   "taua1242"
+  ]
+ },
+ {
+  "id": "left1242",
+  "name": "Left May",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1635,
+  "isolate": false,
+  "rep": [
+   141.587,
+   -4.304
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "amto1249",
+   "odia1239",
+   "papi1255",
+   "yale1246",
+   "wali1264",
+   "yetf1238",
+   "pyuu1245",
+   "kwom1263",
+   "sena1264",
+   "suar1238"
+  ]
+ },
+ {
+  "id": "puqu1242",
+  "name": "Puquina",
+  "difficulty": "tiny",
+  "region": "South America",
+  "subregion": "South America",
+  "area_km2": 1627,
+  "isolate": true,
+  "rep": [
+   -68.676,
+   -16.431
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "leco1242",
+   "ayma1253",
+   "mose1249",
+   "uruc1242",
+   "yura1255",
+   "hara1260",
+   "movi1243",
+   "cani1243",
+   "quec1387",
+   "cayu1262"
+  ]
+ },
+ {
+  "id": "gaga1251",
+  "name": "Gaagudju",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 1499,
+  "isolate": true,
+  "rep": [
+   132.646,
+   -12.606
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "umbu1235",
+   "giim1238",
+   "iwai1246",
+   "limi1242",
+   "marr1257",
+   "lara1258",
+   "mani1293",
+   "gunw1250",
+   "kung1259",
+   "tiwi1244"
+  ]
+ },
+ {
+  "id": "sena1264",
+  "name": "Senagi",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1421,
+  "isolate": false,
+  "rep": [
+   141.092,
+   -3.663
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "pauw1244",
+   "yale1246",
+   "odia1239",
+   "kwom1263",
+   "molo1262",
+   "usku1243",
+   "bord1247",
+   "amto1249",
+   "yetf1238",
+   "pyuu1245"
+  ]
+ },
+ {
+  "id": "east2499",
+  "name": "East Kutubu",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1415,
+  "isolate": false,
+  "rep": [
+   143.526,
+   -6.487
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "fasu1242",
+   "wiru1244",
+   "tura1263",
+   "bosa1245",
+   "tebe1251",
+   "kibi1239",
+   "east2433",
+   "boga1247",
+   "duna1248",
+   "piaw1238"
+  ]
+ },
+ {
+  "id": "kaur1274",
+  "name": "Kaure-Kosare",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 1391,
+  "isolate": false,
+  "rep": [
+   140.219,
+   -3.49
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "naml1239",
+   "usku1243",
+   "saus1247",
+   "molo1262",
+   "kapo1250",
+   "else1239",
+   "pauw1244",
+   "bord1247",
+   "sena1264",
+   "nimb1257"
+  ]
+ },
+ {
+  "id": "pauw1244",
+  "name": "Pauwasi",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 1364,
+  "isolate": false,
+  "rep": [
+   140.78,
+   -3.615
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "molo1262",
+   "usku1243",
+   "sena1264",
+   "naml1239",
+   "bord1247",
+   "kaur1274",
+   "else1239",
+   "pyuu1245",
+   "yetf1238",
+   "yale1246"
+  ]
+ },
+ {
+  "id": "daju1249",
+  "name": "Dajuic",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 1344,
+  "isolate": false,
+  "rep": [
+   26.106,
+   11.757
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "fura1235",
+   "kres1240",
+   "nyim1244",
+   "kadu1256",
+   "teme1251",
+   "narr1279",
+   "heib1242",
+   "tama1329",
+   "rash1249",
+   "maba1274"
+  ]
+ },
+ {
+  "id": "kwom1263",
+  "name": "Kwomtari-Nai",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1146,
+  "isolate": false,
+  "rep": [
+   141.532,
+   -3.506
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yale1246",
+   "odia1239",
+   "baib1250",
+   "sena1264",
+   "amto1249",
+   "bord1247",
+   "pauw1244",
+   "skoo1245",
+   "left1242",
+   "molo1262"
+  ]
+ },
+ {
+  "id": "kond1302",
+  "name": "Konda-Yahadian",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 1099,
+  "isolate": false,
+  "rep": [
+   132.051,
+   -1.837
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sout3418",
+   "mayb1237",
+   "west1493",
+   "abun1252",
+   "morb1239",
+   "west2604",
+   "tana1288",
+   "mpur1239",
+   "east1459",
+   "hata1242"
+  ]
+ },
+ {
+  "id": "esse1238",
+  "name": "Esselen",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 1095,
+  "isolate": true,
+  "rep": [
+   -121.447,
+   36.172
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sali1253",
+   "yoku1255",
+   "chum1262",
+   "miwo1274",
+   "pomo1273",
+   "wash1253",
+   "maid1262",
+   "yuki1242",
+   "wint1258",
+   "yana1271"
+  ]
+ },
+ {
+  "id": "skoo1245",
+  "name": "Sko",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 1023,
+  "isolate": false,
+  "rep": [
+   141.33,
+   -2.736
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "baib1250",
+   "bord1247",
+   "kwom1263",
+   "sent1261",
+   "sena1264",
+   "else1239",
+   "molo1262",
+   "yale1246",
+   "pauw1244",
+   "nimb1257"
+  ]
+ },
+ {
+  "id": "nimb1257",
+  "name": "Nimboranic",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 953,
+  "isolate": false,
+  "rep": [
+   140.23,
+   -2.567
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sent1261",
+   "else1239",
+   "saus1247",
+   "mawe1251",
+   "bord1247",
+   "kaur1274",
+   "molo1262",
+   "usku1243",
+   "kapo1250",
+   "naml1239"
+  ]
+ },
+ {
+  "id": "tana1288",
+  "name": "Tanahmerah",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 925,
+  "isolate": true,
+  "rep": [
+   133.171,
+   -2.551
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "morb1239",
+   "west2604",
+   "sout3418",
+   "east1459",
+   "kond1302",
+   "mayb1237",
+   "mair1253",
+   "hata1242",
+   "mpur1239",
+   "west1493"
+  ]
+ },
+ {
+  "id": "sent1261",
+  "name": "Sentanic",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 894,
+  "isolate": false,
+  "rep": [
+   140.511,
+   -2.505
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nimb1257",
+   "else1239",
+   "bord1247",
+   "skoo1245",
+   "saus1247",
+   "molo1262",
+   "kaur1274",
+   "usku1243",
+   "mawe1251",
+   "pauw1244"
+  ]
+ },
+ {
+  "id": "piaw1238",
+  "name": "Piawi",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 877,
+  "isolate": false,
+  "rep": [
+   144.184,
+   -5.175
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "ramu1234",
+   "araf1243",
+   "yuat1252",
+   "kera1258",
+   "lowe1423",
+   "monu1249",
+   "taia1239",
+   "wiru1244",
+   "nduu1242",
+   "east2499"
+  ]
+ },
+ {
+  "id": "momb1255",
+  "name": "Mombum-Koneraw",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 836,
+  "isolate": false,
+  "rep": [
+   138.722,
+   -8.288
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kolo1268",
+   "bula1259",
+   "anim1240",
+   "kaya1327",
+   "moro1289",
+   "more1255",
+   "nucl1709",
+   "soma1242",
+   "kamu1264",
+   "paho1240"
+  ]
+ },
+ {
+  "id": "pyuu1245",
+  "name": "Pyu",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 829,
+  "isolate": true,
+  "rep": [
+   140.857,
+   -4.259
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yetf1238",
+   "amto1249",
+   "sena1264",
+   "pauw1244",
+   "odia1239",
+   "left1242",
+   "usku1243",
+   "naml1239",
+   "yale1246",
+   "molo1262"
+  ]
+ },
+ {
+  "id": "yawa1259",
+  "name": "Yawa-Saweru",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 823,
+  "isolate": false,
+  "rep": [
+   136.225,
+   -1.747
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "geel1240",
+   "burm1264",
+   "mass1263",
+   "kwer1242",
+   "demm1245",
+   "east1459",
+   "lake1255",
+   "hata1242",
+   "dama1272",
+   "mair1253"
+  ]
+ },
+ {
+  "id": "yuat1252",
+  "name": "Yuat",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 782,
+  "isolate": false,
+  "rep": [
+   143.758,
+   -4.447
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "lowe1423",
+   "araf1243",
+   "kera1258",
+   "nduu1242",
+   "ramu1234",
+   "yera1243",
+   "piaw1238",
+   "taia1239",
+   "monu1249",
+   "sepi1257"
+  ]
+ },
+ {
+  "id": "araf1243",
+  "name": "Arafundi",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 770,
+  "isolate": false,
+  "rep": [
+   143.618,
+   -4.801
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yuat1252",
+   "lowe1423",
+   "piaw1238",
+   "kera1258",
+   "nduu1242",
+   "yera1243",
+   "ramu1234",
+   "sepi1257",
+   "taia1239",
+   "duna1248"
+  ]
+ },
+ {
+  "id": "demm1245",
+  "name": "Dem",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 763,
+  "isolate": true,
+  "rep": [
+   137.493,
+   -3.52
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "dama1272",
+   "lake1255",
+   "burm1264",
+   "kwer1242",
+   "geel1240",
+   "mass1263",
+   "toro1256",
+   "soma1242",
+   "yawa1259",
+   "mawe1251"
+  ]
+ },
+ {
+  "id": "tabo1241",
+  "name": "Tabo",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 757,
+  "isolate": true,
+  "rep": [
+   143.298,
+   -8.095
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "dibi1240",
+   "suki1244",
+   "east2503",
+   "tura1263",
+   "paho1240",
+   "kibi1239",
+   "kiwa1251",
+   "fasu1242",
+   "east2499",
+   "tebe1251"
+  ]
+ },
+ {
+  "id": "narr1279",
+  "name": "Narrow Talodi",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 749,
+  "isolate": false,
+  "rep": [
+   30.338,
+   10.31
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kadu1256",
+   "teme1251",
+   "heib1242",
+   "nyim1244",
+   "rash1249",
+   "maoo1243",
+   "nilo1247",
+   "koma1264",
+   "daju1249",
+   "kres1240"
+  ]
+ },
+ {
+  "id": "chim1301",
+  "name": "Chimariko",
+  "difficulty": "tiny",
+  "region": "North America",
+  "subregion": "Northern America",
+  "area_km2": 710,
+  "isolate": true,
+  "rep": [
+   -123.299,
+   40.657
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "karo1304",
+   "shas1238",
+   "yuki1242",
+   "wint1258",
+   "yana1271",
+   "pala1350",
+   "take1257",
+   "pomo1273",
+   "maid1262",
+   "klam1254"
+  ]
+ },
+ {
+  "id": "bilu1245",
+  "name": "Bilua",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 709,
+  "isolate": true,
+  "rep": [
+   156.689,
+   -7.758
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "touo1238",
+   "sout2948",
+   "nort2933",
+   "lavu1241",
+   "savo1255",
+   "yele1255",
+   "sulk1246",
+   "bain1263",
+   "kolp1236",
+   "taul1250"
+  ]
+ },
+ {
+  "id": "kena1236",
+  "name": "Kenaboi",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 702,
+  "isolate": true,
+  "rep": [
+   102.001,
+   3.143
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "taik1256",
+   "aust1305",
+   "hmon1336",
+   "hrus1242",
+   "nort2923",
+   "drav1251",
+   "timo1261",
+   "nyul1248",
+   "west1493",
+   "abun1252"
+  ]
+ },
+ {
+  "id": "ainu1252",
+  "name": "Ainu",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "area_km2": 660,
+  "isolate": false,
+  "rep": [
+   143.346,
+   43.925
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "japo1237",
+   "nivk1234",
+   "kore1284",
+   "tung1282",
+   "yuka1259",
+   "chuk1271",
+   "turk1311",
+   "mong1349",
+   "yeni1252",
+   "hmon1336"
+  ]
+ },
+ {
+  "id": "hrus1242",
+  "name": "Hruso",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "area_km2": 643,
+  "isolate": true,
+  "rep": [
+   92.636,
+   27.375
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "sino1245",
+   "hmon1336",
+   "taik1256",
+   "niha1238",
+   "buru1296",
+   "aust1305",
+   "drav1251",
+   "mong1349",
+   "kena1236",
+   "kore1284"
+  ]
+ },
+ {
+  "id": "kwal1257",
+  "name": "Kwalean",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 636,
+  "isolate": false,
+  "rep": [
+   147.593,
+   -9.669
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "koia1260",
+   "manu1261",
+   "yare1250",
+   "fuyu1242",
+   "mail1249",
+   "taua1242",
+   "daga1274",
+   "kuni1270",
+   "kaki1249",
+   "anga1289"
+  ]
+ },
+ {
+  "id": "kapo1250",
+  "name": "Kapori",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 610,
+  "isolate": true,
+  "rep": [
+   139.824,
+   -3.54
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "saus1247",
+   "kaur1274",
+   "naml1239",
+   "usku1243",
+   "else1239",
+   "molo1262",
+   "pauw1244",
+   "nimb1257",
+   "bord1247",
+   "sent1261"
+  ]
+ },
+ {
+  "id": "wali1264",
+  "name": "Walioic",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 566,
+  "isolate": false,
+  "rep": [
+   142.129,
+   -4.575
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "papi1255",
+   "suar1238",
+   "left1242",
+   "sepi1257",
+   "amto1249",
+   "yera1243",
+   "odia1239",
+   "duna1248",
+   "yale1246",
+   "boga1247"
+  ]
+ },
+ {
+  "id": "teme1251",
+  "name": "Temeinic",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Northern Africa",
+  "area_km2": 559,
+  "isolate": false,
+  "rep": [
+   29.953,
+   11.037
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kadu1256",
+   "narr1279",
+   "heib1242",
+   "nyim1244",
+   "rash1249",
+   "daju1249",
+   "maoo1243",
+   "koma1264",
+   "nilo1247",
+   "kres1240"
+  ]
+ },
+ {
+  "id": "pele1245",
+  "name": "Pele-Ata",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 512,
+  "isolate": true,
+  "rep": [
+   151.008,
+   -5.574
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kolp1236",
+   "sulk1246",
+   "bain1263",
+   "taul1250",
+   "anem1249",
+   "kuot1243",
+   "nort2933",
+   "daga1274",
+   "taua1242",
+   "sout2948"
+  ]
+ },
+ {
+  "id": "kibi1239",
+  "name": "Kibiri",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 411,
+  "isolate": true,
+  "rep": [
+   144.319,
+   -7.45
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kiwa1251",
+   "tura1263",
+   "tebe1251",
+   "pura1257",
+   "pawa1255",
+   "nucl1580",
+   "wiru1244",
+   "tabo1241",
+   "east2499",
+   "fasu1242"
+  ]
+ },
+ {
+  "id": "amto1249",
+  "name": "Amto-Musan",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 406,
+  "isolate": false,
+  "rep": [
+   141.406,
+   -4.131
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "odia1239",
+   "left1242",
+   "yale1246",
+   "yetf1238",
+   "pyuu1245",
+   "sena1264",
+   "kwom1263",
+   "papi1255",
+   "pauw1244",
+   "wali1264"
+  ]
+ },
+ {
+  "id": "boga1247",
+  "name": "Bogaya",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 390,
+  "isolate": true,
+  "rep": [
+   142.36,
+   -5.688
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "duna1248",
+   "east2433",
+   "bosa1245",
+   "sepi1257",
+   "suar1238",
+   "kamu1264",
+   "wali1264",
+   "papi1255",
+   "fasu1242",
+   "east2499"
+  ]
+ },
+ {
+  "id": "kuot1243",
+  "name": "Kuot",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 371,
+  "isolate": true,
+  "rep": [
+   151.535,
+   -3.055
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "taul1250",
+   "bain1263",
+   "sulk1246",
+   "kolp1236",
+   "pele1245",
+   "anem1249",
+   "nort2933",
+   "sout2948",
+   "monu1249",
+   "taua1242"
+  ]
+ },
+ {
+  "id": "suar1238",
+  "name": "Asabano",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 362,
+  "isolate": true,
+  "rep": [
+   141.948,
+   -5.035
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "papi1255",
+   "wali1264",
+   "sepi1257",
+   "duna1248",
+   "boga1247",
+   "left1242",
+   "amto1249",
+   "east2433",
+   "kamu1264",
+   "odia1239"
+  ]
+ },
+ {
+  "id": "touo1238",
+  "name": "Touo",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 357,
+  "isolate": true,
+  "rep": [
+   157.288,
+   -8.599
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "bilu1245",
+   "lavu1241",
+   "savo1255",
+   "sout2948",
+   "nort2933",
+   "yele1255",
+   "sulk1246",
+   "bain1263",
+   "kolp1236",
+   "taul1250"
+  ]
+ },
+ {
+  "id": "saus1247",
+  "name": "Sause",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 356,
+  "isolate": true,
+  "rep": [
+   139.978,
+   -3.245
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kapo1250",
+   "kaur1274",
+   "else1239",
+   "naml1239",
+   "usku1243",
+   "molo1262",
+   "nimb1257",
+   "pauw1244",
+   "bord1247",
+   "sent1261"
+  ]
+ },
+ {
+  "id": "dibi1240",
+  "name": "Dibiyaso",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 346,
+  "isolate": true,
+  "rep": [
+   142.899,
+   -7.894
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "suki1244",
+   "tabo1241",
+   "east2503",
+   "paho1240",
+   "tura1263",
+   "fasu1242",
+   "kibi1239",
+   "east2499",
+   "bosa1245",
+   "more1255"
+  ]
+ },
+ {
+  "id": "marr1257",
+  "name": "Marrku-Wurrugu",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "area_km2": 319,
+  "isolate": false,
+  "rep": [
+   132.54,
+   -11.156
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "iwai1246",
+   "gaga1251",
+   "giim1238",
+   "tiwi1244",
+   "umbu1235",
+   "limi1242",
+   "lara1258",
+   "mani1293",
+   "kung1259",
+   "gunw1250"
+  ]
+ },
+ {
+  "id": "mawe1251",
+  "name": "Mawes",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 313,
+  "isolate": true,
+  "rep": [
+   139.453,
+   -2.275
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "toro1256",
+   "nimb1257",
+   "sent1261",
+   "kwer1242",
+   "saus1247",
+   "mass1263",
+   "else1239",
+   "kapo1250",
+   "lake1255",
+   "burm1264"
+  ]
+ },
+ {
+  "id": "else1239",
+  "name": "Elseng",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 301,
+  "isolate": true,
+  "rep": [
+   140.425,
+   -3.086
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "molo1262",
+   "kaur1274",
+   "bord1247",
+   "saus1247",
+   "usku1243",
+   "nimb1257",
+   "naml1239",
+   "sent1261",
+   "pauw1244",
+   "kapo1250"
+  ]
+ },
+ {
+  "id": "sulk1246",
+  "name": "Sulka",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 277,
+  "isolate": true,
+  "rep": [
+   151.935,
+   -5.137
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kolp1236",
+   "bain1263",
+   "taul1250",
+   "pele1245",
+   "kuot1243",
+   "anem1249",
+   "nort2933",
+   "sout2948",
+   "daga1274",
+   "bilu1245"
+  ]
+ },
+ {
+  "id": "yale1246",
+  "name": "Yale",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 257,
+  "isolate": true,
+  "rep": [
+   141.474,
+   -3.755
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "odia1239",
+   "kwom1263",
+   "amto1249",
+   "sena1264",
+   "left1242",
+   "pauw1244",
+   "baib1250",
+   "yetf1238",
+   "pyuu1245",
+   "bord1247"
+  ]
+ },
+ {
+  "id": "yele1255",
+  "name": "Yele",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 250,
+  "isolate": true,
+  "rep": [
+   154.213,
+   -11.37
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "touo1238",
+   "bilu1245",
+   "sout2948",
+   "daga1274",
+   "lavu1241",
+   "nort2933",
+   "mail1249",
+   "yare1250",
+   "savo1255",
+   "manu1261"
+  ]
+ },
+ {
+  "id": "anem1249",
+  "name": "Anem",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 207,
+  "isolate": true,
+  "rep": [
+   149.017,
+   -5.533
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "pele1245",
+   "kolp1236",
+   "sulk1246",
+   "bain1263",
+   "taua1242",
+   "taul1250",
+   "kuni1270",
+   "anga1289",
+   "fuyu1242",
+   "kuot1243"
+  ]
+ },
+ {
+  "id": "taul1250",
+  "name": "Taulil-Butam",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 183,
+  "isolate": false,
+  "rep": [
+   152.11,
+   -4.42
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "bain1263",
+   "sulk1246",
+   "kolp1236",
+   "kuot1243",
+   "pele1245",
+   "anem1249",
+   "nort2933",
+   "sout2948",
+   "bilu1245",
+   "daga1274"
+  ]
+ },
+ {
+  "id": "burm1264",
+  "name": "Burmeso",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 175,
+  "isolate": true,
+  "rep": [
+   138.051,
+   -2.372
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kwer1242",
+   "lake1255",
+   "mass1263",
+   "toro1256",
+   "demm1245",
+   "mawe1251",
+   "yawa1259",
+   "dama1272",
+   "saus1247",
+   "kapo1250"
+  ]
+ },
+ {
+  "id": "lavu1241",
+  "name": "Lavukaleve",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 172,
+  "isolate": true,
+  "rep": [
+   159.125,
+   -9.05
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "savo1255",
+   "touo1238",
+   "bilu1245",
+   "sout2948",
+   "nort2933",
+   "yele1255",
+   "sulk1246",
+   "bain1263",
+   "kolp1236",
+   "taul1250"
+  ]
+ },
+ {
+  "id": "yetf1238",
+  "name": "Yetfa",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 171,
+  "isolate": true,
+  "rep": [
+   140.937,
+   -4.277
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "pyuu1245",
+   "amto1249",
+   "sena1264",
+   "odia1239",
+   "left1242",
+   "pauw1244",
+   "yale1246",
+   "usku1243",
+   "naml1239",
+   "molo1262"
+  ]
+ },
+ {
+  "id": "yera1243",
+  "name": "Yerakai",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 157,
+  "isolate": true,
+  "rep": [
+   142.97,
+   -4.283
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nduu1242",
+   "yuat1252",
+   "araf1243",
+   "sepi1257",
+   "nucl1708",
+   "lowe1423",
+   "wali1264",
+   "papi1255",
+   "kera1258",
+   "suar1238"
+  ]
+ },
+ {
+  "id": "monu1249",
+  "name": "Bogia",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 152,
+  "isolate": false,
+  "rep": [
+   144.973,
+   -4.297
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "taia1239",
+   "ramu1234",
+   "kera1258",
+   "lowe1423",
+   "piaw1238",
+   "yuat1252",
+   "araf1243",
+   "nduu1242",
+   "yera1243",
+   "wiru1244"
+  ]
+ },
+ {
+  "id": "moro1289",
+  "name": "Marori",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 116,
+  "isolate": true,
+  "rep": [
+   140.573,
+   -8.518
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "more1255",
+   "anim1240",
+   "bula1259",
+   "momb1255",
+   "paho1240",
+   "suki1244",
+   "kolo1268",
+   "dibi1240",
+   "east2503",
+   "kamu1264"
+  ]
+ },
+ {
+  "id": "odia1239",
+  "name": "Odiai",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 115,
+  "isolate": true,
+  "rep": [
+   141.457,
+   -3.89
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "yale1246",
+   "amto1249",
+   "kwom1263",
+   "sena1264",
+   "left1242",
+   "yetf1238",
+   "pyuu1245",
+   "pauw1244",
+   "baib1250",
+   "papi1255"
+  ]
+ },
+ {
+  "id": "usku1243",
+  "name": "Usku",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 107,
+  "isolate": true,
+  "rep": [
+   140.54,
+   -3.571
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "molo1262",
+   "naml1239",
+   "pauw1244",
+   "kaur1274",
+   "else1239",
+   "bord1247",
+   "sena1264",
+   "saus1247",
+   "kapo1250",
+   "pyuu1245"
+  ]
+ },
+ {
+  "id": "morb1239",
+  "name": "Mor (Bomberai Peninsula)",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 99,
+  "isolate": true,
+  "rep": [
+   132.789,
+   -2.822
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "west2604",
+   "tana1288",
+   "sout3418",
+   "kond1302",
+   "mayb1237",
+   "east1459",
+   "mair1253",
+   "west1493",
+   "hata1242",
+   "mpur1239"
+  ]
+ },
+ {
+  "id": "siam1242",
+  "name": "Siamou",
+  "difficulty": "tiny",
+  "region": "Africa",
+  "subregion": "Western Africa",
+  "area_km2": 95,
+  "isolate": true,
+  "rep": [
+   -5.235,
+   11.034
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "mand1469",
+   "dogo1299",
+   "bang1363",
+   "krua1234",
+   "song1307",
+   "ijoi1239",
+   "afro1255",
+   "maba1274",
+   "saha1256",
+   "tama1329"
+  ]
+ },
+ {
+  "id": "mass1263",
+  "name": "Massep",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 93,
+  "isolate": true,
+  "rep": [
+   138.341,
+   -1.725
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kwer1242",
+   "burm1264",
+   "toro1256",
+   "mawe1251",
+   "lake1255",
+   "demm1245",
+   "nimb1257",
+   "yawa1259",
+   "saus1247",
+   "sent1261"
+  ]
+ },
+ {
+  "id": "taia1239",
+  "name": "Taiap",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 86,
+  "isolate": true,
+  "rep": [
+   144.524,
+   -4.021
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "kera1258",
+   "monu1249",
+   "ramu1234",
+   "lowe1423",
+   "yuat1252",
+   "nduu1242",
+   "araf1243",
+   "piaw1238",
+   "yera1243",
+   "nucl1708"
+  ]
+ },
+ {
+  "id": "naml1239",
+  "name": "Namla-Tofanma",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 74,
+  "isolate": false,
+  "rep": [
+   140.381,
+   -3.649
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "usku1243",
+   "kaur1274",
+   "molo1262",
+   "pauw1244",
+   "else1239",
+   "kapo1250",
+   "saus1247",
+   "sena1264",
+   "bord1247",
+   "pyuu1245"
+  ]
+ },
+ {
+  "id": "papi1255",
+  "name": "Papi",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 68,
+  "isolate": true,
+  "rep": [
+   142.009,
+   -4.545
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "wali1264",
+   "left1242",
+   "suar1238",
+   "amto1249",
+   "sepi1257",
+   "odia1239",
+   "yale1246",
+   "yera1243",
+   "duna1248",
+   "yetf1238"
+  ]
+ },
+ {
+  "id": "molo1262",
+  "name": "Molof",
+  "difficulty": "tiny",
+  "region": "Asia",
+  "subregion": "South-Eastern Asia",
+  "area_km2": 40,
+  "isolate": true,
+  "rep": [
+   140.611,
+   -3.474
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "usku1243",
+   "pauw1244",
+   "naml1239",
+   "kaur1274",
+   "bord1247",
+   "else1239",
+   "sena1264",
+   "saus1247",
+   "kapo1250",
+   "pyuu1245"
+  ]
+ },
+ {
+  "id": "kaki1249",
+  "name": "Kaki Ae",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 33,
+  "isolate": true,
+  "rep": [
+   145.825,
+   -8.002
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "nucl1580",
+   "anga1289",
+   "pura1257",
+   "kuni1270",
+   "kiwa1251",
+   "taua1242",
+   "pawa1255",
+   "kibi1239",
+   "fuyu1242",
+   "tebe1251"
+  ]
+ },
+ {
+  "id": "savo1255",
+  "name": "Savosavo",
+  "difficulty": "tiny",
+  "region": "Oceania",
+  "subregion": "Melanesia",
+  "area_km2": 25,
+  "isolate": true,
+  "rep": [
+   159.824,
+   -9.138
+  ],
+  "neighbors": [],
+  "neighbors_beast": [
+   "lavu1241",
+   "touo1238",
+   "bilu1245",
+   "sout2948",
+   "nort2933",
+   "yele1255",
+   "sulk1246",
+   "bain1263",
+   "taul1250",
+   "kolp1236"
   ]
  }
 ]

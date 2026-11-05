@@ -16,6 +16,8 @@ What it does, per layer (traditional + contemporary):
   (Known errors in the source polygons are corrected first, see prep/geometry_fixes.json.)
   4. Applies the automatic rule (area >= MIN_AREA_KM2) plus your manual
      overrides from prep/curation.csv.
+  5. Adds every smaller family (>= beast_min_area_km2, not marked "out") and all
+     language isolates with difficulty "tiny" - only used in beast mode.
 
 Outputs:
   prep/curation.csv                    your override sheet (created once, kept on reruns)
@@ -47,6 +49,7 @@ CONFIG = json.loads((ROOT / "config.json").read_text())["prep"]
 LAYERS = CONFIG["layers"]
 MIN_AREA_KM2 = CONFIG["min_area_km2"]          # automatic cut-off for playable families
 SHEET_FLOOR_KM2 = CONFIG["sheet_floor_km2"]    # smaller entries don't go into curation.csv
+BEAST_MIN_KM2 = CONFIG.get("beast_min_area_km2", 0)  # smallest family in beast mode
 DIFF_MIN = CONFIG["difficulty_min_area_km2"]   # e.g. {"easy": 2e6, "medium": 4e5}
 EQUAL_AREA = "EPSG:8857"                       # Equal Earth
 
@@ -151,7 +154,7 @@ def add_region(gdf, countries):
     return gdf
 
 
-def add_neighbors(pool, k=10):
+def add_neighbors(pool, k=10, column="neighbors"):
     lon = np.radians(pool["rep_lon"].to_numpy())
     lat = np.radians(pool["rep_lat"].to_numpy())
     dlat = lat[:, None] - lat[None, :]
@@ -160,7 +163,7 @@ def add_neighbors(pool, k=10):
     dist = 2 * np.arcsin(np.sqrt(a))
     np.fill_diagonal(dist, np.inf)
     codes = pool["glottocode"].to_numpy()
-    pool["neighbors"] = [
+    pool[column] = [
         ";".join(codes[np.argsort(row)[:k]]) for row in dist
     ]
     return pool
@@ -262,7 +265,29 @@ def main():
             manual.isin(["easy", "medium", "hard"]), manual,
             pool["area_km2"].apply(difficulty_for))
         pool = pool.sort_values("area_km2", ascending=False).reset_index(drop=True)
-        pool = add_neighbors(pool)
+        pool = add_neighbors(pool)            # normal mode: neighbours among normal families
+        pool["isolate"] = False
+        normal_pool = pool.copy()
+
+        # Beast mode: all remaining (smaller) families as the extra tier "tiny" ...
+        tiny = fams[~include & override.ne("out") & (fams["area_km2"] >= BEAST_MIN_KM2)].copy()
+        tiny["isolate"] = False
+        # ... plus language isolates of any size (config prep.beast_isolates).
+        if CONFIG.get("beast_isolates", True):
+            iso = gdf[(gdf.kind == "isolate") & ~gdf["glottocode"].isin(exclude)
+                      & (gdf["area_km2"] >= BEAST_MIN_KM2)].copy()
+            iso_override = iso["glottocode"].map(sheet[layer]).fillna("").str.strip().str.lower()
+            iso = iso[iso_override.ne("out")]
+            iso["isolate"] = True
+            tiny = pd.concat([tiny, iso])
+        if len(tiny):
+            tiny = add_region(tiny, countries)
+            tiny["difficulty"] = "tiny"
+            pool = pd.concat([pool, tiny], ignore_index=True)
+            pool = gpd.GeoDataFrame(pool, geometry="geometry", crs=fams.crs)
+        pool = pool.sort_values("area_km2", ascending=False).reset_index(drop=True)
+        pool = add_neighbors(pool, column="neighbors_beast")   # beast: among all families
+        pool["neighbors"] = pool["neighbors"].fillna("")
 
         b = pool.geometry.bounds
         pool["minx"], pool["miny"], pool["maxx"], pool["maxy"] = b.minx, b.miny, b.maxx, b.maxy
@@ -273,13 +298,17 @@ def main():
         pool.to_file(out / "pool.geojson", driver="GeoJSON")
         pool.drop(columns="geometry").to_csv(out / "pool.csv", index=False)
 
-        print(f"\n[{layer}] pool: {len(pool)} families "
-              f"({pool.difficulty.value_counts().to_dict()})")
-        print(f"[{layer}] by region: {pool.region.value_counts().to_dict()}")
+        n_tiny = int((pool.difficulty == "tiny").sum())
+        n_iso = int(pool["isolate"].fillna(False).astype(bool).sum())
+        print(f"\n[{layer}] pool: {len(pool) - n_tiny} families "
+              f"({normal_pool.difficulty.value_counts().to_dict()}) + {n_tiny} for beast mode "
+              f"({n_tiny - n_iso} small families, {n_iso} isolates)")
+        print(f"[{layer}] by region: {normal_pool.region.value_counts().to_dict()}")
 
-        print(f"[{layer}] drawing contact sheet...", flush=True)
-        contact_sheet(pool, land, out / "pool_sheet.png",
-                      f"Family Mapper - {layer} pool ({len(pool)} families)")
+        if CONFIG.get("draw_sheet", True):    # the review image is slow; set false to skip
+            print(f"[{layer}] drawing contact sheet...", flush=True)
+            contact_sheet(normal_pool, land, out / "pool_sheet.png",
+                          f"Family Mapper - {layer} pool ({len(normal_pool)} families)")
 
     print(f"\nDone. Review data/processed/<layer>/pool_sheet.png, "
           f"then edit prep/curation.csv and rerun if needed.")

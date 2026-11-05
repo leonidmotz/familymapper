@@ -112,6 +112,10 @@ legend { color: var(--muted); padding: 0 4px; }
 .kind input:checked + span { background: var(--green); color: #fff; }
 .kind input:focus-visible + span { outline: 3px solid var(--blue); outline-offset: -5px; }
 #kind-box .hint { margin: 8px 0 18px; }
+.kind.level { margin-top: 8px; border-color: var(--blue); }
+.kind.level span { color: var(--blue); }
+.kind.level label + label span { border-left-color: var(--blue); }
+.kind.level input:checked + span { background: var(--blue); color: #fff; }
 .hint { color: var(--muted); font-size: 0.85em; }
 input[type="radio"], input[type="checkbox"] { accent-color: var(--green); }
 

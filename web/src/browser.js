@@ -31,7 +31,7 @@ function render() {
   const fam = data.features.get(current);
   const m = data.byId.get(current);
   if (!fam) { ui.info.textContent = `No geometry for ${current}`; return; }
-  drawFamily(ui.map, land, fam);
+  drawFamily(ui.map, land, fam, m.difficulty === "tiny" ? { maxZoom: 20 } : {});
   drawInset(ui.inset, land, fam, { ring: m.difficulty !== "easy" });
   showInfo(m);
 }

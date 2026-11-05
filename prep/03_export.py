@@ -87,8 +87,11 @@ def export_layer(layer):
             "region": r.region if isinstance(r.region, str) else None,
             "subregion": r.subregion if isinstance(r.subregion, str) else None,
             "area_km2": int(r.area_km2),
+            "isolate": bool(getattr(r, "isolate", False) is True or str(getattr(r, "isolate", "")) == "True"),
             "rep": [round(r.rep_lon, 3), round(r.rep_lat, 3)],
-            "neighbors": str(r.neighbors).split(";") if isinstance(r.neighbors, str) else [],
+            "neighbors": str(r.neighbors).split(";") if isinstance(r.neighbors, str) and r.neighbors else [],
+            "neighbors_beast": str(r.neighbors_beast).split(";")
+                               if isinstance(getattr(r, "neighbors_beast", None), str) else [],
         })
     meta_path = out_dir / "families.json"
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=1))

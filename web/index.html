@@ -48,6 +48,13 @@
             <label><input type="radio" name="kind" value="daily" checked /><span>Daily challenge</span></label>
             <label><input type="radio" name="kind" value="random" /><span>Random game</span></label>
           </div>
+          <!-- Normal / beast mode: shown when config.json has game.beast -->
+          <div id="level-box" hidden>
+            <div class="kind level" role="radiogroup" aria-label="Difficulty">
+              <label><input type="radio" name="level" value="normal" checked /><span>Normal</span></label>
+              <label><input type="radio" name="level" value="beast" /><span>Beast mode</span></label>
+            </div>
+          </div>
           <p id="kind-hint" class="hint"></p>
         </div>
         <button id="start-btn" class="primary">Start</button>

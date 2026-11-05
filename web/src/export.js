@@ -17,7 +17,7 @@ function fitText(ctx, text, maxW) {
 
 /** Brand header: full-width green bar / wordmark flush left (+ label flush right) / blue bar.
  *  Returns bottom y. */
-function brandHeader(ctx, W, pad, title, right) {
+function brandHeader(ctx, W, pad, title, right, tag) {
   ctx.fillStyle = C.green; ctx.fillRect(0, 0, W, 26);
   ctx.font = `700 76px ${FONT}`;
   ctx.fillStyle = C.blue;
@@ -27,6 +27,11 @@ function brandHeader(ctx, W, pad, title, right) {
     ctx.fillStyle = C.ink;
     ctx.textAlign = "right";
     ctx.fillText(right, W - pad, 26 + 30 + 58);
+    if (tag) {                       // e.g. "BEAST MODE", small and red above the label
+      ctx.font = `700 24px ${FONT}`;
+      ctx.fillStyle = C.red;
+      ctx.fillText(tag, W - pad, 26 + 30 + 14);
+    }
     ctx.textAlign = "left";
   }
   ctx.fillStyle = C.blue; ctx.fillRect(0, 26 + 30 + 58 + 30, W, 13);
@@ -109,7 +114,7 @@ export async function resultsPng(o) {
   ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
 
   // --- header: green bar / FamilyMapper / blue bar
-  const hb = brandHeader(ctx, W, pad, o.title, o.headerRight);
+  const hb = brandHeader(ctx, W, pad, o.title, o.headerRight, o.headerTag);
   ctx.font = `400 24px ${FONT}`;
   ctx.fillStyle = C.muted;
   ctx.fillText(o.sub, pad, hb + 48);
